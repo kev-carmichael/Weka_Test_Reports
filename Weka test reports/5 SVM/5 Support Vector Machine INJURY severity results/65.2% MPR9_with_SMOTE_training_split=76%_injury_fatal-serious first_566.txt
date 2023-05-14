@@ -1,0 +1,85 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 76.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: minor/no injury, fatal/serious
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0005 * (normalized) AgeAircraft
+ +       1.4279 * (normalized) DAY OF WK=Sat
+ +      -0.5706 * (normalized) DAY OF WK=Wed
+ +       1.4281 * (normalized) DAY OF WK=Sun
+ +      -0.5713 * (normalized) DAY OF WK=Fri
+ +      -0.5711 * (normalized) DAY OF WK=Mon
+ +      -0.5712 * (normalized) DAY OF WK=Tue
+ +      -0.5717 * (normalized) DAY OF WK=Thu
+ +       0.0006 * (normalized) No of passengers
+ +      -0.0005 * (normalized) PIC LICENCE=airline transport pilot licence
+ +       0.0004 * (normalized) PIC LICENCE=private pilot licence
+ +       0.0001 * (normalized) PIC LICENCE=student
+ +      -0.0012 * (normalized) pic age
+ +       0.0006 * (normalized) Total hrs
+ +       0.0023 * (normalized) Type Hrs
+ +       0.0069 * (normalized) 90 day Hrs
+ +      -0.0061 * (normalized) 28 day Hrs
+ -       0.4279
+
+Number of kernel evaluations: 247291 (87.813% cached)
+
+
+
+Time taken to build model: 0.1 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         184               65.2482 %
+Incorrectly Classified Instances        98               34.7518 %
+Kappa statistic                          0.3052
+Mean absolute error                      0.3475
+Root mean squared error                  0.5895
+Relative absolute error                 69.4469 %
+Root relative squared error            117.7893 %
+Total Number of Instances              282     
+Ignored Class Unknown Instances                578     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.664    0.358    0.627      0.664    0.645      0.306    0.796     0.469     minor/no injury
+                 0.642    0.336    0.679      0.642    0.660      0.306    0.383     0.147     fatal/serious
+Weighted Avg.    0.652    0.346    0.654      0.652    0.653      0.306    0.579     0.300     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 89 45 |  a = minor/no injury
+ 53 95 |  b = fatal/serious
+

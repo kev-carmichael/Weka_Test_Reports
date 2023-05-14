@@ -1,0 +1,56 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ##crash_data_9xvars_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566_v2-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    3582
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              DAY OF WK
+              INJURY CLASS
+Test mode:    split 75.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.19 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.63 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         210               70.9459 %
+Incorrectly Classified Instances        86               29.0541 %
+Kappa statistic                          0.4191
+Mean absolute error                      0.3895
+Root mean squared error                  0.4468
+Relative absolute error                 77.8991 %
+Root relative squared error             89.3631 %
+Total Number of Instances              296     
+Ignored Class Unknown Instances                599     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.735    0.315    0.697      0.735    0.715      0.420    0.739     0.615     minor/no injury
+                 0.685    0.265    0.723      0.685    0.703      0.420    0.705     0.625     fatal/serious
+Weighted Avg.    0.709    0.290    0.710      0.709    0.709      0.420    0.722     0.620     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 108  39 |   a = minor/no injury
+  47 102 |   b = fatal/serious
+

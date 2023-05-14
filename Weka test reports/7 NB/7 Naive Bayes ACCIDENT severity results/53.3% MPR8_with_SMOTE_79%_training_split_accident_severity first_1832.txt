@@ -1,0 +1,105 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3664
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    split 79.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                         Class
+Attribute                           non-severe     severe
+                                         (0.5)      (0.5)
+==========================================================
+AgeAircraft
+  mean                                  27.3675    27.1561
+  std. dev.                             18.6312    16.7763
+  weight sum                               1832       1832
+  precision                              0.0918     0.0918
+
+No of passengers
+  mean                                   0.5031     0.6121
+  std. dev.                              0.7512     0.7235
+  weight sum                               1832       1832
+  precision                              0.0099     0.0099
+
+pic licence
+  airline transport pilot licence         373.0      315.0
+  private pilot licence                  1330.0     1423.0
+  student                                 132.0       97.0
+  [total]                                1835.0     1835.0
+
+pic age
+  mean                                  53.8092     51.828
+  std. dev.                             13.6917    12.6925
+  weight sum                               1832       1832
+  precision                              0.0749     0.0749
+
+Total hrs
+  mean                                2307.7023  1699.7241
+  std. dev.                           4545.0898  3652.9064
+  weight sum                               1832       1832
+  precision                               13.44      13.44
+
+Type Hrs
+  mean                                 262.3986   256.4823
+  std. dev.                            601.6687   655.4488
+  weight sum                               1832       1832
+  precision                              6.5531     6.5531
+
+90 day Hrs
+  mean                                  30.0836    27.0941
+  std. dev.                              44.291    39.8324
+  weight sum                               1832       1832
+  precision                              0.2835     0.2835
+
+28 day Hrs
+  mean                                  11.1086    10.1115
+  std. dev.                             15.4798    14.2341
+  weight sum                               1832       1832
+  precision                              0.1073     0.1073
+
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         410               53.316  %
+Incorrectly Classified Instances       359               46.684  %
+Kappa statistic                          0.0517
+Mean absolute error                      0.483 
+Root mean squared error                  0.5197
+Relative absolute error                 96.586  %
+Root relative squared error            103.9135 %
+Total Number of Instances              769     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.213    0.162    0.556      0.213    0.308      0.065    0.593     0.544     non-severe
+                 0.838    0.787    0.528      0.838    0.648      0.065    0.593     0.591     severe
+Weighted Avg.    0.533    0.482    0.541      0.533    0.482      0.065    0.593     0.568     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  80 295 |   a = non-severe
+  64 330 |   b = severe
+

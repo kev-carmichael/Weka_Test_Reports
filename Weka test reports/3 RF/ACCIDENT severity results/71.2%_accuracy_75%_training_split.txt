@@ -1,0 +1,55 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3664
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    split 75.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.84 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         652               71.179  %
+Incorrectly Classified Instances       264               28.821  %
+Kappa statistic                          0.4256
+Mean absolute error                      0.3875
+Root mean squared error                  0.4374
+Relative absolute error                 77.4968 %
+Root relative squared error             87.4736 %
+Total Number of Instances              916     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.799    0.372    0.673      0.799    0.731      0.433    0.768     0.701     non-severe
+                 0.628    0.201    0.766      0.628    0.690      0.433    0.768     0.815     severe
+Weighted Avg.    0.712    0.284    0.720      0.712    0.710      0.433    0.768     0.759     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 358  90 |   a = non-severe
+ 174 294 |   b = severe
+

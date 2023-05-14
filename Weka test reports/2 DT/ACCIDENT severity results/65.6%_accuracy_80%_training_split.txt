@@ -1,0 +1,228 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3664
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+No of passengers <= 0
+|   AgeAircraft <= 29.787537
+|   |   Total hrs <= 2200
+|   |   |   pic age <= 71.333214
+|   |   |   |   28 day Hrs <= 1
+|   |   |   |   |   pic licence = airline transport pilot licence: non-severe (2.0)
+|   |   |   |   |   pic licence = private pilot licence
+|   |   |   |   |   |   Type Hrs <= 85.759639: non-severe (95.0/27.0)
+|   |   |   |   |   |   Type Hrs > 85.759639
+|   |   |   |   |   |   |   Type Hrs <= 98: severe (9.0)
+|   |   |   |   |   |   |   Type Hrs > 98
+|   |   |   |   |   |   |   |   Type Hrs <= 136: non-severe (9.0)
+|   |   |   |   |   |   |   |   Type Hrs > 136
+|   |   |   |   |   |   |   |   |   90 day Hrs <= 3.466631: severe (12.0/1.0)
+|   |   |   |   |   |   |   |   |   90 day Hrs > 3.466631: non-severe (19.0/7.0)
+|   |   |   |   |   pic licence = student
+|   |   |   |   |   |   Total hrs <= 35: non-severe (8.0/1.0)
+|   |   |   |   |   |   Total hrs > 35: severe (5.0/1.0)
+|   |   |   |   28 day Hrs > 1
+|   |   |   |   |   28 day Hrs <= 2.949902
+|   |   |   |   |   |   28 day Hrs <= 2
+|   |   |   |   |   |   |   28 day Hrs <= 1.988543: severe (20.0)
+|   |   |   |   |   |   |   28 day Hrs > 1.988543
+|   |   |   |   |   |   |   |   Total hrs <= 1081.234069
+|   |   |   |   |   |   |   |   |   Type Hrs <= 3.306339: severe (7.0)
+|   |   |   |   |   |   |   |   |   Type Hrs > 3.306339: non-severe (65.0/23.0)
+|   |   |   |   |   |   |   |   Total hrs > 1081.234069: severe (9.0)
+|   |   |   |   |   |   28 day Hrs > 2: severe (26.0)
+|   |   |   |   |   28 day Hrs > 2.949902
+|   |   |   |   |   |   AgeAircraft <= 15.47556
+|   |   |   |   |   |   |   pic licence = airline transport pilot licence
+|   |   |   |   |   |   |   |   AgeAircraft <= 3.538163: severe (4.0)
+|   |   |   |   |   |   |   |   AgeAircraft > 3.538163: non-severe (19.0/6.0)
+|   |   |   |   |   |   |   pic licence = private pilot licence
+|   |   |   |   |   |   |   |   pic age <= 55.563463: severe (125.0/60.0)
+|   |   |   |   |   |   |   |   pic age > 55.563463: non-severe (96.0/30.0)
+|   |   |   |   |   |   |   pic licence = student
+|   |   |   |   |   |   |   |   90 day Hrs <= 22.27309: non-severe (18.0/1.0)
+|   |   |   |   |   |   |   |   90 day Hrs > 22.27309
+|   |   |   |   |   |   |   |   |   28 day Hrs <= 11: severe (4.0)
+|   |   |   |   |   |   |   |   |   28 day Hrs > 11: non-severe (5.0/1.0)
+|   |   |   |   |   |   AgeAircraft > 15.47556
+|   |   |   |   |   |   |   AgeAircraft <= 18.993249
+|   |   |   |   |   |   |   |   pic age <= 54.434872
+|   |   |   |   |   |   |   |   |   pic age <= 50.483574: severe (37.0/7.0)
+|   |   |   |   |   |   |   |   |   pic age > 50.483574: non-severe (3.0)
+|   |   |   |   |   |   |   |   pic age > 54.434872: severe (14.0)
+|   |   |   |   |   |   |   AgeAircraft > 18.993249
+|   |   |   |   |   |   |   |   pic licence = airline transport pilot licence
+|   |   |   |   |   |   |   |   |   Total hrs <= 1650: non-severe (41.0/16.0)
+|   |   |   |   |   |   |   |   |   Total hrs > 1650: severe (7.0/1.0)
+|   |   |   |   |   |   |   |   pic licence = private pilot licence: severe (137.0/66.0)
+|   |   |   |   |   |   |   |   pic licence = student
+|   |   |   |   |   |   |   |   |   pic age <= 39.43695: severe (27.0/7.0)
+|   |   |   |   |   |   |   |   |   pic age > 39.43695
+|   |   |   |   |   |   |   |   |   |   90 day Hrs <= 13.299309
+|   |   |   |   |   |   |   |   |   |   |   28 day Hrs <= 3.790401
+|   |   |   |   |   |   |   |   |   |   |   |   28 day Hrs <= 3.257365: non-severe (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   28 day Hrs > 3.257365: severe (2.0)
+|   |   |   |   |   |   |   |   |   |   |   28 day Hrs > 3.790401: non-severe (10.0)
+|   |   |   |   |   |   |   |   |   |   90 day Hrs > 13.299309
+|   |   |   |   |   |   |   |   |   |   |   Type Hrs <= 62.373623
+|   |   |   |   |   |   |   |   |   |   |   |   Type Hrs <= 15: non-severe (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Type Hrs > 15: severe (8.0)
+|   |   |   |   |   |   |   |   |   |   |   Type Hrs > 62.373623: non-severe (3.0)
+|   |   |   pic age > 71.333214
+|   |   |   |   28 day Hrs <= 0.446198: non-severe (9.0)
+|   |   |   |   28 day Hrs > 0.446198
+|   |   |   |   |   AgeAircraft <= 21.431902
+|   |   |   |   |   |   pic age <= 80: non-severe (38.0/6.0)
+|   |   |   |   |   |   pic age > 80: severe (2.0)
+|   |   |   |   |   AgeAircraft > 21.431902
+|   |   |   |   |   |   Type Hrs <= 16.443614: non-severe (3.0)
+|   |   |   |   |   |   Type Hrs > 16.443614: severe (8.0/1.0)
+|   |   Total hrs > 2200
+|   |   |   pic age <= 75.159225
+|   |   |   |   pic licence = airline transport pilot licence
+|   |   |   |   |   AgeAircraft <= 13.370017
+|   |   |   |   |   |   Type Hrs <= 210
+|   |   |   |   |   |   |   Type Hrs <= 86: non-severe (41.0/7.0)
+|   |   |   |   |   |   |   Type Hrs > 86
+|   |   |   |   |   |   |   |   28 day Hrs <= 9.110616: non-severe (3.0)
+|   |   |   |   |   |   |   |   28 day Hrs > 9.110616
+|   |   |   |   |   |   |   |   |   28 day Hrs <= 54.492478
+|   |   |   |   |   |   |   |   |   |   Total hrs <= 7870: non-severe (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Total hrs > 7870: severe (10.0)
+|   |   |   |   |   |   |   |   |   28 day Hrs > 54.492478: non-severe (2.0)
+|   |   |   |   |   |   Type Hrs > 210: non-severe (17.0)
+|   |   |   |   |   AgeAircraft > 13.370017
+|   |   |   |   |   |   AgeAircraft <= 18.909292: severe (16.0/4.0)
+|   |   |   |   |   |   AgeAircraft > 18.909292: non-severe (60.0/22.0)
+|   |   |   |   pic licence = private pilot licence: non-severe (51.0/5.0)
+|   |   |   |   pic licence = student: severe (1.0)
+|   |   |   pic age > 75.159225
+|   |   |   |   pic licence = airline transport pilot licence: non-severe (4.0/1.0)
+|   |   |   |   pic licence = private pilot licence
+|   |   |   |   |   Type Hrs <= 2200: severe (11.0)
+|   |   |   |   |   Type Hrs > 2200: non-severe (2.0)
+|   |   |   |   pic licence = student: severe (0.0)
+|   AgeAircraft > 29.787537
+|   |   pic licence = airline transport pilot licence
+|   |   |   pic age <= 27.414836
+|   |   |   |   Total hrs <= 767.606895: severe (9.0)
+|   |   |   |   Total hrs > 767.606895
+|   |   |   |   |   Total hrs <= 1471.860743: severe (3.0/1.0)
+|   |   |   |   |   Total hrs > 1471.860743: non-severe (2.0)
+|   |   |   pic age > 27.414836: non-severe (148.0/51.0)
+|   |   pic licence = private pilot licence: non-severe (488.0/165.0)
+|   |   pic licence = student
+|   |   |   28 day Hrs <= 14.319166: non-severe (68.0/11.0)
+|   |   |   28 day Hrs > 14.319166
+|   |   |   |   pic age <= 39.851378: severe (7.0/1.0)
+|   |   |   |   pic age > 39.851378: non-severe (2.0)
+No of passengers > 0
+|   No of passengers <= 0.999265: severe (384.0)
+|   No of passengers > 0.999265
+|   |   pic age <= 59.952149
+|   |   |   No of passengers <= 1
+|   |   |   |   pic licence = airline transport pilot licence: non-severe (111.0/41.0)
+|   |   |   |   pic licence = private pilot licence: severe (595.0/282.0)
+|   |   |   |   pic licence = student: severe (0.0)
+|   |   |   No of passengers > 1
+|   |   |   |   No of passengers <= 1.994512: severe (77.0)
+|   |   |   |   No of passengers > 1.994512
+|   |   |   |   |   90 day Hrs <= 4
+|   |   |   |   |   |   No of passengers <= 2.813005
+|   |   |   |   |   |   |   No of passengers <= 2: non-severe (11.0/1.0)
+|   |   |   |   |   |   |   No of passengers > 2: severe (2.0)
+|   |   |   |   |   |   No of passengers > 2.813005: non-severe (6.0)
+|   |   |   |   |   90 day Hrs > 4: severe (163.0/67.0)
+|   |   pic age > 59.952149
+|   |   |   AgeAircraft <= 18.156219
+|   |   |   |   No of passengers <= 1.009588: non-severe (144.0/32.0)
+|   |   |   |   No of passengers > 1.009588
+|   |   |   |   |   Type Hrs <= 77: severe (5.0/1.0)
+|   |   |   |   |   Type Hrs > 77: non-severe (8.0)
+|   |   |   AgeAircraft > 18.156219
+|   |   |   |   No of passengers <= 1.938938
+|   |   |   |   |   No of passengers <= 1
+|   |   |   |   |   |   Type Hrs <= 1439
+|   |   |   |   |   |   |   pic licence = airline transport pilot licence
+|   |   |   |   |   |   |   |   Total hrs <= 19864
+|   |   |   |   |   |   |   |   |   Type Hrs <= 309.237024
+|   |   |   |   |   |   |   |   |   |   Total hrs <= 10799.512847: non-severe (7.0)
+|   |   |   |   |   |   |   |   |   |   Total hrs > 10799.512847
+|   |   |   |   |   |   |   |   |   |   |   Total hrs <= 15100: severe (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Total hrs > 15100: non-severe (6.0/1.0)
+|   |   |   |   |   |   |   |   |   Type Hrs > 309.237024: severe (3.0)
+|   |   |   |   |   |   |   |   Total hrs > 19864: severe (5.0)
+|   |   |   |   |   |   |   pic licence = private pilot licence
+|   |   |   |   |   |   |   |   28 day Hrs <= 4.941312: severe (122.0/55.0)
+|   |   |   |   |   |   |   |   28 day Hrs > 4.941312
+|   |   |   |   |   |   |   |   |   pic age <= 70.468121
+|   |   |   |   |   |   |   |   |   |   Total hrs <= 1224
+|   |   |   |   |   |   |   |   |   |   |   pic age <= 62.483713
+|   |   |   |   |   |   |   |   |   |   |   |   Total hrs <= 409: severe (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Total hrs > 409: non-severe (3.0)
+|   |   |   |   |   |   |   |   |   |   |   pic age > 62.483713: non-severe (25.0/2.0)
+|   |   |   |   |   |   |   |   |   |   Total hrs > 1224
+|   |   |   |   |   |   |   |   |   |   |   AgeAircraft <= 27: severe (5.0)
+|   |   |   |   |   |   |   |   |   |   |   AgeAircraft > 27
+|   |   |   |   |   |   |   |   |   |   |   |   Type Hrs <= 418.795277: non-severe (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Type Hrs > 418.795277: severe (11.0/4.0)
+|   |   |   |   |   |   |   |   |   pic age > 70.468121: non-severe (9.0)
+|   |   |   |   |   |   |   pic licence = student: non-severe (0.0)
+|   |   |   |   |   |   Type Hrs > 1439: non-severe (13.0)
+|   |   |   |   |   No of passengers > 1: severe (14.0)
+|   |   |   |   No of passengers > 1.938938
+|   |   |   |   |   Type Hrs <= 1266.42757: non-severe (52.0/11.0)
+|   |   |   |   |   Type Hrs > 1266.42757: severe (7.0/1.0)
+
+Number of Leaves  : 	90
+
+Size of the tree : 	171
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         481               65.6207 %
+Incorrectly Classified Instances       252               34.3793 %
+Kappa statistic                          0.3149
+Mean absolute error                      0.402 
+Root mean squared error                  0.4684
+Relative absolute error                 80.3852 %
+Root relative squared error             93.6716 %
+Total Number of Instances              733     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.761    0.445    0.623      0.761    0.685      0.323    0.710     0.642     non-severe
+                 0.555    0.239    0.706      0.555    0.622      0.323    0.710     0.727     severe
+Weighted Avg.    0.656    0.340    0.665      0.656    0.653      0.323    0.710     0.685     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 274  86 |   a = non-severe
+ 166 207 |   b = severe
+

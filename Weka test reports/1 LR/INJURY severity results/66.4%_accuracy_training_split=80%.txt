@@ -1,0 +1,99 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                         Class
+Variable                                       minor/no injury
+==============================================================
+AgeAircraft                                             0.0097
+DAY OF WK=Sat                                          -0.4448
+DAY OF WK=Wed                                           0.1877
+DAY OF WK=Sun                                          -0.5758
+DAY OF WK=Fri                                           0.4467
+DAY OF WK=Mon                                           0.0669
+DAY OF WK=Tue                                            0.976
+DAY OF WK=Thu                                            0.599
+No of passengers                                       -0.0675
+PIC LICENCE=airline transport pilot licence             0.0389
+PIC LICENCE=private pilot licence                      -0.1832
+PIC LICENCE=student                                     0.7744
+pic age                                                 0.0227
+Total hrs                                                   -0
+Type Hrs                                               -0.0001
+90 day Hrs                                             -0.0126
+28 day Hrs                                              0.0451
+Intercept                                              -1.4147
+
+
+Odds Ratios...
+                                                         Class
+Variable                                       minor/no injury
+==============================================================
+AgeAircraft                                             1.0098
+DAY OF WK=Sat                                            0.641
+DAY OF WK=Wed                                           1.2065
+DAY OF WK=Sun                                           0.5623
+DAY OF WK=Fri                                           1.5632
+DAY OF WK=Mon                                           1.0692
+DAY OF WK=Tue                                           2.6539
+DAY OF WK=Thu                                           1.8204
+No of passengers                                        0.9347
+PIC LICENCE=airline transport pilot licence             1.0396
+PIC LICENCE=private pilot licence                       0.8326
+PIC LICENCE=student                                     2.1693
+pic age                                                  1.023
+Total hrs                                                    1
+Type Hrs                                                0.9999
+90 day Hrs                                              0.9875
+28 day Hrs                                              1.0462
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         148               66.3677 %
+Incorrectly Classified Instances        75               33.6323 %
+Kappa statistic                          0.3261
+Mean absolute error                      0.4464
+Root mean squared error                  0.4718
+Relative absolute error                 89.1258 %
+Root relative squared error             94.1776 %
+Total Number of Instances              223     
+Ignored Class Unknown Instances                493     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.339    0.624      0.667    0.645      0.327    0.823     0.569     minor/no injury
+                 0.661    0.333    0.702      0.661    0.681      0.327    0.449     0.417     fatal/serious
+Weighted Avg.    0.664    0.336    0.666      0.664    0.664      0.327    0.620     0.486     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 68 34 |  a = minor/no injury
+ 41 80 |  b = fatal/serious
+

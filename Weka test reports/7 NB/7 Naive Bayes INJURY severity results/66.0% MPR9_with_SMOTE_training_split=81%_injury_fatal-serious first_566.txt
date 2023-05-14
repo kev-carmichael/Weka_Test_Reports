@@ -1,0 +1,117 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 81.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                                              Class
+Attribute                           minor/no injury   fatal/serious
+                                              (0.5)           (0.5)
+====================================================================
+AgeAircraft
+  mean                                       31.9178         28.1568
+  std. dev.                                  20.6104         17.9339
+  weight sum                                     566             566
+  precision                                   0.2507          0.2507
+
+DAY OF WK
+  Sat                                          113.0           178.0
+  Wed                                           72.0            55.0
+  Sun                                          110.0           186.0
+  Fri                                           80.0            48.0
+  Mon                                           55.0            43.0
+  Tue                                           74.0            27.0
+  Thu                                           69.0            36.0
+  [total]                                      573.0           573.0
+
+No of passengers
+  mean                                        0.5247          0.6208
+  std. dev.                                   0.8314           0.737
+  weight sum                                     566             566
+  precision                                   0.0309          0.0309
+
+PIC LICENCE
+  airline transport pilot licence              116.0            91.0
+  private pilot licence                        426.0           465.0
+  student                                       27.0            13.0
+  [total]                                      569.0           569.0
+
+pic age
+  mean                                       57.5084         54.3673
+  std. dev.                                  14.5317         12.6871
+  weight sum                                     566             566
+  precision                                   0.2051          0.2051
+
+Total hrs
+  mean                                     2774.4385       2043.6311
+  std. dev.                                5180.3937       3927.8521
+  weight sum                                     566             566
+  precision                                  33.0777         33.0777
+
+Type Hrs
+  mean                                      293.6646        286.4429
+  std. dev.                                 529.3576        760.9976
+  weight sum                                     566             566
+  precision                                   15.083          15.083
+
+90 day Hrs
+  mean                                       28.2774         26.3396
+  std. dev.                                  41.6459         37.5527
+  weight sum                                     566             566
+  precision                                   0.7512          0.7512
+
+28 day Hrs
+  mean                                       11.0223          8.9454
+  std. dev.                                  15.1526         12.4167
+  weight sum                                     566             566
+  precision                                   0.2669          0.2669
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         138               66.0287 %
+Incorrectly Classified Instances        71               33.9713 %
+Kappa statistic                          0.3026
+Mean absolute error                      0.4185
+Root mean squared error                  0.4927
+Relative absolute error                 83.4744 %
+Root relative squared error             98.2387 %
+Total Number of Instances              209     
+Ignored Class Unknown Instances                472     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.548    0.250    0.638      0.548    0.590      0.305    0.568     0.393     minor/no injury
+                 0.750    0.452    0.674      0.750    0.710      0.305    0.747     0.642     fatal/serious
+Weighted Avg.    0.660    0.362    0.658      0.660    0.657      0.305    0.667     0.531     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51 42 |  a = minor/no injury
+ 29 87 |  b = fatal/serious
+

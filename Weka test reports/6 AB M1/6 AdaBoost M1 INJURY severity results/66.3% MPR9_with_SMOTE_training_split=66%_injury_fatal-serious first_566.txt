@@ -1,0 +1,286 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.004025035746284655 : minor/no injury
+No of passengers > 0.004025035746284655 : fatal/serious
+No of passengers is missing : minor/no injury
+
+Class distributions
+
+No of passengers <= 0.004025035746284655
+minor/no injury	fatal/serious	
+0.5972461273666093	0.4027538726333907	
+No of passengers > 0.004025035746284655
+minor/no injury	fatal/serious	
+0.397459165154265	0.6025408348457351	
+No of passengers is missing
+minor/no injury	fatal/serious	
+0.5	0.5	
+
+
+Weight: 0.4
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.9993507116236955 : fatal/serious
+No of passengers > 0.9993507116236955 : minor/no injury
+No of passengers is missing : fatal/serious
+
+Class distributions
+
+No of passengers <= 0.9993507116236955
+minor/no injury	fatal/serious	
+0.42694990384928716	0.5730500961507129	
+No of passengers > 0.9993507116236955
+minor/no injury	fatal/serious	
+0.602023465397036	0.3979765346029639	
+No of passengers is missing
+minor/no injury	fatal/serious	
+0.4972446819924116	0.5027553180075884	
+
+
+Weight: 0.34
+
+Decision Stump
+
+Classifications
+
+pic age <= 66.95912940301656 : fatal/serious
+pic age > 66.95912940301656 : minor/no injury
+pic age is missing : minor/no injury
+
+Class distributions
+
+pic age <= 66.95912940301656
+minor/no injury	fatal/serious	
+0.46846503746409834	0.5315349625359016	
+pic age > 66.95912940301656
+minor/no injury	fatal/serious	
+0.6571523364485431	0.34284766355145696	
+pic age is missing
+minor/no injury	fatal/serious	
+0.5143358755316596	0.4856641244683403	
+
+
+Weight: 0.25
+
+Decision Stump
+
+Classifications
+
+DAY OF WK = Sun : fatal/serious
+DAY OF WK != Sun : minor/no injury
+DAY OF WK is missing : minor/no injury
+
+Class distributions
+
+DAY OF WK = Sun
+minor/no injury	fatal/serious	
+0.41665283209115167	0.5833471679088483	
+DAY OF WK != Sun
+minor/no injury	fatal/serious	
+0.5912081781868559	0.408791821813144	
+DAY OF WK is missing
+minor/no injury	fatal/serious	
+0.5469520884518468	0.4530479115481532	
+
+
+Weight: 0.36
+
+Decision Stump
+
+Classifications
+
+DAY OF WK = Sat : fatal/serious
+DAY OF WK != Sat : minor/no injury
+DAY OF WK is missing : minor/no injury
+
+Class distributions
+
+DAY OF WK = Sat
+minor/no injury	fatal/serious	
+0.3561936200369114	0.6438063799630886	
+DAY OF WK != Sat
+minor/no injury	fatal/serious	
+0.5551305945221093	0.44486940547789056	
+DAY OF WK is missing
+minor/no injury	fatal/serious	
+0.5030733265335792	0.4969266734664208	
+
+
+Weight: 0.32
+
+Decision Stump
+
+Classifications
+
+AgeAircraft <= 35.9256311879228 : fatal/serious
+AgeAircraft > 35.9256311879228 : minor/no injury
+AgeAircraft is missing : fatal/serious
+
+Class distributions
+
+AgeAircraft <= 35.9256311879228
+minor/no injury	fatal/serious	
+0.408185983139973	0.591814016860027	
+AgeAircraft > 35.9256311879228
+minor/no injury	fatal/serious	
+0.5524690142392299	0.44753098576077016	
+AgeAircraft is missing
+minor/no injury	fatal/serious	
+0.4648730715816049	0.535126928418395	
+
+
+Weight: 0.31
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.004025035746284655 : minor/no injury
+No of passengers > 0.004025035746284655 : fatal/serious
+No of passengers is missing : fatal/serious
+
+Class distributions
+
+No of passengers <= 0.004025035746284655
+minor/no injury	fatal/serious	
+0.5442282716157897	0.4557717283842103	
+No of passengers > 0.004025035746284655
+minor/no injury	fatal/serious	
+0.41048862794085295	0.5895113720591472	
+No of passengers is missing
+minor/no injury	fatal/serious	
+0.4807821284577762	0.5192178715422238	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.9993507116236955 : fatal/serious
+No of passengers > 0.9993507116236955 : minor/no injury
+No of passengers is missing : fatal/serious
+
+Class distributions
+
+No of passengers <= 0.9993507116236955
+minor/no injury	fatal/serious	
+0.42633395715641326	0.5736660428435868	
+No of passengers > 0.9993507116236955
+minor/no injury	fatal/serious	
+0.5508749440523781	0.4491250559476219	
+No of passengers is missing
+minor/no injury	fatal/serious	
+0.4770209174180644	0.5229790825819356	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.004025035746284655 : minor/no injury
+No of passengers > 0.004025035746284655 : fatal/serious
+No of passengers is missing : fatal/serious
+
+Class distributions
+
+No of passengers <= 0.004025035746284655
+minor/no injury	fatal/serious	
+0.5428954290622586	0.45710457093774154	
+No of passengers > 0.004025035746284655
+minor/no injury	fatal/serious	
+0.4267083355513269	0.5732916644486731	
+No of passengers is missing
+minor/no injury	fatal/serious	
+0.4888132482000269	0.511186751799973	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+pic age <= 50.99233337306403 : fatal/serious
+pic age > 50.99233337306403 : minor/no injury
+pic age is missing : fatal/serious
+
+Class distributions
+
+pic age <= 50.99233337306403
+minor/no injury	fatal/serious	
+0.40284531805233187	0.5971546819476682	
+pic age > 50.99233337306403
+minor/no injury	fatal/serious	
+0.5219060846686662	0.4780939153313339	
+pic age is missing
+minor/no injury	fatal/serious	
+0.48467487191345887	0.5153251280865413	
+
+
+Weight: 0.18
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.03 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         260               66.3265 %
+Incorrectly Classified Instances       132               33.6735 %
+Kappa statistic                          0.3278
+Mean absolute error                      0.4286
+Root mean squared error                  0.456 
+Relative absolute error                 85.6872 %
+Root relative squared error             91.1462 %
+Total Number of Instances              392     
+Ignored Class Unknown Instances                826     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.700    0.371    0.639      0.700    0.668      0.329    0.586     0.441     minor/no injury
+                 0.629    0.300    0.690      0.629    0.658      0.329    0.775     0.679     fatal/serious
+Weighted Avg.    0.663    0.335    0.666      0.663    0.663      0.329    0.684     0.564     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 133  57 |   a = minor/no injury
+  75 127 |   b = fatal/serious
+

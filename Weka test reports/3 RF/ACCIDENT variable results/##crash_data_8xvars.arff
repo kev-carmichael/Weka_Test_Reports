@@ -1,0 +1,2761 @@
+@relation ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832
+
+@attribute AgeAircraft numeric
+@attribute 'No of passengers' numeric
+@attribute 'pic licence' {'airline transport pilot licence','private pilot licence',student}
+@attribute 'pic age' numeric
+@attribute 'Total hrs' numeric
+@attribute 'Type Hrs' numeric
+@attribute '90 day Hrs' numeric
+@attribute '28 day Hrs' numeric
+@attribute ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT {non-severe,severe}
+
+@data
+0,4,'airline transport pilot licence',65,31500,131,91,26,non-severe
+45,1,'airline transport pilot licence',61,1401,200,89,30,non-severe
+45,1,'private pilot licence',63,545,212,7,5,non-severe
+48,0,'private pilot licence',68,1597,1444,10,6,non-severe
+43,3,'private pilot licence',67,1859,1090,33,21,non-severe
+49,0,'airline transport pilot licence',69,12632,26,18,5,severe
+76,0,'private pilot licence',59,1051,142,2,2,severe
+15,1,'private pilot licence',64,1846,7,7,7,non-severe
+18,0,'private pilot licence',70,828,45,18,5,severe
+46,1,'private pilot licence',69,200,5,1,1,severe
+48,1,'airline transport pilot licence',69,28000,350,38,10,severe
+6,0,student,42,23,23,23,14,severe
+80,1,'airline transport pilot licence',49,3687,533,67,25,severe
+81,0,'private pilot licence',57,4494,3581,175,62,severe
+32,0,'private pilot licence',68,981,9,6,2,severe
+45,1,'airline transport pilot licence',33,1800,130,90,35,non-severe
+14,0,'private pilot licence',63,1413,5,19,6,non-severe
+10,0,'private pilot licence',66,945,4,9,3,severe
+34,0,'private pilot licence',52,189,10,4,2,non-severe
+73,1,'private pilot licence',20,192,35,24,10,non-severe
+71,0,'airline transport pilot licence',65,21552,44,39,20,non-severe
+34,0,'private pilot licence',51,359,200,11,5,non-severe
+82,1,'private pilot licence',58,568,387,4,4,severe
+6,0,'airline transport pilot licence',68,13968,29,29,12,non-severe
+48,0,'private pilot licence',72,233,4,13,5,non-severe
+28,1,'airline transport pilot licence',70,10767,52,5,4,non-severe
+47,2,'private pilot licence',63,1614,830,79,29,severe
+12,1,'private pilot licence',65,706,16,89,19,severe
+6,0,'airline transport pilot licence',45,481,6,6,6,non-severe
+4,0,'airline transport pilot licence',64,7241,65,36,16,non-severe
+54,1,'private pilot licence',69,15000,350,42,16,non-severe
+41,1,'private pilot licence',64,4330,1000,32,1,non-severe
+42,1,'airline transport pilot licence',56,1287,998,7,3,non-severe
+64,0,'private pilot licence',33,1469,15,7,2,non-severe
+10,0,'airline transport pilot licence',31,499,132,22,6,non-severe
+86,0,'private pilot licence',73,21154,770,29,5,non-severe
+54,0,'private pilot licence',67,463,207,7,4,severe
+42,2,'private pilot licence',53,564,451,26,8,non-severe
+60,0,'private pilot licence',53,398,31,6,2,non-severe
+19,0,student,67,74,74,16,2,severe
+33,0,'private pilot licence',67,150,66,1,1,non-severe
+54,0,'airline transport pilot licence',49,314,21,1,1,severe
+62,0,'private pilot licence',66,119,27,16,11,severe
+12,0,'private pilot licence',68,676,55,15,7,non-severe
+7,0,'private pilot licence',47,712,1,42,8,non-severe
+60,0,'private pilot licence',44,7496,10,154,53,severe
+20,1,'private pilot licence',57,360,6,21,5,non-severe
+61,0,'private pilot licence',55,1614,64,45,19,severe
+74,0,'private pilot licence',57,753,517,8,5,severe
+24,0,'private pilot licence',45,598,51,4,3,non-severe
+15,0,'private pilot licence',71,491,266,20,6,non-severe
+22,1,'airline transport pilot licence',60,19864,4,85,20,non-severe
+74,0,'private pilot licence',76,696,608,12,3,severe
+47,0,'private pilot licence',44,69,52,3,2,severe
+39,1,'private pilot licence',59,169,38,5,5,severe
+16,0,'private pilot licence',81,1141,332,2,2,severe
+60,0,'private pilot licence',79,894,20,5,5,severe
+14,0,'private pilot licence',76,5000,2,15,5,severe
+23,0,'private pilot licence',36,324,50,18,7,non-severe
+2,1,'private pilot licence',71,481,144,16,7,non-severe
+13,1,'private pilot licence',56,587,89,11,6,severe
+15,1,'private pilot licence',67,702,1,40,15,non-severe
+2,0,'airline transport pilot licence',65,22000,6,24,15,non-severe
+59,0,'airline transport pilot licence',26,391,21,32,9,severe
+43,0,'airline transport pilot licence',70,16500,1000,45,17,severe
+49,1,'private pilot licence',31,105,76,20,12,non-severe
+5,1,'airline transport pilot licence',45,2013,930,44,16,non-severe
+25,0,'private pilot licence',60,1328,1,2,0,non-severe
+13,0,'private pilot licence',75,628,102,2,1,non-severe
+38,3,'private pilot licence',37,143,73,11,6,non-severe
+47,0,'private pilot licence',56,385,235,12,8,non-severe
+15,0,'private pilot licence',53,2743,300,3,1,non-severe
+58,0,'private pilot licence',63,395,42,5,0,severe
+16,2,'private pilot licence',67,698,199,5,1,non-severe
+39,1,'private pilot licence',73,18400,1415,112,38,non-severe
+20,0,'private pilot licence',60,1008,574,71,35,non-severe
+8,0,'private pilot licence',53,1306,4,10,0,non-severe
+32,0,'airline transport pilot licence',40,7200,900,45,20,non-severe
+51,0,'private pilot licence',57,1747,287,18,14,severe
+45,2,'airline transport pilot licence',67,6632,45,149,59,severe
+20,0,'airline transport pilot licence',65,20076,91,37,21,non-severe
+44,0,'private pilot licence',72,3446,344,1,1,severe
+50,0,'private pilot licence',55,1146,851,28,6,severe
+14,0,'private pilot licence',53,520,80,0,0,non-severe
+41,0,'private pilot licence',62,453,134,0,0,non-severe
+40,0,student,42,49,48,13,12,non-severe
+27,0,'private pilot licence',65,6070,5800,79,37,severe
+68,1,'private pilot licence',83,957,35,20,1,non-severe
+19,1,'private pilot licence',63,630,114,13,3,severe
+44,0,'airline transport pilot licence',33,514,228,6,6,non-severe
+10,1,'private pilot licence',73,287,120,5,2,non-severe
+61,1,'private pilot licence',59,214,117,12,5,non-severe
+54,1,'private pilot licence',59,464,159,3,2,severe
+64,0,'private pilot licence',67,350,40,7,2,non-severe
+41,1,'private pilot licence',50,119,5,2,2,non-severe
+2,0,'private pilot licence',56,335,166,41,19,non-severe
+3,0,'private pilot licence',51,152,4,4,4,severe
+13,0,'private pilot licence',65,451,144,5,4,non-severe
+11,3,'airline transport pilot licence',73,4400,3200,17,13,non-severe
+56,1,'private pilot licence',57,1604,1057,9,8,severe
+23,0,'private pilot licence',56,474,8,6,2,non-severe
+15,0,'private pilot licence',49,131,36,2,2,non-severe
+41,0,'private pilot licence',54,202,57,4,1,non-severe
+43,1,'private pilot licence',24,215,103,23,17,non-severe
+17,0,'private pilot licence',82,12617,413,4,2,severe
+27,0,'private pilot licence',55,1300,221,11,1,severe
+13,0,'private pilot licence',48,651,1,18,12,non-severe
+42,0,'private pilot licence',35,83,64,0,0,non-severe
+51,3,'private pilot licence',58,81,44,15,10,non-severe
+43,0,'private pilot licence',70,545,88,1,0,non-severe
+41,0,'private pilot licence',67,578,101,3,0,non-severe
+5,2,'airline transport pilot licence',52,1600,700,70,30,severe
+37,1,'private pilot licence',31,115,13,1,0,non-severe
+51,1,'private pilot licence',73,1101,760,3,2,non-severe
+40,1,'private pilot licence',75,600,300,5,4,severe
+20,0,'private pilot licence',78,392,98,1,0,non-severe
+71,1,'airline transport pilot licence',22,1870,385,90,59,severe
+6,1,'private pilot licence',67,621,524,8,6,severe
+61,0,'private pilot licence',69,632,235,10,5,non-severe
+42,0,'private pilot licence',25,388,59,78,31,non-severe
+76,1,'private pilot licence',79,643,485,4,1,severe
+10,0,'private pilot licence',38,906,250,25,5,non-severe
+42,1,'private pilot licence',69,240,91,0,0,severe
+12,1,'airline transport pilot licence',61,10300,160,14,8,non-severe
+33,3,'private pilot licence',30,136,60,7,3,severe
+56,1,'private pilot licence',69,1499,1282,7,1,severe
+46,0,'private pilot licence',56,677,10,71,16,severe
+6,0,'private pilot licence',83,15324,60,1,1,severe
+48,0,'private pilot licence',30,63,28,30,14,non-severe
+66,0,'airline transport pilot licence',55,16883,167,107,31,severe
+54,0,'private pilot licence',34,72,10,9,4,non-severe
+71,0,'private pilot licence',60,2366,1500,3,2,severe
+33,0,'private pilot licence',59,1890,480,87,35,non-severe
+36,0,'private pilot licence',59,315,101,1,1,non-severe
+2,0,'private pilot licence',56,390,41,3,2,non-severe
+20,0,'private pilot licence',66,597,374,2,2,severe
+45,0,'private pilot licence',78,747,166,15,2,non-severe
+39,1,'private pilot licence',76,586,546,8,3,severe
+4,0,'private pilot licence',59,1965,44,40,21,non-severe
+20,1,'private pilot licence',55,420,9,5,3,non-severe
+3,0,'private pilot licence',77,255,101,8,1,non-severe
+3,1,'private pilot licence',41,144,31,21,5,non-severe
+10,0,'private pilot licence',49,492,248,10,5,non-severe
+50,1,'private pilot licence',69,316,31,5,3,severe
+32,0,'private pilot licence',68,550,27,7,2,severe
+44,0,'private pilot licence',33,343,17,19,17,severe
+11,0,'private pilot licence',54,386,103,64,6,non-severe
+22,0,'private pilot licence',60,101,6,6,0,non-severe
+45,3,'private pilot licence',51,15000,10000,13,4,severe
+34,1,'private pilot licence',59,808,229,5,1,non-severe
+50,4,'airline transport pilot licence',57,8210,349,196,61,non-severe
+9,1,'airline transport pilot licence',60,17566,25,109,44,non-severe
+7,1,'private pilot licence',61,715,550,27,5,non-severe
+45,0,'airline transport pilot licence',51,4706,18,92,29,non-severe
+2,0,'private pilot licence',76,9000,100,100,65,severe
+50,0,'private pilot licence',52,868,16,23,6,severe
+5,0,'airline transport pilot licence',33,3800,1515,137,85,non-severe
+27,0,'private pilot licence',47,268,12,6,5,non-severe
+9,1,'private pilot licence',75,1048,350,8,3,non-severe
+43,0,'airline transport pilot licence',36,879,749,0,0,severe
+47,1,'private pilot licence',49,1194,9,60,26,severe
+11,0,'private pilot licence',61,885,135,38,3,non-severe
+38,1,'airline transport pilot licence',60,1500,90,60,30,non-severe
+22,1,'private pilot licence',76,475,375,4,2,non-severe
+39,0,'private pilot licence',63,136,118,3,1,non-severe
+3,0,'private pilot licence',66,734,2,20,15,non-severe
+41,0,'private pilot licence',44,106,80,10,2,non-severe
+3,1,'private pilot licence',64,246,49,4,1,non-severe
+49,0,'private pilot licence',86,1627,813,4,2,non-severe
+38,2,'private pilot licence',64,922,127,11,8,non-severe
+46,0,'airline transport pilot licence',69,11034,200,168,76,non-severe
+20,0,'private pilot licence',81,3165,3100,5,2,non-severe
+37,3,'private pilot licence',47,141,66,5,2,non-severe
+48,0,'private pilot licence',77,1065,547,8,4,non-severe
+78,0,'private pilot licence',73,876,0,4,2,non-severe
+22,0,'private pilot licence',43,321,39,6,4,non-severe
+44,1,'private pilot licence',42,166,98,6,0,non-severe
+15,2,'private pilot licence',53,1244,20,33,19,non-severe
+6,0,'private pilot licence',73,746,14,2,0,non-severe
+65,0,'airline transport pilot licence',49,1024,300,34,15,non-severe
+11,1,'private pilot licence',60,284,4,18,4,severe
+40,1,'private pilot licence',77,18383,900,5,4,severe
+62,1,'private pilot licence',49,409,1,2,1,severe
+29,1,'private pilot licence',80,641,465,5,2,severe
+12,0,'private pilot licence',75,1011,462,7,2,non-severe
+59,0,'private pilot licence',61,232,11,2,0,non-severe
+82,1,'private pilot licence',64,22240,512,50,24,severe
+16,1,'private pilot licence',51,4002,9,120,35,non-severe
+59,0,'private pilot licence',60,1148,10,26,13,non-severe
+19,0,'airline transport pilot licence',74,8100,100,37,3,non-severe
+48,0,student,19,32,3,8,4,non-severe
+36,1,'private pilot licence',79,387,347,7,1,severe
+8,0,'private pilot licence',37,225,26,1,1,non-severe
+29,0,'private pilot licence',73,550,19,5,3,severe
+40,0,student,56,90,90,4,1,non-severe
+22,0,'private pilot licence',68,11600,200,80,17,non-severe
+1,1,'airline transport pilot licence',55,1103,12,52,26,non-severe
+1,1,'private pilot licence',59,215,7,6,3,non-severe
+15,0,student,49,37,37,34,16,non-severe
+7,1,'airline transport pilot licence',56,21000,150,50,25,non-severe
+41,0,'private pilot licence',79,500,190,6,3,severe
+41,1,'private pilot licence',51,97,58,20,6,non-severe
+75,0,'airline transport pilot licence',71,7870,136,108,55,non-severe
+53,0,'private pilot licence',73,497,397,10,8,non-severe
+54,0,'private pilot licence',51,331,143,9,9,non-severe
+53,1,'private pilot licence',62,546,424,4,4,severe
+83,0,'private pilot licence',56,747,7,4,4,non-severe
+75,1,'airline transport pilot licence',58,5230,856,119,63,non-severe
+41,0,student,46,78,78,5,1,non-severe
+18,1,'private pilot licence',76,8470,1200,63,27,non-severe
+8,1,'private pilot licence',67,1500,300,6,6,non-severe
+22,0,'private pilot licence',57,1271,372,64,20,non-severe
+42,1,'private pilot licence',56,530,2,10,6,non-severe
+50,0,'private pilot licence',59,507,10,4,3,non-severe
+50,0,'private pilot licence',80,186,108,0,0,non-severe
+11,0,'private pilot licence',59,1568,33,6,5,severe
+41,1,'private pilot licence',55,876,274,7,4,severe
+37,0,'airline transport pilot licence',72,19000,35,27,13,non-severe
+32,3,'private pilot licence',45,118,61,21,10,non-severe
+39,1,'private pilot licence',46,199,57,15,8,severe
+39,0,'airline transport pilot licence',27,656,626,127,57,severe
+8,1,'private pilot licence',75,594,40,2,2,non-severe
+6,1,'private pilot licence',56,428,60,34,16,severe
+73,1,'airline transport pilot licence',59,3700,150,40,20,non-severe
+4,1,'private pilot licence',60,1348,271,14,7,severe
+4,1,'private pilot licence',55,677,177,35,19,non-severe
+58,3,'private pilot licence',74,538,401,6,1,non-severe
+17,5,'airline transport pilot licence',64,3372,2270,90,50,non-severe
+39,0,'airline transport pilot licence',54,10340,10,100,30,non-severe
+45,0,'private pilot licence',50,8929,23,194,78,severe
+34,0,student,25,13,13,13,5,non-severe
+37,0,'private pilot licence',70,600,200,3,2,non-severe
+28,2,'private pilot licence',51,555,280,7,3,non-severe
+3,0,'private pilot licence',54,1205,1,14,6,severe
+56,0,'private pilot licence',37,456,21,0,0,non-severe
+36,0,'private pilot licence',54,188,9,7,3,non-severe
+21,0,'private pilot licence',71,434,385,2,2,severe
+78,0,'private pilot licence',79,23043,114,1,0,non-severe
+24,0,'airline transport pilot licence',61,20968,2,100,48,non-severe
+72,0,'airline transport pilot licence',31,3595,4,161,78,non-severe
+38,1,'private pilot licence',58,1129,406,15,10,severe
+23,0,'private pilot licence',73,1417,26,27,20,severe
+3,0,'private pilot licence',63,196,41,6,2,severe
+8,0,'airline transport pilot licence',68,10560,5,68,40,non-severe
+39,1,'private pilot licence',63,375,231,4,1,non-severe
+18,0,'private pilot licence',61,263,7,9,0,severe
+10,0,'airline transport pilot licence',63,9000,4000,100,27,non-severe
+41,0,'private pilot licence',71,350,257,3,2,non-severe
+37,0,student,23,38,38,18,7,non-severe
+61,0,'private pilot licence',68,284,31,2,2,severe
+32,1,'private pilot licence',40,256,236,1,1,non-severe
+4,1,'private pilot licence',59,4310,37,6,6,severe
+29,1,'private pilot licence',62,219,38,8,5,severe
+10,2,'private pilot licence',61,197,52,5,3,severe
+52,2,'private pilot licence',44,55,6,8,4,severe
+33,0,'private pilot licence',73,925,755,6,3,severe
+21,0,'private pilot licence',77,560,475,14,1,non-severe
+39,0,'airline transport pilot licence',33,535,327,66,44,severe
+16,1,'private pilot licence',55,546,48,12,1,severe
+39,1,'private pilot licence',79,469,347,1,1,non-severe
+28,0,'airline transport pilot licence',39,16702,7,259,87,severe
+42,0,'private pilot licence',74,1441,0,2,2,non-severe
+35,0,'private pilot licence',63,1903,861,6,4,non-severe
+3,0,'private pilot licence',34,78,5,13,7,non-severe
+37,0,student,61,62,62,16,7,severe
+37,0,'airline transport pilot licence',55,18758,6,198,68,non-severe
+12,0,'private pilot licence',66,625,345,12,1,non-severe
+74,0,'airline transport pilot licence',49,1627,1000,32,21,non-severe
+36,1,'private pilot licence',50,217,5,9,2,non-severe
+17,1,'private pilot licence',74,294,23,8,2,non-severe
+45,0,'airline transport pilot licence',71,16288,1125,23,12,non-severe
+38,1,'private pilot licence',58,691,82,15,7,non-severe
+3,0,'private pilot licence',78,833,59,10,2,non-severe
+57,0,'private pilot licence',48,144,19,25,5,non-severe
+47,0,'airline transport pilot licence',61,18000,80,20,5,non-severe
+31,0,'private pilot licence',79,1027,337,15,5,non-severe
+1,0,'private pilot licence',53,646,26,12,4,severe
+7,0,'private pilot licence',46,496,65,19,3,severe
+2,0,'airline transport pilot licence',60,2462,51,95,24,non-severe
+38,2,'private pilot licence',65,3036,1442,50,14,severe
+17,0,'airline transport pilot licence',63,3088,1904,188,56,severe
+19,5,'airline transport pilot licence',34,303,4,20,11,non-severe
+39,3,'private pilot licence',56,791,236,10,3,severe
+43,0,'private pilot licence',53,972,700,106,64,non-severe
+54,0,'private pilot licence',74,14100,75,3,2,non-severe
+50,0,'private pilot licence',51,703,2,53,23,non-severe
+29,1,'private pilot licence',59,98,14,16,5,non-severe
+11,0,'airline transport pilot licence',74,15100,25,52,17,non-severe
+11,0,'private pilot licence',64,1329,950,27,5,severe
+38,0,student,34,61,60,38,11,non-severe
+27,1,'private pilot licence',78,3337,3207,38,24,non-severe
+36,0,student,27,22,22,5,4,non-severe
+34,0,'private pilot licence',78,190,110,4,2,non-severe
+0,1,'private pilot licence',72,865,31,12,4,non-severe
+22,0,'private pilot licence',79,1146,880,7,1,severe
+15,0,'private pilot licence',72,802,661,45,4,non-severe
+5,0,'private pilot licence',71,603,290,12,4,non-severe
+19,0,'private pilot licence',78,1996,93,8,2,non-severe
+66,0,'private pilot licence',75,1059,584,7,2,severe
+48,1,'private pilot licence',60,1793,864,42,8,non-severe
+70,1,'private pilot licence',69,1715,488,59,32,severe
+2,1,'private pilot licence',57,88,43,23,8,severe
+53,0,'private pilot licence',64,10673,2140,3,0,severe
+39,0,'private pilot licence',49,1650,30,38,21,non-severe
+73,1,'airline transport pilot licence',71,18800,1500,111,43,non-severe
+6,0,'private pilot licence',70,673,138,6,4,non-severe
+59,0,'private pilot licence',67,517,131,19,7,non-severe
+56,0,'private pilot licence',59,1257,388,1,1,non-severe
+51,0,'airline transport pilot licence',48,8303,4000,8,5,severe
+35,1,'private pilot licence',63,279,49,43,6,non-severe
+37,2,'private pilot licence',60,108,108,4,3,non-severe
+33,0,'private pilot licence',24,265,69,26,23,non-severe
+38,0,'private pilot licence',72,15000,34,1,1,non-severe
+4,1,'private pilot licence',54,152,31,31,15,severe
+26,0,'private pilot licence',42,340,269,15,9,non-severe
+12,0,'private pilot licence',28,220,7,7,3,non-severe
+26,0,'private pilot licence',49,267,49,5,2,non-severe
+42,0,'private pilot licence',68,14652,450,19,8,non-severe
+44,0,'private pilot licence',62,340,53,10,3,severe
+73,1,'private pilot licence',71,6560,574,19,9,non-severe
+55,0,'private pilot licence',64,613,304,12,7,non-severe
+30,0,'airline transport pilot licence',53,9745,186,126,47,non-severe
+48,1,'private pilot licence',53,1760,1200,15,15,non-severe
+24,1,'private pilot licence',67,578,290,3,2,non-severe
+17,0,'private pilot licence',68,5510,8,71,23,non-severe
+24,0,'private pilot licence',51,422,17,17,12,non-severe
+50,0,'private pilot licence',73,666,584,10,2,non-severe
+36,3,'private pilot licence',21,60,12,4,3,non-severe
+42,0,'private pilot licence',30,190,115,46,46,non-severe
+54,0,'private pilot licence',61,485,400,1,1,non-severe
+24,1,'private pilot licence',52,183,20,7,7,severe
+71,1,'private pilot licence',62,333,280,12,5,severe
+70,0,'private pilot licence',75,1212,888,5,4,non-severe
+52,0,'private pilot licence',72,471,369,13,8,non-severe
+53,1,'private pilot licence',54,300,103,8,4,non-severe
+38,1,'private pilot licence',19,113,8,14,6,non-severe
+9,0,'private pilot licence',65,400,130,11,11,non-severe
+6,1,'private pilot licence',60,1076,17,28,20,non-severe
+6,0,'private pilot licence',62,902,103,38,11,non-severe
+79,0,'private pilot licence',56,845,550,22,8,non-severe
+17,1,'airline transport pilot licence',56,3800,1020,57,21,non-severe
+36,0,student,57,20,20,6,2,non-severe
+69,0,'private pilot licence',67,2643,8,18,11,severe
+55,1,'private pilot licence',67,1300,800,35,17,non-severe
+37,0,'airline transport pilot licence',74,15000,20,47,24,non-severe
+11,0,student,46,16,16,12,2,non-severe
+12,0,'private pilot licence',71,524,2,4,0,non-severe
+40,1,'private pilot licence',58,363,9,7,2,severe
+55,0,'private pilot licence',71,922,360,8,2,non-severe
+4,1,'private pilot licence',54,263,43,8,4,non-severe
+26,0,'airline transport pilot licence',68,15500,60,80,45,non-severe
+75,0,'private pilot licence',73,5000,19,35,8,severe
+43,0,'airline transport pilot licence',53,536,73,6,1,non-severe
+30,0,'private pilot licence',61,1114,19,11,8,non-severe
+53,0,'private pilot licence',71,1621,10,4,4,non-severe
+58,1,'private pilot licence',68,1950,155,11,5,non-severe
+36,2,'private pilot licence',23,56,42,5,3,non-severe
+44,0,'airline transport pilot licence',60,2622,494,0,0,severe
+28,0,'private pilot licence',60,241,64,7,6,non-severe
+13,1,'private pilot licence',81,750,200,5,3,non-severe
+16,1,'private pilot licence',76,863,728,21,0,non-severe
+58,0,'private pilot licence',57,346,131,6,0,severe
+38,0,'airline transport pilot licence',56,6936,440,21,13,non-severe
+2,1,'private pilot licence',63,2500,1200,30,15,severe
+70,0,'private pilot licence',43,330,185,4,2,non-severe
+22,2,'airline transport pilot licence',64,23618,17,143,68,non-severe
+8,0,'private pilot licence',53,2250,42,43,14,non-severe
+3,0,'private pilot licence',65,4000,20,18,2,non-severe
+38,3,'private pilot licence',61,15600,230,3,2,non-severe
+36,0,'private pilot licence',28,68,63,1,1,non-severe
+16,0,'private pilot licence',60,918,438,49,11,severe
+8,0,'private pilot licence',51,568,156,4,1,non-severe
+3,0,'airline transport pilot licence',81,16776,14,73,20,non-severe
+16,0,'private pilot licence',61,2642,1651,26,13,non-severe
+29,1,'private pilot licence',25,215,3,34,14,severe
+64,1,'airline transport pilot licence',61,19162,30,38,22,severe
+9,0,'private pilot licence',39,102,5,6,2,severe
+59,0,'private pilot licence',83,1410,869,3,0,non-severe
+2,0,'private pilot licence',62,694,557,7,5,non-severe
+37,0,'airline transport pilot licence',35,5245,38,179,47,non-severe
+56,1,'private pilot licence',82,8502,230,5,1,non-severe
+19,0,'private pilot licence',54,367,112,24,15,non-severe
+36,3,'private pilot licence',44,1147,50,71,24,non-severe
+45,0,'private pilot licence',51,418,89,34,11,non-severe
+13,0,'private pilot licence',66,727,10,28,22,severe
+15,2,'private pilot licence',42,269,38,26,21,non-severe
+39,0,'private pilot licence',39,75,14,3,0,non-severe
+49,1,'private pilot licence',34,80,52,1,1,non-severe
+9,0,'private pilot licence',68,16000,210,13,3,non-severe
+1,0,'airline transport pilot licence',61,6100,19,86,22,non-severe
+44,0,'airline transport pilot licence',41,8850,17,120,33,non-severe
+2,0,'private pilot licence',32,284,3,1,1,non-severe
+60,2,'private pilot licence',51,288,59,7,2,severe
+40,0,'private pilot licence',60,2299,1901,29,11,non-severe
+35,0,'private pilot licence',44,98,48,5,1,severe
+1,0,'airline transport pilot licence',69,23830,4,9,4,non-severe
+47,0,'private pilot licence',49,573,22,21,7,non-severe
+64,1,'private pilot licence',70,14578,22,7,2,severe
+11,1,'airline transport pilot licence',32,2051,146,137,56,non-severe
+1,0,'private pilot licence',76,1029,17,4,1,severe
+45,3,'private pilot licence',66,1900,1600,16,8,severe
+37,0,'airline transport pilot licence',59,1671,361,40,8,non-severe
+40,2,'airline transport pilot licence',62,16000,200,24,10,non-severe
+25,0,'private pilot licence',69,839,168,0,0,severe
+6,1,'private pilot licence',75,337,20,5,2,non-severe
+44,1,'private pilot licence',72,400,12,11,3,non-severe
+37,0,'private pilot licence',68,331,223,7,2,non-severe
+74,1,'private pilot licence',67,20852,115,4,2,severe
+77,0,'airline transport pilot licence',58,3050,25,15,7,non-severe
+14,0,'private pilot licence',77,1647,1149,33,17,non-severe
+22,1,'private pilot licence',33,678,8,45,21,non-severe
+54,0,'private pilot licence',70,2625,2300,20,8,non-severe
+44,0,'private pilot licence',51,92,33,22,6,non-severe
+34,3,'private pilot licence',60,243,180,5,3,non-severe
+36,0,'private pilot licence',52,311,198,24,7,non-severe
+12,1,'private pilot licence',33,129,18,5,5,severe
+56,2,'private pilot licence',54,1541,1,5,5,non-severe
+42,0,'private pilot licence',62,1254,22,16,3,non-severe
+4,0,'private pilot licence',56,9672,27,5,3,non-severe
+12,1,'private pilot licence',62,918,384,2,0,non-severe
+45,0,'private pilot licence',53,150,31,8,6,severe
+15,0,'private pilot licence',52,450,159,3,3,non-severe
+36,1,'airline transport pilot licence',88,6000,3000,3,1,non-severe
+50,2,'private pilot licence',69,8219,279,44,19,non-severe
+16,0,'airline transport pilot licence',41,370,154,27,19,non-severe
+37,1,'airline transport pilot licence',44,1909,800,88,22,severe
+35,1,'private pilot licence',64,210,75,3,0,severe
+49,1,'private pilot licence',70,190,132,3,1,non-severe
+70,0,'private pilot licence',53,288,106,6,2,non-severe
+41,1,'private pilot licence',61,224,136,10,4,non-severe
+48,0,'private pilot licence',56,971,497,2,2,non-severe
+20,0,'private pilot licence',32,200,1,13,3,non-severe
+31,1,'private pilot licence',49,387,161,11,4,non-severe
+3,1,'airline transport pilot licence',50,9714,55,197,41,non-severe
+25,3,'private pilot licence',56,600,260,17,4,severe
+75,0,'private pilot licence',47,810,120,80,30,severe
+7,1,'private pilot licence',52,1500,220,15,8,non-severe
+35,2,'private pilot licence',73,1290,850,5,3,non-severe
+50,0,'airline transport pilot licence',45,1180,467,43,16,non-severe
+16,0,'private pilot licence',72,2641,851,7,6,non-severe
+12,1,'private pilot licence',55,1661,420,11,5,non-severe
+74,0,'private pilot licence',63,1199,102,8,5,non-severe
+14,0,'private pilot licence',68,1300,16,16,16,severe
+13,1,'private pilot licence',68,18500,598,3,3,non-severe
+18,0,'airline transport pilot licence',54,4061,35,78,31,non-severe
+37,0,'airline transport pilot licence',55,16243,94,38,0,non-severe
+11,0,'airline transport pilot licence',25,926,20,134,53,non-severe
+9,0,'private pilot licence',73,438,245,6,3,non-severe
+4,1,'private pilot licence',54,890,323,18,15,non-severe
+43,0,student,24,38,38,2,2,severe
+13,0,'private pilot licence',47,1300,200,33,14,non-severe
+52,1,'private pilot licence',66,1150,2,11,4,non-severe
+52,1,'private pilot licence',21,97,42,8,7,non-severe
+21,1,'private pilot licence',70,281,85,1,1,non-severe
+8,0,'private pilot licence',76,518,102,2,1,non-severe
+5,1,'private pilot licence',71,963,252,13,13,non-severe
+50,0,student,39,33,33,33,10,severe
+16,0,'private pilot licence',73,8000,1000,58,29,severe
+28,0,student,41,10,10,10,7,non-severe
+14,1,'airline transport pilot licence',44,3639,2500,305,67,severe
+39,0,student,53,27,26,14,5,non-severe
+4,2,'private pilot licence',50,201,5,7,2,severe
+40,2,'private pilot licence',64,303,123,3,1,non-severe
+50,1,'private pilot licence',56,79,12,9,3,non-severe
+19,0,'airline transport pilot licence',46,431,39,48,18,non-severe
+18,1,'private pilot licence',24,142,139,68,39,non-severe
+32,1,'private pilot licence',18,288,186,7,0,non-severe
+28,0,'private pilot licence',69,648,130,2,1,non-severe
+16,0,'private pilot licence',60,2602,1621,25,6,non-severe
+37,0,'airline transport pilot licence',34,890,600,120,50,non-severe
+26,1,'airline transport pilot licence',23,689,153,165,46,non-severe
+11,0,'private pilot licence',69,1076,469,15,3,severe
+46,0,'private pilot licence',81,911,835,4,1,severe
+69,0,'private pilot licence',72,399,375,8,5,non-severe
+26,0,'private pilot licence',61,204,1,6,1,non-severe
+17,0,'private pilot licence',57,296,86,5,2,non-severe
+19,0,'private pilot licence',64,650,53,1,0,non-severe
+46,1,'private pilot licence',79,651,153,3,1,non-severe
+51,0,'airline transport pilot licence',68,6623,100,151,51,non-severe
+24,0,'private pilot licence',61,1290,265,4,4,severe
+7,0,'private pilot licence',68,112,112,7,5,non-severe
+7,1,'airline transport pilot licence',35,3046,2,78,23,non-severe
+55,0,'private pilot licence',69,2500,20,27,14,severe
+8,0,'private pilot licence',47,388,26,8,3,non-severe
+3,0,'private pilot licence',70,855,16,12,12,non-severe
+30,0,student,32,30,3,11,4,non-severe
+37,0,'private pilot licence',68,298,53,2,1,non-severe
+10,0,'private pilot licence',78,5500,1350,15,8,severe
+31,1,'private pilot licence',49,349,125,4,2,non-severe
+35,2,'private pilot licence',70,896,449,11,4,severe
+7,2,'private pilot licence',64,1339,27,27,11,non-severe
+79,0,'airline transport pilot licence',46,10030,275,58,16,non-severe
+26,0,'private pilot licence',82,876,435,2,0,non-severe
+37,0,'airline transport pilot licence',47,1010,0,24,8,non-severe
+57,0,'private pilot licence',64,1347,225,1,0,non-severe
+66,1,'private pilot licence',73,1623,1520,24,11,non-severe
+26,0,'private pilot licence',84,1991,1253,13,4,non-severe
+14,0,'private pilot licence',74,465,27,12,8,non-severe
+13,0,'private pilot licence',55,564,412,13,6,non-severe
+7,1,'private pilot licence',45,330,6,11,8,non-severe
+34,0,'private pilot licence',32,170,168,7,1,non-severe
+50,1,'private pilot licence',28,150,100,62,19,severe
+1,0,'private pilot licence',55,800,150,6,6,severe
+24,0,'private pilot licence',53,309,130,10,6,non-severe
+34,0,student,29,15,15,15,10,non-severe
+21,1,'private pilot licence',69,273,140,3,2,non-severe
+48,2,'airline transport pilot licence',57,1199,314,23,10,severe
+41,0,student,18,32,32,15,15,non-severe
+9,0,'private pilot licence',59,960,520,10,3,non-severe
+12,1,'private pilot licence',68,1710,1010,42,13,non-severe
+52,0,'private pilot licence',81,740,583,6,3,severe
+39,2,'private pilot licence',68,272,185,5,3,non-severe
+54,1,'private pilot licence',52,253,76,10,7,non-severe
+72,1,'private pilot licence',53,1430,350,16,9,non-severe
+43,0,student,58,18,18,15,5,non-severe
+22,0,'private pilot licence',74,832,3,3,3,non-severe
+43,1,'private pilot licence',47,421,3,5,3,severe
+40,1,'private pilot licence',56,311,33,8,2,non-severe
+4,1,'airline transport pilot licence',64,22823,64,154,38,non-severe
+62,1,'private pilot licence',78,1179,799,17,8,non-severe
+54,1,'private pilot licence',58,825,100,7,3,non-severe
+25,0,'private pilot licence',69,254,68,0,0,non-severe
+11,0,'private pilot licence',73,1126,118,32,11,non-severe
+5,0,'private pilot licence',51,230,63,7,1,non-severe
+12,0,'airline transport pilot licence',60,18480,12,280,55,non-severe
+15,1,'private pilot licence',61,260,162,117,45,non-severe
+13,1,'private pilot licence',85,18348,552,35,15,non-severe
+10,0,'private pilot licence',76,223,29,5,4,severe
+21,0,'private pilot licence',72,683,534,4,4,non-severe
+37,3,'private pilot licence',82,1880,1285,10,5,severe
+31,1,'private pilot licence',51,152,152,3,2,non-severe
+41,0,student,48,31,31,13,6,non-severe
+46,1,'airline transport pilot licence',53,13232,500,120,30,non-severe
+42,1,'private pilot licence',57,155,4,4,2,non-severe
+47,1,'private pilot licence',71,10086,6,27,10,non-severe
+75,1,'airline transport pilot licence',31,1817,1,110,47,non-severe
+32,0,'private pilot licence',67,372,102,7,5,non-severe
+68,0,'private pilot licence',58,493,249,24,9,non-severe
+13,1,'private pilot licence',72,1641,826,11,2,non-severe
+51,0,'private pilot licence',53,369,180,2,0,non-severe
+5,3,'airline transport pilot licence',57,11000,1180,23,5,severe
+7,0,'private pilot licence',52,518,5,23,13,non-severe
+64,1,'private pilot licence',24,144,9,12,9,severe
+24,1,'airline transport pilot licence',56,8388,1,154,53,non-severe
+25,0,'private pilot licence',61,14994,9,11,4,non-severe
+15,1,'airline transport pilot licence',30,762,649,154,61,severe
+12,0,'private pilot licence',28,126,31,4,0,non-severe
+47,0,'private pilot licence',47,104,75,3,1,non-severe
+2,1,'private pilot licence',70,677,56,6,2,non-severe
+11,0,'private pilot licence',43,193,55,11,2,non-severe
+47,5,'airline transport pilot licence',55,666,132,30,5,non-severe
+4,1,'private pilot licence',53,555,100,29,1,severe
+6,1,'airline transport pilot licence',55,1877,1,64,21,non-severe
+7,2,'private pilot licence',59,264,150,3,0,non-severe
+18,0,'private pilot licence',59,7343,300,52,15,non-severe
+54,0,'private pilot licence',67,870,295,2,0,non-severe
+15,0,'private pilot licence',51,680,472,5,1,non-severe
+17,0,'private pilot licence',51,189,21,23,23,non-severe
+38,0,'airline transport pilot licence',54,5893,20,37,10,non-severe
+34,0,'airline transport pilot licence',28,3255,20,141,44,non-severe
+11,0,'private pilot licence',60,506,3,1,1,non-severe
+35,0,'airline transport pilot licence',60,3027,80,28,13,severe
+42,1,'private pilot licence',70,293,240,5,2,severe
+36,0,'airline transport pilot licence',62,1163,1019,17,6,non-severe
+33,3,'private pilot licence',35,163,162,1,0,non-severe
+12,1,'private pilot licence',34,133,58,4,1,non-severe
+16,0,'private pilot licence',73,682,329,4,3,severe
+9,0,'airline transport pilot licence',59,8160,2100,69,23,non-severe
+25,1,'airline transport pilot licence',50,15000,40,1,1,severe
+35,0,'private pilot licence',40,226,191,9,5,non-severe
+38,1,'private pilot licence',53,160,6,4,1,non-severe
+9,1,'private pilot licence',68,2344,796,19,3,non-severe
+61,0,'private pilot licence',65,671,119,7,3,non-severe
+47,2,'private pilot licence',19,121,2,12,12,severe
+34,1,'private pilot licence',76,1463,1432,14,4,severe
+14,0,'private pilot licence',73,698,698,29,7,non-severe
+26,1,'private pilot licence',65,1177,501,10,5,non-severe
+14,0,student,20,15,5,3,3,non-severe
+9,0,'private pilot licence',81,2200,66,13,6,severe
+54,0,'private pilot licence',76,2492,892,8,3,non-severe
+25,0,'airline transport pilot licence',33,2890,1200,180,56,severe
+28,0,'private pilot licence',50,188,71,4,1,non-severe
+31,0,'private pilot licence',59,113,53,2,0,non-severe
+1,1,'private pilot licence',60,466,7,7,3,non-severe
+4,0,'private pilot licence',63,517,156,9,5,non-severe
+59,1,'private pilot licence',56,247,68,8,2,non-severe
+36,0,student,52,55,55,17,4,non-severe
+33,1,'airline transport pilot licence',67,17000,43,146,46,non-severe
+1,0,'private pilot licence',74,2167,27,23,7,non-severe
+4,1,'private pilot licence',62,66,29,3,1,non-severe
+1,1,'private pilot licence',81,3833,16,33,12,non-severe
+20,0,'private pilot licence',55,812,56,9,9,non-severe
+19,1,'private pilot licence',60,454,171,9,1,non-severe
+51,1,'private pilot licence',71,734,559,9,4,severe
+48,1,'private pilot licence',62,1851,50,7,3,non-severe
+53,0,'private pilot licence',60,130,45,2,1,non-severe
+44,1,'private pilot licence',53,220,10,15,5,non-severe
+33,0,'private pilot licence',54,255,1,5,2,non-severe
+16,0,'private pilot licence',75,2305,2021,35,15,non-severe
+19,0,'private pilot licence',64,640,185,27,13,non-severe
+32,1,'private pilot licence',59,817,751,20,4,severe
+32,0,'private pilot licence',44,194,76,10,2,non-severe
+66,0,'airline transport pilot licence',66,20546,910,41,35,non-severe
+52,0,'private pilot licence',65,533,0,0,0,non-severe
+12,0,'private pilot licence',67,650,300,10,2,non-severe
+10,0,'private pilot licence',52,896,896,66,28,non-severe
+27,1,'private pilot licence',47,614,76,4,1,non-severe
+43,1,'airline transport pilot licence',58,1645,261,18,6,severe
+4,0,'airline transport pilot licence',60,2065,2057,180,60,non-severe
+23,0,'private pilot licence',71,1653,484,11,5,severe
+6,1,'private pilot licence',57,368,200,5,2,non-severe
+4,1,'private pilot licence',65,647,300,47,9,non-severe
+41,0,'private pilot licence',70,848,17,4,2,non-severe
+54,1,'private pilot licence',50,295,35,4,2,non-severe
+28,0,'private pilot licence',55,529,112,4,1,non-severe
+73,1,'private pilot licence',68,826,119,13,6,non-severe
+37,2,'private pilot licence',68,3267,444,9,4,non-severe
+32,0,student,29,44,44,24,4,non-severe
+35,1,'airline transport pilot licence',41,3148,148,70,32,non-severe
+35,0,student,64,120,120,11,3,non-severe
+63,1,'private pilot licence',55,210,110,4,2,non-severe
+51,0,'private pilot licence',58,193,87,26,9,non-severe
+13,1,'private pilot licence',50,104,30,30,12,non-severe
+7,0,'airline transport pilot licence',72,17670,5,79,34,non-severe
+10,0,'private pilot licence',47,329,50,13,8,non-severe
+17,0,student,20,37,37,11,10,severe
+39,1,'private pilot licence',18,68,62,5,3,non-severe
+15,0,'private pilot licence',58,974,422,13,4,non-severe
+22,0,'private pilot licence',66,520,76,0,0,non-severe
+19,1,'private pilot licence',68,262,40,9,3,non-severe
+9,0,'airline transport pilot licence',53,2537,1382,139,13,non-severe
+75,0,'private pilot licence',66,1285,327,4,1,non-severe
+41,5,'private pilot licence',69,2036,379,17,17,severe
+35,0,'private pilot licence',50,383,9,1,1,non-severe
+36,0,student,36,27,26,10,5,non-severe
+46,0,'airline transport pilot licence',55,1842,701,54,19,non-severe
+37,1,'private pilot licence',20,104,95,5,2,non-severe
+2,1,'private pilot licence',72,750,43,5,3,non-severe
+64,0,'airline transport pilot licence',50,25716,45,125,23,non-severe
+26,2,'private pilot licence',65,157,157,6,2,non-severe
+7,1,'private pilot licence',60,190,190,4,2,non-severe
+10,0,'private pilot licence',68,212,8,8,4,non-severe
+36,1,'private pilot licence',29,173,165,43,21,non-severe
+68,0,'private pilot licence',81,353,185,1,1,non-severe
+8,1,'private pilot licence',70,3020,229,13,9,severe
+36,1,'private pilot licence',55,113,7,10,3,non-severe
+11,0,'private pilot licence',81,841,792,1,0,non-severe
+32,0,'private pilot licence',55,503,385,1,0,non-severe
+73,1,'private pilot licence',59,1748,49,6,3,non-severe
+53,2,'airline transport pilot licence',34,6000,200,200,55,non-severe
+15,1,'private pilot licence',66,899,700,5,3,non-severe
+21,1,'private pilot licence',57,508,8,6,4,non-severe
+10,1,'private pilot licence',71,1021,17,23,12,non-severe
+32,2,'airline transport pilot licence',60,1724,600,28,18,non-severe
+36,0,'private pilot licence',86,605,228,4,1,non-severe
+39,0,'airline transport pilot licence',25,1500,3,90,30,non-severe
+10,0,'private pilot licence',48,94,12,12,6,non-severe
+33,0,student,42,23,23,9,3,non-severe
+20,0,'private pilot licence',23,103,56,0,0,non-severe
+36,1,'private pilot licence',51,200,15,1,0,non-severe
+37,0,student,33,28,28,5,1,non-severe
+31,0,'private pilot licence',65,596,78,1,1,severe
+6,1,'private pilot licence',32,1550,220,25,10,non-severe
+36,0,'private pilot licence',77,419,85,5,3,non-severe
+32,0,'private pilot licence',51,642,538,8,4,severe
+10,3,'private pilot licence',57,212,14,13,4,non-severe
+7,0,student,50,31,31,6,0,non-severe
+33,0,'airline transport pilot licence',51,15297,230,85,22,non-severe
+52,1,'private pilot licence',52,235,97,1,0,non-severe
+35,0,student,25,19,19,8,4,non-severe
+41,0,'private pilot licence',59,906,714,4,4,severe
+23,2,'airline transport pilot licence',60,16400,60,48,11,non-severe
+32,2,'private pilot licence',55,1565,1435,20,6,non-severe
+33,0,student,66,81,81,6,4,non-severe
+3,0,'airline transport pilot licence',57,20000,4,160,48,non-severe
+27,1,'private pilot licence',56,385,22,22,3,non-severe
+7,1,'airline transport pilot licence',63,8347,2200,41,19,non-severe
+61,1,'airline transport pilot licence',44,5762,1810,158,28,severe
+65,0,'private pilot licence',64,555,389,0,0,non-severe
+40,0,'private pilot licence',53,271,33,3,1,severe
+35,1,'private pilot licence',70,220,220,14,7,non-severe
+61,1,'private pilot licence',44,177,9,5,0,non-severe
+39,0,'private pilot licence',60,458,324,56,20,severe
+46,0,'private pilot licence',59,373,251,10,2,non-severe
+11,1,'private pilot licence',63,1063,14,4,4,non-severe
+33,0,'private pilot licence',56,155,11,1,1,non-severe
+40,0,'private pilot licence',60,1216,535,0,0,severe
+39,0,'private pilot licence',55,1044,57,11,1,non-severe
+31,0,'private pilot licence',65,303,15,7,1,non-severe
+29,0,'private pilot licence',66,400,50,10,4,non-severe
+62,1,'private pilot licence',66,7772,21,10,1,non-severe
+17,0,'private pilot licence',66,332,34,10,3,severe
+48,0,'private pilot licence',83,1005,600,18,5,non-severe
+32,1,'private pilot licence',71,2529,436,8,2,non-severe
+42,1,'private pilot licence',20,332,132,158,52,non-severe
+24,1,'airline transport pilot licence',48,4010,74,168,53,non-severe
+57,0,'private pilot licence',72,4534,45,6,3,non-severe
+10,1,'private pilot licence',66,2688,64,49,11,non-severe
+29,1,'private pilot licence',45,131,131,52,14,non-severe
+9,1,'private pilot licence',67,226,122,6,3,non-severe
+15,0,'private pilot licence',62,374,4,6,4,non-severe
+25,1,'private pilot licence',53,791,205,33,12,non-severe
+67,0,'private pilot licence',66,270,24,13,1,non-severe
+39,0,student,43,71,50,21,20,non-severe
+55,0,'private pilot licence',62,3143,2,68,24,non-severe
+48,0,'private pilot licence',59,645,154,22,4,non-severe
+30,0,'private pilot licence',65,1027,791,27,4,non-severe
+41,1,'private pilot licence',72,253,105,16,2,non-severe
+18,1,'private pilot licence',48,587,217,11,7,non-severe
+15,1,'private pilot licence',56,460,104,20,1,severe
+7,1,'private pilot licence',66,168,45,5,2,non-severe
+46,0,'private pilot licence',74,611,180,4,2,severe
+16,1,'private pilot licence',74,2007,1100,24,18,non-severe
+48,0,'private pilot licence',56,500,299,3,1,non-severe
+83,1,'private pilot licence',39,512,15,14,3,severe
+12,0,'airline transport pilot licence',60,9000,462,49,31,non-severe
+22,0,'private pilot licence',54,283,80,21,1,non-severe
+19,0,'private pilot licence',63,478,1,6,3,non-severe
+9,0,'private pilot licence',59,195,27,1,1,non-severe
+46,0,'private pilot licence',53,1075,145,4,1,non-severe
+12,1,'private pilot licence',64,999,109,12,4,non-severe
+46,0,'airline transport pilot licence',40,388,255,16,9,non-severe
+34,0,'private pilot licence',53,2500,200,45,5,non-severe
+36,0,student,55,40,10,2,1,non-severe
+2,1,'airline transport pilot licence',38,1326,320,77,37,severe
+0,1,'private pilot licence',73,320,6,7,6,non-severe
+72,1,'private pilot licence',65,185,96,4,1,non-severe
+7,0,'private pilot licence',36,192,76,2,2,severe
+49,1,'airline transport pilot licence',66,5806,80,176,28,non-severe
+29,0,'private pilot licence',73,1069,4,5,4,non-severe
+6,0,'airline transport pilot licence',58,9500,65,123,41,non-severe
+35,0,student,37,36,21,6,3,non-severe
+2,0,'private pilot licence',69,319,8,8,7,non-severe
+55,1,'private pilot licence',52,141,5,16,4,severe
+31,2,'private pilot licence',39,435,267,14,5,non-severe
+44,1,'private pilot licence',55,144,44,14,4,non-severe
+3,0,'private pilot licence',53,140,36,19,15,non-severe
+18,1,'private pilot licence',56,261,17,8,4,non-severe
+74,0,'private pilot licence',60,1383,1037,11,1,non-severe
+36,0,'airline transport pilot licence',49,580,180,8,8,non-severe
+5,0,'private pilot licence',51,476,100,4,2,non-severe
+15,1,'airline transport pilot licence',71,25000,440,16,12,non-severe
+18,0,'private pilot licence',48,68,17,4,4,severe
+32,3,'airline transport pilot licence',61,671,300,10,2,non-severe
+4,0,'private pilot licence',76,673,443,19,6,severe
+35,0,'airline transport pilot licence',21,390,145,77,15,severe
+34,1,'private pilot licence',38,383,105,29,27,non-severe
+25,0,'private pilot licence',50,852,46,12,4,severe
+32,1,'private pilot licence',49,306,97,4,2,non-severe
+28,3,'private pilot licence',35,93,23,7,6,non-severe
+53,2,'airline transport pilot licence',48,706,2,12,10,non-severe
+30,0,'private pilot licence',52,1333,104,10,9,non-severe
+47,2,'private pilot licence',61,90,72,9,2,severe
+4,1,'private pilot licence',47,390,42,3,3,non-severe
+45,0,'private pilot licence',19,257,109,14,8,severe
+76,0,'private pilot licence',64,1850,346,6,3,non-severe
+45,1,'private pilot licence',29,109,109,8,8,non-severe
+2,1,'private pilot licence',60,1449,128,10,4,severe
+21,0,'private pilot licence',74,1000,30,0,0,non-severe
+1,0,'private pilot licence',68,1903,10,3,2,severe
+5,1,'airline transport pilot licence',46,14200,600,223,82,non-severe
+32,3,'private pilot licence',48,182,31,8,6,severe
+70,0,'private pilot licence',35,405,119,3,2,non-severe
+45,0,'private pilot licence',61,377,280,1,1,non-severe
+49,1,'private pilot licence',71,1404,1030,8,6,non-severe
+2,0,'airline transport pilot licence',47,16700,7,141,58,non-severe
+8,1,'private pilot licence',71,378,228,8,8,non-severe
+30,0,'private pilot licence',29,398,93,3,3,severe
+25,1,'private pilot licence',61,371,10,3,1,non-severe
+43,0,'private pilot licence',23,106,73,13,4,non-severe
+6,1,'private pilot licence',66,404,234,8,6,non-severe
+44,1,'private pilot licence',51,275,28,37,28,non-severe
+46,0,student,30,32,0,32,20,severe
+7,0,'airline transport pilot licence',48,6219,13,13,13,non-severe
+33,1,'airline transport pilot licence',51,10000,3000,183,78,non-severe
+38,0,'private pilot licence',42,137,13,10,3,non-severe
+34,0,'private pilot licence',57,521,426,1,0,non-severe
+13,0,'private pilot licence',51,3000,398,45,35,non-severe
+37,0,'private pilot licence',56,612,6,5,5,non-severe
+34,0,student,61,28,28,7,3,non-severe
+34,0,'airline transport pilot licence',56,1430,21,50,20,non-severe
+3,1,'private pilot licence',69,1490,130,20,7,non-severe
+6,0,'airline transport pilot licence',59,4015,172,24,6,non-severe
+32,0,'private pilot licence',51,3665,1500,28,12,non-severe
+71,0,'private pilot licence',56,409,258,12,2,non-severe
+57,0,'private pilot licence',76,518,22,1,1,non-severe
+53,0,'private pilot licence',69,1391,37,6,1,non-severe
+5,1,'private pilot licence',71,235,141,7,2,non-severe
+31,0,'private pilot licence',51,223,75,7,4,non-severe
+31,1,'private pilot licence',36,129,7,23,8,severe
+3,1,'private pilot licence',52,1420,4,15,10,non-severe
+48,0,'private pilot licence',56,721,470,7,0,non-severe
+58,0,'private pilot licence',48,160,68,17,3,non-severe
+52,0,'private pilot licence',55,345,55,11,2,non-severe
+5,0,'private pilot licence',42,650,150,20,10,non-severe
+16,0,'private pilot licence',44,665,45,26,11,non-severe
+11,0,'private pilot licence',81,3245,3235,17,0,non-severe
+55,0,'private pilot licence',71,757,73,14,8,non-severe
+19,0,'private pilot licence',60,2203,142,56,15,non-severe
+33,0,'private pilot licence',43,112,112,8,7,non-severe
+7,2,'airline transport pilot licence',52,2299,870,37,15,non-severe
+30,1,'private pilot licence',49,274,74,12,11,severe
+49,0,'private pilot licence',68,613,61,13,9,severe
+28,1,'private pilot licence',50,161,69,13,8,non-severe
+52,0,'private pilot licence',49,463,203,9,5,non-severe
+52,1,'private pilot licence',44,88,8,0,0,severe
+37,2,'private pilot licence',24,130,3,5,4,non-severe
+36,0,student,44,21,21,21,10,non-severe
+31,0,'private pilot licence',65,360,100,30,5,severe
+3,0,'private pilot licence',41,110,6,15,8,non-severe
+21,0,'private pilot licence',67,5088,4958,67,24,non-severe
+10,0,'private pilot licence',53,210,120,3,2,non-severe
+5,1,'private pilot licence',62,114,36,4,1,non-severe
+47,1,'private pilot licence',62,1150,500,10,2,non-severe
+35,1,'private pilot licence',53,87,87,19,7,non-severe
+0,1,'airline transport pilot licence',56,6500,40,28,19,non-severe
+37,1,'private pilot licence',65,81,81,7,3,non-severe
+6,1,'private pilot licence',55,1172,498,23,18,non-severe
+54,0,'private pilot licence',63,511,472,0,0,non-severe
+31,0,'airline transport pilot licence',50,10440,150,135,45,severe
+69,1,'airline transport pilot licence',53,3317,2006,21,8,non-severe
+33,0,'private pilot licence',62,99,6,7,5,non-severe
+70,1,'airline transport pilot licence',57,22100,13,168,44,severe
+73,0,'private pilot licence',47,624,464,30,21,severe
+3,1,'private pilot licence',62,596,202,30,10,non-severe
+32,1,'private pilot licence',67,274,220,14,5,non-severe
+59,1,'airline transport pilot licence',70,2400,57,10,5,non-severe
+7,0,student,24,46,41,33,12,non-severe
+50,1,'private pilot licence',49,196,2,3,2,non-severe
+71,0,'airline transport pilot licence',57,22000,54,49,17,non-severe
+40,1,'private pilot licence',51,544,242,37,16,severe
+3,0,'private pilot licence',55,129,6,5,1,non-severe
+3,0,'private pilot licence',68,4728,2,16,8,non-severe
+19,0,'airline transport pilot licence',52,16954,146,235,54,non-severe
+72,0,'private pilot licence',78,3200,1067,2,1,severe
+7,1,'private pilot licence',74,1312,18,18,7,severe
+7,1,'private pilot licence',56,906,260,9,3,non-severe
+23,0,'airline transport pilot licence',26,840,642,158,47,non-severe
+35,1,'private pilot licence',41,593,32,11,6,non-severe
+2,0,'private pilot licence',68,699,165,9,4,non-severe
+8,1,'private pilot licence',60,1325,7,19,6,non-severe
+10,1,'private pilot licence',66,195,28,8,3,non-severe
+38,1,'private pilot licence',61,101,35,4,1,severe
+65,1,'private pilot licence',70,1887,1783,7,7,non-severe
+89,0,'airline transport pilot licence',52,14780,1,151,56,severe
+0,1,'private pilot licence',72,2566,50,30,12,non-severe
+40,3,'airline transport pilot licence',65,7762,233,32,15,non-severe
+13,1,'private pilot licence',69,527,55,6,1,non-severe
+4,0,'private pilot licence',63,235,52,4,1,non-severe
+65,1,'private pilot licence',41,71,0,8,2,non-severe
+41,1,'private pilot licence',70,281,106,6,2,non-severe
+39,1,'private pilot licence',17,75,75,6,2,severe
+58,1,'private pilot licence',65,186,18,6,3,severe
+13,1,'private pilot licence',45,309,255,9,5,severe
+4,0,'private pilot licence',51,590,13,17,13,severe
+40,0,'airline transport pilot licence',56,1798,26,83,16,non-severe
+33,0,'private pilot licence',50,308,10,6,3,non-severe
+6,1,'private pilot licence',64,160,35,5,2,non-severe
+73,0,'private pilot licence',68,15093,23,44,20,non-severe
+17,1,'private pilot licence',53,243,40,2,0,severe
+8,0,'private pilot licence',64,358,205,4,1,non-severe
+19,0,'private pilot licence',44,199,7,15,5,non-severe
+14,0,'private pilot licence',56,1041,9,18,11,non-severe
+1,1,'private pilot licence',61,678,76,11,4,non-severe
+18,0,student,18,11,11,11,11,non-severe
+16,1,'private pilot licence',55,270,10,8,6,non-severe
+31,1,'private pilot licence',51,97,51,6,2,severe
+5,0,'airline transport pilot licence',48,12713,750,112,53,non-severe
+35,0,'private pilot licence',59,1553,100,15,9,non-severe
+15,1,'private pilot licence',51,577,13,4,4,non-severe
+30,0,'private pilot licence',53,970,67,9,5,non-severe
+13,0,student,40,20,2,5,3,non-severe
+19,1,'private pilot licence',52,66,14,13,5,non-severe
+38,0,'airline transport pilot licence',79,21760,5000,40,16,non-severe
+5,0,'private pilot licence',67,218,71,3,3,severe
+32,0,'private pilot licence',63,346,284,1,1,non-severe
+31,0,student,49,34,31,5,5,severe
+11,0,'airline transport pilot licence',48,903,1,43,26,severe
+31,1,'private pilot licence',53,211,48,5,1,non-severe
+36,0,'private pilot licence',39,589,175,4,2,non-severe
+20,0,'private pilot licence',72,1271,11,4,1,non-severe
+31,1,'private pilot licence',49,168,34,2,1,severe
+31,0,'airline transport pilot licence',59,8630,4000,118,33,non-severe
+31,0,'private pilot licence',64,320,60,12,6,non-severe
+31,2,'private pilot licence',67,218,82,12,5,non-severe
+34,1,'airline transport pilot licence',44,3894,1045,58,18,non-severe
+34,3,'airline transport pilot licence',51,1458,686,27,12,non-severe
+34,0,'private pilot licence',64,110,96,4,1,non-severe
+69,1,'private pilot licence',38,370,2,4,4,severe
+30,0,'private pilot licence',47,290,64,1,1,non-severe
+7,1,'private pilot licence',78,2759,113,9,1,non-severe
+33,1,'airline transport pilot licence',74,9953,1630,36,11,non-severe
+44,1,'private pilot licence',66,202,50,2,1,severe
+23,3,'private pilot licence',63,388,380,6,1,severe
+39,1,'private pilot licence',44,374,12,31,13,severe
+1,0,'private pilot licence',78,6000,3,15,4,severe
+35,0,'private pilot licence',41,349,138,38,3,non-severe
+49,0,'private pilot licence',64,296,63,3,1,severe
+53,0,'private pilot licence',70,676,433,2,1,severe
+33,1,'private pilot licence',79,150,150,3,1,severe
+13,0,'private pilot licence',52,324,100,20,9,non-severe
+36,2,'private pilot licence',58,629,437,33,18,non-severe
+39,1,'private pilot licence',35,203,127,8,4,non-severe
+34,0,'private pilot licence',63,1600,1000,5,1,non-severe
+11,1,'private pilot licence',62,389,150,13,4,non-severe
+10,0,'airline transport pilot licence',58,11311,80,24,13,non-severe
+30,0,'private pilot licence',42,922,692,11,1,non-severe
+10,1,'private pilot licence',57,1252,246,7,3,non-severe
+36,0,'private pilot licence',42,443,384,17,1,non-severe
+71,0,'airline transport pilot licence',58,928,8,84,20,non-severe
+43,0,'private pilot licence',69,8583,6000,80,24,severe
+16,1,'private pilot licence',35,78,18,21,11,non-severe
+35,0,'private pilot licence',43,198,22,7,2,non-severe
+46,2,'airline transport pilot licence',67,14328,14,98,25,non-severe
+71,1,'airline transport pilot licence',47,350,131,29,20,non-severe
+65,0,'private pilot licence',75,282,129,9,5,severe
+12,5,'private pilot licence',56,520,66,5,2,non-severe
+71,1,'airline transport pilot licence',47,349,130,28,19,non-severe
+1,0,'private pilot licence',48,178,22,12,3,severe
+33,0,'airline transport pilot licence',37,1820,223,108,35,non-severe
+28,1,'private pilot licence',31,72,72,5,5,non-severe
+50,0,'airline transport pilot licence',59,12553,50,24,16,non-severe
+59,0,'private pilot licence',65,288,5,5,3,non-severe
+12,0,'private pilot licence',63,820,10,17,5,non-severe
+3,1,'private pilot licence',50,203,19,6,2,severe
+37,0,student,38,70,70,5,4,non-severe
+69,1,'airline transport pilot licence',49,7155,38,101,35,non-severe
+36,0,student,36,32,32,32,13,non-severe
+40,1,'private pilot licence',62,21500,560,67,25,non-severe
+46,0,'private pilot licence',29,934,400,44,29,non-severe
+0,1,'private pilot licence',67,1551,43,21,9,non-severe
+6,0,'airline transport pilot licence',39,9815,52,173,61,non-severe
+30,0,student,60,59,55,24,4,non-severe
+1,1,'private pilot licence',55,2821,70,29,7,non-severe
+44,0,'private pilot licence',67,620,368,9,2,severe
+47,3,'airline transport pilot licence',59,10400,2000,24,12,non-severe
+40,1,'airline transport pilot licence',59,506,55,5,1,severe
+44,0,'private pilot licence',56,249,100,15,6,non-severe
+44,0,'private pilot licence',44,290,22,0,0,non-severe
+53,0,'private pilot licence',56,1035,900,27,3,non-severe
+33,1,'private pilot licence',75,733,534,27,10,non-severe
+48,0,'airline transport pilot licence',56,15630,248,198,67,non-severe
+36,0,'private pilot licence',64,418,253,12,2,non-severe
+65,0,'airline transport pilot licence',60,9870,3,55,10,non-severe
+6,1,'airline transport pilot licence',45,470,96,20,9,non-severe
+33,1,'private pilot licence',59,426,302,3,1,severe
+48,0,'private pilot licence',69,111,15,9,4,non-severe
+29,2,'private pilot licence',21,86,15,3,3,non-severe
+31,0,'private pilot licence',76,350,150,12,4,non-severe
+1,1,'airline transport pilot licence',50,238,6,15,8,non-severe
+68,0,'private pilot licence',55,943,45,4,1,non-severe
+42,0,'private pilot licence',58,150,27,16,1,non-severe
+70,0,'private pilot licence',62,186,18,18,8,non-severe
+12,0,'private pilot licence',75,352,21,7,1,non-severe
+31,0,'airline transport pilot licence',48,4144,660,136,53,non-severe
+26,1,'private pilot licence',51,280,102,7,3,non-severe
+26,0,'airline transport pilot licence',53,1170,36,6,6,non-severe
+42,0,'private pilot licence',78,1338,928,6,2,non-severe
+44,0,'airline transport pilot licence',51,14500,12,160,57,severe
+26,0,'private pilot licence',52,276,19,18,8,non-severe
+31,0,'private pilot licence',27,106,31,10,4,non-severe
+30,0,student,40,43,43,6,2,non-severe
+25,0,'private pilot licence',56,379,8,4,4,non-severe
+12,1,'private pilot licence',68,1297,200,30,13,non-severe
+34,0,student,48,22,22,5,2,non-severe
+14,0,'private pilot licence',52,385,4,9,4,severe
+1,1,'private pilot licence',36,2225,31,58,11,non-severe
+26,0,'private pilot licence',50,367,122,22,7,non-severe
+5,0,'private pilot licence',53,885,495,26,13,non-severe
+75,1,'private pilot licence',71,22994,524,27,9,non-severe
+1,0,'private pilot licence',53,117,33,15,11,non-severe
+33,4,'private pilot licence',32,195,57,14,14,severe
+65,1,'private pilot licence',70,640,310,2,0,non-severe
+7,0,'private pilot licence',78,809,366,8,4,non-severe
+26,1,'airline transport pilot licence',26,972,527,73,33,non-severe
+71,1,'private pilot licence',44,210,41,3,2,severe
+9,0,'private pilot licence',63,591,93,11,6,severe
+8,1,'private pilot licence',64,1912,89,23,15,non-severe
+45,1,'private pilot licence',58,91,63,8,2,severe
+21,0,'private pilot licence',43,673,66,20,10,severe
+17,0,student,19,25,4,4,4,non-severe
+17,0,'private pilot licence',68,750,13,0,0,non-severe
+42,0,'private pilot licence',62,681,377,7,6,non-severe
+11,0,'private pilot licence',63,730,1,4,4,non-severe
+10,1,'private pilot licence',53,141,36,10,5,non-severe
+40,1,'airline transport pilot licence',44,2060,71,36,6,non-severe
+14,0,'private pilot licence',61,110,110,16,4,non-severe
+1,0,student,30,18,7,7,4,non-severe
+21,0,'private pilot licence',54,826,60,5,4,non-severe
+35,0,'private pilot licence',48,117,36,5,2,non-severe
+33,1,'private pilot licence',37,144,118,2,2,severe
+42,0,'private pilot licence',77,982,187,7,6,non-severe
+32,0,student,50,22,22,21,6,non-severe
+30,0,'private pilot licence',74,2900,1500,9,4,non-severe
+27,0,student,52,80,10,8,2,non-severe
+43,0,'private pilot licence',40,298,28,6,2,non-severe
+30,0,'airline transport pilot licence',55,1615,400,22,7,severe
+42,0,'private pilot licence',74,461,64,3,3,non-severe
+53,0,'private pilot licence',73,1138,687,3,1,severe
+54,0,'private pilot licence',59,638,0,0,0,non-severe
+32,0,'airline transport pilot licence',71,14500,6000,77,40,non-severe
+33,0,'airline transport pilot licence',62,405,98,6,4,non-severe
+4,0,'private pilot licence',55,101,1,6,1,non-severe
+13,3,'private pilot licence',44,84,4,8,6,non-severe
+45,1,'airline transport pilot licence',52,14800,75,257,99,non-severe
+49,0,'private pilot licence',51,394,243,3,1,non-severe
+71,0,'private pilot licence',76,3509,1047,3,1,non-severe
+24,0,'private pilot licence',53,118,118,2,1,non-severe
+37,0,student,50,34,34,17,7,non-severe
+13,0,'private pilot licence',60,2085,245,6,1,non-severe
+19,2,'private pilot licence',46,379,314,12,1,non-severe
+63,0,'private pilot licence',61,3388,93,4,2,non-severe
+42,0,student,50,12,12,7,1,severe
+31,0,'private pilot licence',66,266,100,4,1,severe
+19,0,'private pilot licence',74,598,271,5,2,non-severe
+32,0,'airline transport pilot licence',36,993,945,20,10,non-severe
+28,1,'private pilot licence',57,1471,500,15,1,non-severe
+29,0,'airline transport pilot licence',41,800,387,70,16,severe
+13,1,'private pilot licence',28,269,160,55,18,severe
+3,1,'private pilot licence',72,387,35,0,0,non-severe
+54,0,'private pilot licence',47,1148,142,30,9,non-severe
+40,0,'private pilot licence',52,4430,200,1,1,non-severe
+21,0,'airline transport pilot licence',72,22570,1,71,21,non-severe
+4,0,'airline transport pilot licence',42,9500,838,270,92,non-severe
+32,0,'private pilot licence',59,149,59,7,5,non-severe
+2,0,'private pilot licence',33,245,86,22,9,non-severe
+2,1,'private pilot licence',52,1056,43,56,13,non-severe
+68,1,'private pilot licence',45,481,187,23,10,non-severe
+56,0,'private pilot licence',66,1197,113,8,5,non-severe
+77,1,'private pilot licence',46,3800,2,32,10,non-severe
+50,1,'private pilot licence',74,340,20,18,4,severe
+70,0,'private pilot licence',63,207,47,11,7,non-severe
+35,0,student,16,44,44,9,3,non-severe
+5,1,'private pilot licence',70,608,65,11,2,non-severe
+37,1,'private pilot licence',49,571,533,54,12,severe
+26,0,student,43,37,23,7,3,non-severe
+5,0,'private pilot licence',64,1896,140,26,12,non-severe
+45,0,'private pilot licence',51,113,7,9,6,non-severe
+22,0,'private pilot licence',50,3538,2500,101,34,non-severe
+35,0,student,20,18,18,6,6,non-severe
+4,1,'private pilot licence',50,180,109,10,4,severe
+30,2,'airline transport pilot licence',48,1150,150,75,45,non-severe
+11,0,'private pilot licence',53,160,13,8,4,non-severe
+52,0,'private pilot licence',66,320,96,10,2,non-severe
+5,1,'private pilot licence',64,818,148,13,11,non-severe
+18,1,'private pilot licence',54,408,22,14,3,non-severe
+0,0,'private pilot licence',57,5081,8,17,7,non-severe
+38,0,'private pilot licence',61,89,17,6,2,severe
+75,0,'private pilot licence',50,450,97,4,3,non-severe
+18,0,'private pilot licence',40,251,103,7,3,severe
+29,0,'private pilot licence',68,670,369,5,0,non-severe
+58,1,'private pilot licence',49,334,56,14,3,severe
+2,0,'private pilot licence',57,141,81,3,1,non-severe
+43,0,'private pilot licence',43,686,597,24,13,non-severe
+19,1,'private pilot licence',50,325,246,14,6,severe
+30,0,student,17,13,13,13,13,non-severe
+9,0,'airline transport pilot licence',68,11748,6636,45,21,non-severe
+37,1,'private pilot licence',68,345,283,5,5,non-severe
+32,0,'private pilot licence',61,675,511,2,0,non-severe
+10,0,'private pilot licence',55,188,20,4,4,non-severe
+29,0,'private pilot licence',72,253,159,1,0,non-severe
+42,2,'airline transport pilot licence',53,12895,445,47,1,non-severe
+31,0,'private pilot licence',78,24350,30,4,1,non-severe
+44,0,'private pilot licence',62,1571,82,16,7,non-severe
+12,1,'private pilot licence',67,1235,200,25,15,non-severe
+29,0,'private pilot licence',53,125,80,9,6,non-severe
+5,1,'airline transport pilot licence',38,2276,58,107,40,severe
+37,1,'private pilot licence',46,284,10,6,1,non-severe
+21,0,'private pilot licence',37,405,81,6,1,non-severe
+41,2,'private pilot licence',68,1432,118,43,13,non-severe
+4,1,'private pilot licence',69,776,88,4,4,non-severe
+1,0,'private pilot licence',64,155,10,11,5,non-severe
+32,3,'private pilot licence',20,59,8,2,2,non-severe
+8,0,'private pilot licence',43,212,20,4,2,non-severe
+5,0,'private pilot licence',46,464,258,19,6,severe
+63,1,'private pilot licence',48,428,5,5,5,non-severe
+53,0,'private pilot licence',69,960,879,9,6,severe
+20,0,'airline transport pilot licence',40,9676,140,138,17,non-severe
+32,0,'private pilot licence',38,193,138,1,0,non-severe
+36,1,'private pilot licence',71,389,356,8,7,non-severe
+67,0,'airline transport pilot licence',63,15912,170,10,7,non-severe
+25,0,'private pilot licence',57,260,238,1,0,severe
+11,0,'private pilot licence',57,216,15,2,2,non-severe
+63,0,'private pilot licence',54,111,37,19,10,non-severe
+8,0,'private pilot licence',77,2010,220,5,4,non-severe
+37,0,'private pilot licence',66,808,2,2,2,non-severe
+7,1,'private pilot licence',55,398,180,14,5,severe
+25,0,'private pilot licence',37,412,56,9,7,severe
+18,0,'private pilot licence',59,1182,14,2,2,severe
+34,0,'private pilot licence',73,5323,45,7,3,non-severe
+16,1,'airline transport pilot licence',56,1983,327,36,13,non-severe
+1,1,'private pilot licence',51,400,15,45,10,severe
+12,0,'private pilot licence',30,380,35,20,7,severe
+24,0,'private pilot licence',24,77,1,6,5,non-severe
+5,0,'airline transport pilot licence',25,1213,70,17,2,severe
+27,0,'private pilot licence',49,498,133,12,8,severe
+32,0,'private pilot licence',65,1806,1300,19,7,non-severe
+40,1,'private pilot licence',55,204,83,5,4,non-severe
+57,0,'airline transport pilot licence',54,22000,2,180,60,severe
+46,0,'airline transport pilot licence',26,421,29,54,27,severe
+20,0,'private pilot licence',77,543,438,2,0,non-severe
+42,1,'airline transport pilot licence',45,10500,22,81,40,non-severe
+43,0,student,33,46,17,2,2,non-severe
+11,0,'private pilot licence',79,227,129,3,1,non-severe
+35,0,'private pilot licence',69,4572,4,3,1,non-severe
+5,1,'private pilot licence',57,915,330,16,8,non-severe
+28,0,'private pilot licence',46,351,10,11,1,non-severe
+40,0,'airline transport pilot licence',48,2975,132,11,5,severe
+17,0,'private pilot licence',64,658,0,0,0,severe
+14,0,'airline transport pilot licence',21,627,3,62,17,non-severe
+34,2,'private pilot licence',70,132,3,5,1,non-severe
+28,0,'private pilot licence',42,144,85,2,0,non-severe
+20,0,'private pilot licence',62,593,72,7,1,non-severe
+30,0,'airline transport pilot licence',47,7000,600,60,22,non-severe
+27,0,student,38,48,47,4,3,severe
+28,0,'private pilot licence',19,106,106,13,1,non-severe
+3,0,student,51,55,55,15,5,non-severe
+2,1,'private pilot licence',62,975,315,25,1,non-severe
+0,0,'private pilot licence',70,856,0,14,4,severe
+4,0,'private pilot licence',48,1044,110,15,3,non-severe
+35,0,student,48,38,33,36,21,non-severe
+33,0,'private pilot licence',63,806,324,7,5,non-severe
+36,0,'airline transport pilot licence',26,460,180,150,40,severe
+37,0,'private pilot licence',59,756,620,20,13,non-severe
+6,0,'private pilot licence',75,452,209,2,1,non-severe
+41,1,'private pilot licence',63,200,46,22,8,non-severe
+50,0,'private pilot licence',53,2591,320,31,14,non-severe
+30,1,'private pilot licence',59,1606,120,25,6,non-severe
+28,0,student,45,44,44,6,2,non-severe
+39,3,'private pilot licence',80,6866,1608,3,1,non-severe
+4,0,student,37,34,7,7,7,non-severe
+6,0,student,64,44,8,15,3,non-severe
+28,0,student,38,29,29,13,4,severe
+36,0,'private pilot licence',52,94,94,7,3,non-severe
+31,1,'private pilot licence',45,428,13,50,11,non-severe
+36,0,'private pilot licence',55,858,756,21,7,severe
+28,0,student,56,59,20,9,5,non-severe
+3,0,'private pilot licence',73,20300,3,9,2,non-severe
+59,1,'private pilot licence',60,299,55,4,3,severe
+56,1,'private pilot licence',61,870,705,3,1,severe
+7,0,student,16,30,4,5,2,non-severe
+46,0,'private pilot licence',62,376,150,12,4,non-severe
+32,1,'private pilot licence',53,110,4,6,2,non-severe
+33,1,'airline transport pilot licence',55,3645,1370,50,29,non-severe
+43,1,'private pilot licence',74,403,303,4,2,severe
+34,0,'private pilot licence',65,186,15,3,3,severe
+0,0,'private pilot licence',67,320,42,4,3,non-severe
+13,0,'private pilot licence',57,275,21,0,0,non-severe
+63,1,'private pilot licence',57,518,326,12,3,non-severe
+0,0,'private pilot licence',44,1007,15,38,12,non-severe
+30,1,'private pilot licence',55,143,63,11,6,non-severe
+7,0,'airline transport pilot licence',53,11500,2,90,40,non-severe
+72,0,'airline transport pilot licence',37,9000,100,150,42,non-severe
+40,0,'airline transport pilot licence',59,12000,14,13,7,non-severe
+32,3,'private pilot licence',59,875,640,12,6,severe
+35,1,'airline transport pilot licence',35,8887,350,173,96,severe
+31,1,'private pilot licence',61,567,344,20,9,non-severe
+33,0,'private pilot licence',53,805,136,0,0,non-severe
+32,0,student,59,88,70,13,4,severe
+0,1,'private pilot licence',56,112,15,35,9,severe
+2,1,'private pilot licence',57,57,24,10,5,non-severe
+72,0,'private pilot licence',64,232,1,14,3,non-severe
+9,0,'private pilot licence',47,531,1,7,2,severe
+14,1,'private pilot licence',71,953,784,4,2,non-severe
+52,0,'private pilot licence',69,732,600,4,1,non-severe
+43,0,'private pilot licence',39,106,14,31,4,non-severe
+3,0,'airline transport pilot licence',82,13050,90,43,18,non-severe
+22,0,'private pilot licence',57,536,2,8,2,severe
+46,0,'private pilot licence',52,102,27,10,3,non-severe
+31,5,'private pilot licence',39,97,9,35,11,non-severe
+2,1,'private pilot licence',54,804,28,9,5,non-severe
+16,2,'private pilot licence',66,1145,1145,12,2,non-severe
+67,1,'airline transport pilot licence',51,14408,53,171,46,non-severe
+27,2,'private pilot licence',72,243,12,4,3,non-severe
+2,0,'private pilot licence',56,2941,0,3,0,non-severe
+46,0,student,45,60,59,8,3,non-severe
+53,1,'airline transport pilot licence',62,17820,100,153,55,non-severe
+31,0,'private pilot licence',52,311,95,5,1,non-severe
+38,0,'airline transport pilot licence',51,11587,4100,82,31,non-severe
+2,1,'private pilot licence',61,1017,717,11,7,severe
+8,1,'private pilot licence',51,158,12,12,12,non-severe
+54,0,'airline transport pilot licence',74,13750,150,11,2,severe
+7,0,'private pilot licence',62,118,14,7,3,non-severe
+66,0,'private pilot licence',50,1837,80,7,4,non-severe
+6,0,'private pilot licence',79,22,22,1,0,non-severe
+25,0,'private pilot licence',49,2515,1439,25,12,non-severe
+29,2,'private pilot licence',54,130,55,4,2,non-severe
+52,0,'private pilot licence',74,530,174,4,2,non-severe
+15,0,'airline transport pilot licence',65,2594,2300,13,12,non-severe
+30,0,'private pilot licence',46,667,25,10,4,severe
+3,0,'private pilot licence',69,1160,857,12,2,severe
+26,0,'private pilot licence',48,1151,391,8,5,non-severe
+69,0,'airline transport pilot licence',62,6300,1010,48,28,non-severe
+12,0,'private pilot licence',78,442,92,4,2,non-severe
+36,0,'private pilot licence',31,59,14,15,15,non-severe
+17,0,'private pilot licence',60,469,8,3,0,severe
+45,2,'private pilot licence',59,301,71,12,6,non-severe
+10,0,student,45,35,25,25,12,non-severe
+29,0,student,43,49,9,21,9,non-severe
+49,2,'private pilot licence',53,1022,150,25,14,severe
+1,1,'private pilot licence',60,192,7,5,2,non-severe
+28,1,'airline transport pilot licence',34,2793,1165,172,60,non-severe
+31,0,'private pilot licence',64,1038,87,32,19,non-severe
+11,0,'private pilot licence',68,7633,68,34,17,non-severe
+57,0,'private pilot licence',61,395,72,12,7,severe
+38,0,'private pilot licence',55,138,99,3,2,non-severe
+33,0,'private pilot licence',65,3700,2177,12,7,non-severe
+33,1,'private pilot licence',51,526,145,6,4,severe
+51,0,'private pilot licence',45,200,14,12,1,non-severe
+44,1,'private pilot licence',66,711,475,1,0,severe
+6,0,'airline transport pilot licence',59,2150,110,8,2,severe
+35,0,'private pilot licence',61,797,669,9,2,non-severe
+31,0,student,53,44,44,23,7,non-severe
+5,1,'private pilot licence',48,1247,177,18,9,non-severe
+27,1,'private pilot licence',60,824,89,5,5,non-severe
+30,3,'private pilot licence',46,189,127,8,5,non-severe
+3,1,'private pilot licence',68,239,73,2,2,non-severe
+31,0,'private pilot licence',30,140,40,19,8,non-severe
+3,0,'airline transport pilot licence',37,747,25,33,11,severe
+2,0,'private pilot licence',39,167,10,3,1,severe
+30,0,'airline transport pilot licence',29,1321,483,147,46,non-severe
+35,0,'private pilot licence',75,515,245,2,1,non-severe
+27,1,'private pilot licence',34,115,50,12,4,non-severe
+19,0,'airline transport pilot licence',39,1145,50,4,4,non-severe
+2,1,'private pilot licence',62,179,7,11,6,non-severe
+52,0,'private pilot licence',49,247,63,1,0,non-severe
+20,1,'private pilot licence',66,339,47,15,9,non-severe
+30,1,'private pilot licence',61,274,102,19,12,severe
+2,0,'airline transport pilot licence',51,9600,22,61,23,non-severe
+21,2,'airline transport pilot licence',64,2038,1250,16,5,non-severe
+30,1,'airline transport pilot licence',45,1812,180,58,13,severe
+16,1,'private pilot licence',53,1400,3,5,3,non-severe
+31,1,'private pilot licence',71,303,32,2,1,non-severe
+24,1,'private pilot licence',47,225,225,16,7,severe
+7,2,'private pilot licence',66,670,102,5,3,non-severe
+63,0,'private pilot licence',63,261,159,21,8,non-severe
+36,0,student,27,44,43,9,3,non-severe
+29,1,'airline transport pilot licence',34,2654,1035,68,42,non-severe
+36,0,'private pilot licence',49,294,4,5,1,non-severe
+25,0,'airline transport pilot licence',73,15600,6000,40,20,non-severe
+3,0,'airline transport pilot licence',66,8920,290,19,18,non-severe
+29,3,'private pilot licence',68,360,260,4,4,non-severe
+31,0,'private pilot licence',46,472,43,7,3,non-severe
+21,1,'private pilot licence',50,317,59,1,1,non-severe
+64,1,'airline transport pilot licence',44,3514,24,65,14,non-severe
+53,2,'private pilot licence',43,239,14,14,5,severe
+40,1,'private pilot licence',51,640,12,10,7,severe
+11,0,student,54,14,4,2,2,non-severe
+3,0,'private pilot licence',69,242,95,1,1,severe
+27,0,'airline transport pilot licence',45,1923,1280,78,29,severe
+17,0,'private pilot licence',40,176,1,4,2,severe
+42,1,'private pilot licence',74,1044,630,11,2,non-severe
+1,1,'private pilot licence',52,217,13,6,2,non-severe
+31,0,'private pilot licence',63,1106,225,12,2,non-severe
+2,2,'private pilot licence',47,1315,62,38,10,severe
+1,0,'private pilot licence',50,1675,14,30,11,non-severe
+32,0,'private pilot licence',66,246,1,4,1,non-severe
+7,0,'private pilot licence',44,400,170,4,2,non-severe
+62,0,'private pilot licence',44,164,2,4,2,non-severe
+19,2,'private pilot licence',65,527,420,11,1,non-severe
+13,0,'private pilot licence',69,1100,99,8,1,non-severe
+30,0,'airline transport pilot licence',47,2684,965,87,39,non-severe
+0,1,'private pilot licence',20,218,61,53,16,severe
+28,1,'private pilot licence',49,2500,0,40,13,severe
+1,0,student,61,33,33,10,10,non-severe
+5,2,'airline transport pilot licence',61,2000,213,46,18,non-severe
+29,0,'private pilot licence',45,50,50,27,4,severe
+10,1,'private pilot licence',48,173,12,4,1,non-severe
+45,0,'private pilot licence',60,416,76,18,12,non-severe
+22,0,'private pilot licence',44,698,128,26,4,non-severe
+42,1,'private pilot licence',63,329,32,2,1,non-severe
+37,0,'private pilot licence',43,103,40,11,3,non-severe
+39,0,'private pilot licence',43,649,178,2,1,non-severe
+30,0,student,48,43,3,1,1,non-severe
+40,1,'private pilot licence',53,305,242,5,4,non-severe
+0,0,'private pilot licence',57,137,0,2,0,non-severe
+29,1,'private pilot licence',31,135,130,9,7,non-severe
+40,0,'private pilot licence',55,199,100,6,1,severe
+31,1,'private pilot licence',66,189,19,8,6,non-severe
+30,0,student,37,19,17,10,6,non-severe
+56,0,'private pilot licence',82,5500,273,11,2,non-severe
+65,0,'airline transport pilot licence',45,13000,8200,120,40,severe
+0,0,'private pilot licence',54,158,19,10,2,severe
+14,1,'airline transport pilot licence',43,9500,25,130,28,non-severe
+30,1,'airline transport pilot licence',63,8700,3500,118,39,non-severe
+35,1,'private pilot licence',69,483,350,9,4,non-severe
+12,0,'private pilot licence',56,957,689,34,10,non-severe
+41,2,'private pilot licence',51,798,447,23,7,severe
+4,1,'private pilot licence',74,185,86,10,4,severe
+5,0,student,34,17,17,9,1,non-severe
+33,1,'private pilot licence',50,380,5,5,5,non-severe
+41,3,'private pilot licence',46,141,20,9,3,severe
+9,0,'private pilot licence',55,589,125,7,1,non-severe
+29,1,'airline transport pilot licence',57,14502,60,50,15,severe
+27,0,student,37,20,20,20,8,non-severe
+32,0,'private pilot licence',53,432,144,4,1,non-severe
+37,0,student,46,114,60,5,5,non-severe
+63,0,'private pilot licence',56,1592,68,41,18,non-severe
+29,0,'airline transport pilot licence',65,14600,300,80,60,non-severe
+1,1,'private pilot licence',50,176,5,2,2,non-severe
+32,0,'private pilot licence',64,570,125,26,10,non-severe
+33,3,'private pilot licence',44,582,105,10,3,severe
+31,0,'airline transport pilot licence',55,798,420,55,19,non-severe
+20,0,'airline transport pilot licence',52,4637,772,182,56,non-severe
+41,0,'private pilot licence',48,355,85,195,19,non-severe
+62,0,'private pilot licence',56,1516,556,78,14,non-severe
+9,0,'private pilot licence',78,2693,108,18,6,severe
+11,0,'airline transport pilot licence',52,9738,174,137,47,severe
+62,1,'private pilot licence',61,204,120,30,8,severe
+28,3,'private pilot licence',65,3000,500,20,9,non-severe
+25,0,'airline transport pilot licence',39,992,16,91,27,non-severe
+9,1,'private pilot licence',61,429,322,5,2,non-severe
+12,0,'private pilot licence',47,133,21,0,0,non-severe
+24,0,'private pilot licence',67,871,440,41,16,severe
+53,0,'private pilot licence',54,1410,205,7,2,non-severe
+30,0,'private pilot licence',55,462,40,18,4,non-severe
+64,0,'airline transport pilot licence',56,13500,140,168,71,non-severe
+7,1,'airline transport pilot licence',52,17734,221,200,83,non-severe
+28,0,'private pilot licence',61,229,55,7,1,non-severe
+1,0,'private pilot licence',62,3500,93,50,30,non-severe
+20,0,'private pilot licence',48,1045,1,29,4,non-severe
+12,0,'airline transport pilot licence',51,1492,163,137,39,non-severe
+41,1,'private pilot licence',49,873,22,10,5,non-severe
+5,1,'private pilot licence',66,1640,14,16,10,non-severe
+3,1,'private pilot licence',61,790,280,11,4,non-severe
+7,1,'private pilot licence',55,340,18,16,2,severe
+35,0,'airline transport pilot licence',61,4828,239,20,8,non-severe
+32,3,'private pilot licence',59,595,226,34,2,non-severe
+42,0,student,31,50,37,22,22,severe
+33,0,'airline transport pilot licence',47,1975,302,28,4,non-severe
+31,0,'private pilot licence',50,392,155,18,14,non-severe
+11,1,'private pilot licence',38,134,70,33,12,non-severe
+26,0,'private pilot licence',54,326,70,4,1,non-severe
+2,1,'private pilot licence',76,1434,37,11,3,non-severe
+31,0,'private pilot licence',59,1273,1098,14,6,severe
+32,0,'airline transport pilot licence',53,12000,600,150,50,non-severe
+27,3,'private pilot licence',71,356,197,13,7,non-severe
+66,1,'private pilot licence',63,348,102,18,7,non-severe
+27,0,'private pilot licence',47,683,474,3,3,non-severe
+29,0,'private pilot licence',40,927,312,49,14,non-severe
+9,0,'private pilot licence',57,1224,657,31,8,severe
+1,1,'private pilot licence',63,136,16,7,4,non-severe
+28,2,'private pilot licence',55,572,32,19,8,severe
+51,1,'private pilot licence',41,195,37,13,6,non-severe
+3,1,'private pilot licence',61,417,47,26,4,severe
+22,0,'private pilot licence',49,308,156,7,3,non-severe
+57,0,'private pilot licence',73,240,64,8,6,severe
+4,1,'private pilot licence',60,260,106,8,7,non-severe
+66,1,'airline transport pilot licence',66,15748,29,16,11,non-severe
+36,0,'private pilot licence',67,1215,48,19,12,non-severe
+36,0,student,37,19,19,19,11,non-severe
+65,1,'private pilot licence',49,1147,80,10,8,non-severe
+26,1,'private pilot licence',72,351,15,3,0,non-severe
+60,1,'private pilot licence',48,888,3,16,6,non-severe
+1,1,'private pilot licence',60,238,1,1,1,non-severe
+3,0,'airline transport pilot licence',41,2599,705,29,9,non-severe
+13,1,'airline transport pilot licence',41,1716,204,119,47,severe
+29,2,'airline transport pilot licence',34,1500,1200,150,50,non-severe
+69,0,'private pilot licence',50,153,22,11,4,non-severe
+31,0,'airline transport pilot licence',45,2242,11,34,13,non-severe
+50,2,'private pilot licence',51,675,176,5,4,severe
+7,0,'private pilot licence',44,250,46,12,9,non-severe
+11,0,'private pilot licence',62,250,130,4,4,non-severe
+15,0,'airline transport pilot licence',50,2126,4,67,30,non-severe
+36,0,'airline transport pilot licence',48,6778,200,65,23,non-severe
+14,0,student,18,11,11,11,11,non-severe
+9,0,'airline transport pilot licence',28,201,106,10,0,non-severe
+1,0,'airline transport pilot licence',56,17643,1,6,2,non-severe
+77,1,'airline transport pilot licence',57,2442,1000,30,22,non-severe
+27,0,'private pilot licence',56,2500,1,8,3,non-severe
+24,1,'private pilot licence',44,249,249,6,6,non-severe
+30,0,'airline transport pilot licence',40,3664,1521,100,41,non-severe
+35,2,'private pilot licence',68,892,58,12,1,non-severe
+29,0,'private pilot licence',50,467,4,5,2,severe
+30,0,'private pilot licence',42,188,166,41,14,non-severe
+29,0,'private pilot licence',57,994,983,30,9,non-severe
+11,0,'private pilot licence',40,950,60,16,7,severe
+28,0,'private pilot licence',54,682,64,1,0,non-severe
+1,0,'private pilot licence',61,35,7,7,4,non-severe
+49,0,'private pilot licence',44,152,32,5,2,severe
+41,0,'private pilot licence',52,2366,1002,29,8,non-severe
+9,0,'airline transport pilot licence',34,7155,120,65,21,non-severe
+6,2,'private pilot licence',51,313,73,4,2,non-severe
+32,1,'private pilot licence',58,225,121,9,4,severe
+48,1,'private pilot licence',56,377,200,5,3,non-severe
+5,0,'private pilot licence',57,110,3,7,4,non-severe
+32,0,'private pilot licence',85,972,850,2,0,severe
+30,0,'private pilot licence',60,141,141,1,0,non-severe
+30,1,'private pilot licence',43,177,41,3,3,non-severe
+31,1,'airline transport pilot licence',38,9312,20,223,80,non-severe
+33,0,'airline transport pilot licence',50,3037,920,69,14,non-severe
+49,1,'private pilot licence',56,430,60,5,1,non-severe
+25,0,'airline transport pilot licence',39,5400,16,52,21,non-severe
+46,1,'private pilot licence',73,1152,310,14,0,non-severe
+11,0,'private pilot licence',65,310,130,11,2,severe
+43,3,'private pilot licence',67,129,50,6,4,non-severe
+32,2,'airline transport pilot licence',55,6500,500,30,10,non-severe
+6,0,student,20,15,15,1,1,non-severe
+23,1,'private pilot licence',48,254,80,1,0,severe
+4,0,'private pilot licence',44,188,23,16,5,non-severe
+43,0,'private pilot licence',50,524,65,31,1,non-severe
+19,0,'airline transport pilot licence',25,746,430,226,66,non-severe
+7,1,'private pilot licence',53,37,37,0,0,severe
+27,0,student,54,73,73,6,5,non-severe
+46,1,'private pilot licence',69,715,76,22,1,severe
+28,0,student,59,102,97,37,18,non-severe
+41,0,'private pilot licence',45,152,14,12,12,non-severe
+61,0,'private pilot licence',43,225,221,26,7,non-severe
+31,1,'private pilot licence',64,385,290,12,0,non-severe
+27,1,'private pilot licence',46,137,21,8,3,severe
+28,1,'private pilot licence',73,573,165,11,2,non-severe
+42,0,'private pilot licence',59,174,29,0,0,non-severe
+29,0,'airline transport pilot licence',30,887,467,50,21,non-severe
+28,0,'airline transport pilot licence',48,4279,1000,130,64,non-severe
+53,1,'private pilot licence',39,46,45,8,0,severe
+30,3,'airline transport pilot licence',28,1490,32,70,50,non-severe
+29,2,'airline transport pilot licence',45,2463,25,46,5,non-severe
+1,0,'private pilot licence',43,185,76,27,9,non-severe
+27,1,'private pilot licence',53,889,522,33,8,non-severe
+12,1,'private pilot licence',46,98,82,6,0,non-severe
+0,1,'private pilot licence',51,213,50,43,13,non-severe
+57,0,'private pilot licence',37,394,59,2,1,non-severe
+28,0,student,48,111,111,36,21,non-severe
+33,0,student,42,105,105,14,4,non-severe
+23,0,student,53,59,59,9,3,non-severe
+64,1,'airline transport pilot licence',30,3927,295,195,36,severe
+13,0,'private pilot licence',57,713,22,3,1,severe
+23,0,'private pilot licence',70,1004,181,20,2,non-severe
+22,1,'private pilot licence',78,932,82,10,4,non-severe
+39,0,'private pilot licence',53,648,1,6,1,non-severe
+1,1,'private pilot licence',59,32,18,15,10,non-severe
+19,0,'airline transport pilot licence',40,8000,10,140,60,non-severe
+5,0,'private pilot licence',66,1284,2,9,2,severe
+3,0,'private pilot licence',67,544,1,12,6,non-severe
+68,0,'private pilot licence',70,2254,234,7,2,non-severe
+42,2,'private pilot licence',43,158,24,11,6,severe
+40,1,'private pilot licence',62,1700,1450,31,14,non-severe
+7,1,'private pilot licence',38,37,37,8,2,severe
+8,3,'airline transport pilot licence',26,589,43,190,55,non-severe
+27,0,student,64,27,27,13,6,non-severe
+5,1,'private pilot licence',60,420,95,24,8,non-severe
+35,0,'airline transport pilot licence',47,3404,35,205,61,non-severe
+17,0,'private pilot licence',74,2708,2517,30,13,non-severe
+42,0,'private pilot licence',55,249,111,4,1,non-severe
+26,0,'private pilot licence',37,2219,165,98,37,non-severe
+43,0,'private pilot licence',74,1222,200,37,4,severe
+1,1,'private pilot licence',56,2318,302,75,22,non-severe
+4,1,'private pilot licence',34,150,13,5,2,severe
+30,1,'private pilot licence',42,810,202,20,4,non-severe
+40,3,'private pilot licence',48,687,143,12,6,severe
+10,0,'private pilot licence',71,274,140,3,3,non-severe
+18,1,'private pilot licence',62,980,0,0,0,non-severe
+8,0,'airline transport pilot licence',58,6900,156,70,39,non-severe
+3,0,'airline transport pilot licence',51,7315,3,114,42,non-severe
+28,2,'private pilot licence',71,262,74,3,1,non-severe
+45,2,'private pilot licence',59,11000,34,70,25,severe
+6,0,'private pilot licence',39,108,107,2,2,non-severe
+21,0,'private pilot licence',59,844,0,12,4,non-severe
+61,1,'private pilot licence',51,142,60,20,8,non-severe
+35,1,'private pilot licence',34,79,60,7,0,severe
+28,0,'private pilot licence',62,368,50,8,4,non-severe
+21,0,'private pilot licence',60,111,34,21,6,non-severe
+63,1,'private pilot licence',54,564,507,11,4,non-severe
+43,0,'private pilot licence',49,385,50,2,1,non-severe
+23,3,'private pilot licence',32,80,8,14,3,non-severe
+1,0,'private pilot licence',62,468,26,19,10,non-severe
+1,0,'private pilot licence',68,174,15,16,2,non-severe
+1,1,'private pilot licence',56,807,101,20,4,non-severe
+1,1,'private pilot licence',56,1450,90,87,32,non-severe
+11,1,'private pilot licence',66,1631,1054,17,8,severe
+12,1,'private pilot licence',80,602,500,4,2,non-severe
+24,0,'private pilot licence',32,87,67,7,7,non-severe
+11,0,'private pilot licence',67,1794,369,19,18,non-severe
+28,1,'private pilot licence',66,529,430,17,9,non-severe
+10,1,'private pilot licence',58,303,47,20,10,non-severe
+32,2,'private pilot licence',58,871,316,1,0,non-severe
+29,0,'private pilot licence',62,13357,104,7,5,non-severe
+28,0,'private pilot licence',60,304,57,6,4,non-severe
+33,0,'airline transport pilot licence',56,9740,2900,155,53,non-severe
+25,0,student,38,21,21,5,1,non-severe
+28,0,'airline transport pilot licence',28,400,163,84,21,non-severe
+13,0,'private pilot licence',56,1266,194,29,21,severe
+40,1,'airline transport pilot licence',64,10514,12,92,25,non-severe
+5,0,'airline transport pilot licence',53,10000,13,102,33,non-severe
+12,1,'private pilot licence',54,137,60,7,3,severe
+47,1,'private pilot licence',52,46,23,9,2,non-severe
+10,0,'private pilot licence',53,332,3,0,0,non-severe
+22,0,'private pilot licence',48,329,8,9,3,non-severe
+1,1,'private pilot licence',49,227,145,95,15,non-severe
+42,1,'private pilot licence',50,363,233,3,1,non-severe
+23,2,'private pilot licence',64,254,92,3,1,non-severe
+34,1,'private pilot licence',59,202,47,3,1,non-severe
+17,0,'private pilot licence',48,1522,400,14,3,severe
+26,2,'private pilot licence',64,150,21,4,3,severe
+29,1,'airline transport pilot licence',48,927,2,22,7,non-severe
+1,1,'airline transport pilot licence',38,588,8,34,19,non-severe
+42,0,student,69,31,31,11,3,non-severe
+1,0,student,68,50,50,10,5,non-severe
+4,0,'private pilot licence',51,298,233,8,4,non-severe
+1,1,'private pilot licence',72,20777,110,14,8,non-severe
+3,1,'private pilot licence',44,216,105,7,1,non-severe
+25,0,'private pilot licence',71,1000,70,7,4,non-severe
+1,1,'private pilot licence',59,368,34,6,3,non-severe
+1,0,'private pilot licence',52,73,3,3,2,severe
+33,3,'private pilot licence',60,238,64,11,6,non-severe
+40,1,'private pilot licence',26,110,105,4,4,severe
+9,1,'private pilot licence',64,950,56,27,7,non-severe
+28,0,'private pilot licence',38,108,7,8,0,non-severe
+28,1,'private pilot licence',70,1667,1095,20,5,non-severe
+3,1,'private pilot licence',61,14455,232,12,2,non-severe
+35,1,'airline transport pilot licence',49,780,127,111,33,non-severe
+15,1,'private pilot licence',47,934,125,15,12,severe
+32,0,'private pilot licence',31,215,9,8,1,severe
+28,0,'airline transport pilot licence',63,22300,140,110,25,severe
+36,0,'airline transport pilot licence',31,2100,1640,195,53,non-severe
+3,0,'private pilot licence',61,110,100,20,6,non-severe
+33,0,student,42,40,40,25,14,non-severe
+0,0,'airline transport pilot licence',38,8055,150,195,55,non-severe
+0,0,'private pilot licence',49,427,5,21,6,non-severe
+42,0,'private pilot licence',55,571,80,10,3,non-severe
+31,1,'private pilot licence',45,113,17,6,0,non-severe
+10,3,'private pilot licence',45,1527,20,79,21,non-severe
+16,1,'private pilot licence',52,151,13,22,12,non-severe
+2,1,'private pilot licence',48,377,95,5,1,non-severe
+27,1,'private pilot licence',45,411,334,18,5,non-severe
+27,1,'private pilot licence',71,534,335,9,2,severe
+6,0,'airline transport pilot licence',55,9486,2,100,50,non-severe
+35,0,'private pilot licence',31,250,112,12,2,non-severe
+12,0,'private pilot licence',60,228,111,3,3,non-severe
+46,0,'private pilot licence',79,7322,1269,15,8,non-severe
+8,0,'private pilot licence',56,653,510,12,6,non-severe
+28,1,'private pilot licence',61,167,71,32,7,non-severe
+20,0,'private pilot licence',52,300,25,4,0,severe
+0,1,'private pilot licence',63,196,55,30,13,non-severe
+32,1,'private pilot licence',57,423,203,14,5,non-severe
+27,1,'airline transport pilot licence',27,1520,1430,170,16,non-severe
+26,0,'airline transport pilot licence',43,762,327,78,31,severe
+28,1,'private pilot licence',60,116,114,12,6,severe
+4,0,'private pilot licence',59,258,43,23,6,non-severe
+39,1,'private pilot licence',47,105,9,10,3,non-severe
+24,1,'private pilot licence',74,810,169,7,4,severe
+24,0,'airline transport pilot licence',29,1489,1140,154,37,non-severe
+33,1,'airline transport pilot licence',30,318,177,65,24,non-severe
+35,0,'private pilot licence',70,410,28,1,0,severe
+20,1,'private pilot licence',44,113,12,1,1,non-severe
+34,0,'private pilot licence',46,300,5,45,5,non-severe
+5,1,'private pilot licence',72,2261,180,32,8,non-severe
+28,1,'private pilot licence',76,660,4,6,3,non-severe
+1,0,'private pilot licence',67,260,25,5,2,non-severe
+26,2,'private pilot licence',68,1590,691,21,9,non-severe
+18,1,'airline transport pilot licence',28,1019,800,44,25,severe
+20,0,'private pilot licence',60,901,286,19,7,non-severe
+29,0,'airline transport pilot licence',51,26000,160,250,80,non-severe
+28,1,'private pilot licence',53,189,1,10,3,severe
+25,0,'private pilot licence',68,1207,186,4,2,severe
+43,0,student,18,32,32,32,11,non-severe
+27,2,'private pilot licence',45,107,31,12,1,non-severe
+34,2,'private pilot licence',54,455,202,7,2,non-severe
+27,1,'airline transport pilot licence',52,4500,2000,240,70,non-severe
+46,2,'airline transport pilot licence',35,3770,1001,46,13,non-severe
+36,1,'private pilot licence',57,459,325,5,1,severe
+0,1,'private pilot licence',38,88,36,27,6,non-severe
+66,0,'private pilot licence',72,20000,30,8,4,non-severe
+28,3,'private pilot licence',63,1946,224,40,16,non-severe
+29,2,'private pilot licence',50,446,79,6,3,non-severe
+60,0,'private pilot licence',69,282,50,23,9,non-severe
+13,1,'private pilot licence',54,255,70,6,4,severe
+60,0,'private pilot licence',56,372,16,4,1,non-severe
+27,0,'airline transport pilot licence',59,19840,175,227,93,non-severe
+26,0,'airline transport pilot licence',67,20393,125,112,47,non-severe
+26,0,'airline transport pilot licence',35,1625,1050,97,40,non-severe
+15,0,'private pilot licence',56,597,550,18,3,non-severe
+50,3,'private pilot licence',42,90,10,3,0,non-severe
+27,0,'private pilot licence',25,84,11,17,4,non-severe
+6,0,'private pilot licence',50,380,1,19,7,non-severe
+59,1,'private pilot licence',40,155,11,6,1,non-severe
+27,1,'private pilot licence',61,232,18,4,2,non-severe
+18,0,'airline transport pilot licence',77,22000,34,5,5,non-severe
+57,0,'private pilot licence',69,760,30,12,10,non-severe
+25,1,'airline transport pilot licence',49,2500,34,8,2,severe
+34,1,'private pilot licence',60,308,26,22,3,non-severe
+2,1,'private pilot licence',57,394,29,5,1,severe
+36,0,student,42,40,40,8,4,non-severe
+34,0,student,16,15,15,7,4,severe
+28,3,'private pilot licence',52,516,11,12,4,non-severe
+9,1,'private pilot licence',53,241,110,3,3,severe
+49,1,'private pilot licence',61,485,21,19,8,non-severe
+47,0,'private pilot licence',54,2242,134,29,15,non-severe
+9,1,'private pilot licence',46,977,31,30,14,non-severe
+13,0,'private pilot licence',40,83,18,8,2,severe
+2,1,'airline transport pilot licence',52,17031,3,110,42,non-severe
+3,0,'private pilot licence',52,358,26,8,5,non-severe
+15,1,'airline transport pilot licence',60,24395,40,25,15,non-severe
+22,2,'private pilot licence',70,528,351,18,6,non-severe
+19,1,'private pilot licence',53,200,190,3,1,non-severe
+65,1,'private pilot licence',52,766,21,19,7,non-severe
+37,0,'private pilot licence',54,6000,40,5,3,non-severe
+31,0,'private pilot licence',64,1658,120,29,13,non-severe
+33,1,'airline transport pilot licence',52,1980,27,208,68,non-severe
+38,1,'private pilot licence',66,350,197,10,7,non-severe
+30,0,'private pilot licence',38,143,137,15,4,non-severe
+59,1,'private pilot licence',39,147,17,10,5,non-severe
+7,0,'private pilot licence',55,420,8,14,8,non-severe
+33,0,'private pilot licence',64,466,251,32,9,severe
+30,0,student,61,44,44,14,6,non-severe
+27,1,'private pilot licence',73,450,266,2,2,non-severe
+4,0,'airline transport pilot licence',43,5738,1,52,6,non-severe
+29,1,'airline transport pilot licence',42,904,500,49,21,non-severe
+27,0,'airline transport pilot licence',61,3506,131,136,56,non-severe
+2,0,'private pilot licence',43,178,52,1,0,non-severe
+33,0,'private pilot licence',32,613,9,101,24,non-severe
+7,0,'private pilot licence',60,89,80,4,0,non-severe
+48,1,'private pilot licence',71,827,357,12,3,non-severe
+22,0,student,33,32,32,17,7,non-severe
+6,3,'private pilot licence',67,1777,1760,34,16,non-severe
+6,0,'airline transport pilot licence',68,16000,250,14,11,non-severe
+4,0,'private pilot licence',68,679,171,9,4,non-severe
+29,0,'private pilot licence',55,342,31,3,0,non-severe
+33,1,'private pilot licence',42,431,7,13,9,severe
+33,1,'private pilot licence',57,359,237,8,5,severe
+6,1,'private pilot licence',66,555,532,14,5,non-severe
+28,1,'private pilot licence',38,304,94,11,1,non-severe
+34,1,'private pilot licence',65,656,642,6,3,severe
+25,0,'airline transport pilot licence',37,1025,524,123,30,severe
+30,1,'private pilot licence',42,82,11,2,1,non-severe
+27,0,student,40,40,37,13,5,non-severe
+20,1,'private pilot licence',24,96,19,27,22,non-severe
+8,1,'private pilot licence',59,742,145,17,8,non-severe
+25,1,'private pilot licence',35,76,71,6,1,non-severe
+6,0,'private pilot licence',46,280,4,8,1,severe
+18,0,'private pilot licence',74,1307,638,8,4,non-severe
+54,1,'private pilot licence',63,1125,1050,10,5,non-severe
+1,0,'airline transport pilot licence',39,5700,11,147,31,non-severe
+1,1,'private pilot licence',54,327,77,17,8,severe
+34,0,'airline transport pilot licence',35,485,90,22,7,non-severe
+41,1,'private pilot licence',58,158,27,1,1,non-severe
+42,1,'private pilot licence',48,294,46,7,2,non-severe
+28,0,student,24,20,20,7,5,non-severe
+52,0,'airline transport pilot licence',62,17081,1560,13,8,non-severe
+2,0,'private pilot licence',52,445,42,13,1,non-severe
+28,0,'private pilot licence',53,220,74,0,0,non-severe
+6,0,student,22,32,32,11,1,non-severe
+18,1,'private pilot licence',67,560,84,5,5,non-severe
+6,0,'private pilot licence',46,50,43,2,1,non-severe
+25,0,student,40,33,33,9,1,non-severe
+60,0,'private pilot licence',62,649,21,7,0,non-severe
+32,1,'private pilot licence',45,473,201,30,20,non-severe
+26,1,'private pilot licence',68,865,13,40,5,non-severe
+30,0,'private pilot licence',51,147,44,2,2,non-severe
+9,1,'private pilot licence',63,285,12,3,3,non-severe
+36,0,'private pilot licence',70,1927,219,6,4,non-severe
+56,1,'private pilot licence',46,775,103,5,4,non-severe
+21,0,'private pilot licence',34,1430,68,8,8,non-severe
+19,0,'airline transport pilot licence',41,2198,10,90,30,non-severe
+45,0,'private pilot licence',38,150,67,5,1,non-severe
+39,0,'private pilot licence',55,429,155,11,4,non-severe
+6,0,'private pilot licence',53,485,310,8,1,non-severe
+29,0,'private pilot licence',51,289,27,3,0,non-severe
+42,0,'private pilot licence',49,528,28,3,0,severe
+30,0,student,49,52,21,12,1,non-severe
+25,0,'airline transport pilot licence',67,10000,5000,29,14,non-severe
+11,1,'private pilot licence',42,106,1,1,1,non-severe
+32,0,'private pilot licence',38,315,315,0,0,non-severe
+1,1,'private pilot licence',43,660,65,60,25,non-severe
+41,0,student,62,85,84,13,5,non-severe
+20,1,'airline transport pilot licence',53,5729,1615,39,12,non-severe
+25,1,'private pilot licence',68,466,18,17,6,non-severe
+27,4,'private pilot licence',44,390,12,12,1,severe
+11,0,'private pilot licence',51,180,53,3,3,non-severe
+9,1,'private pilot licence',69,846,33,5,2,non-severe
+32,1,'private pilot licence',53,666,125,14,3,non-severe
+25,0,'private pilot licence',52,340,220,7,4,severe
+15,0,'private pilot licence',56,554,51,28,15,non-severe
+59,1,'airline transport pilot licence',46,15800,7,150,50,non-severe
+31,1,'private pilot licence',29,136,32,4,0,non-severe
+30,1,'private pilot licence',35,80,6,4,1,severe
+8,0,student,44,71,70,9,2,non-severe
+6,0,'private pilot licence',67,631,10,2,1,non-severe
+27,0,student,46,12,12,12,11,non-severe
+54,0,'private pilot licence',57,828,101,18,5,non-severe
+0,0,'private pilot licence',46,266,220,5,5,severe
+36,1,'private pilot licence',29,90,4,4,1,non-severe
+8,1,'private pilot licence',60,194,37,11,4,non-severe
+15,0,'private pilot licence',53,797,350,15,1,non-severe
+47,0,'airline transport pilot licence',48,12837,1,90,50,non-severe
+43,1,'private pilot licence',71,271,43,16,4,non-severe
+28,0,'private pilot licence',48,2400,150,40,15,non-severe
+16,0,'private pilot licence',53,251,4,48,14,non-severe
+27,1,'private pilot licence',55,204,169,9,2,severe
+6,0,'private pilot licence',67,934,196,23,8,severe
+5,0,'private pilot licence',42,480,290,60,45,severe
+23,0,'airline transport pilot licence',60,4451,0,39,18,severe
+29,1,'private pilot licence',33,824,400,140,49,severe
+33,0,'private pilot licence',29,264,149,19,6,non-severe
+1,0,'airline transport pilot licence',58,6692,420,125,31,non-severe
+7,0,'airline transport pilot licence',37,431,99,81,46,non-severe
+25,0,student,41,14,14,14,7,non-severe
+21,0,'private pilot licence',49,220,40,19,6,non-severe
+25,1,'private pilot licence',44,80,80,16,6,severe
+37,2,'private pilot licence',64,725,619,8,0,severe
+3,1,'private pilot licence',64,1085,415,46,7,non-severe
+38,0,'private pilot licence',79,1026,256,0,0,non-severe
+26,0,'airline transport pilot licence',38,813,514,169,54,non-severe
+40,0,'airline transport pilot licence',38,414,123,26,7,non-severe
+23,0,'private pilot licence',55,319,34,6,6,severe
+70,0,'airline transport pilot licence',59,2020,100,14,4,non-severe
+5,1,'private pilot licence',53,1059,290,9,7,severe
+29,1,'private pilot licence',43,470,119,36,9,non-severe
+38,0,'private pilot licence',60,1589,0,36,6,non-severe
+38,1,'private pilot licence',41,350,80,15,7,non-severe
+65,0,'airline transport pilot licence',49,2586,21,270,90,non-severe
+44,1,'private pilot licence',37,100,9,9,1,non-severe
+29,0,'private pilot licence',44,1024,250,21,8,non-severe
+33,1,'private pilot licence',54,415,321,13,4,severe
+1,0,'private pilot licence',60,300,13,3,0,non-severe
+29,0,'private pilot licence',51,142,42,12,4,non-severe
+72,1,'private pilot licence',61,289,107,9,2,severe
+50,0,'airline transport pilot licence',72,5224,1650,8,1,non-severe
+12,0,'private pilot licence',46,288,16,4,3,non-severe
+27,0,'airline transport pilot licence',56,12000,25,85,24,non-severe
+70,1,'private pilot licence',53,497,28,11,5,non-severe
+36,0,'airline transport pilot licence',25,373,170,127,69,severe
+27,0,'airline transport pilot licence',34,1200,840,90,70,severe
+29,0,'airline transport pilot licence',35,473,69,214,81,non-severe
+16,0,'private pilot licence',73,4704,650,40,16,non-severe
+9,1,'private pilot licence',51,2000,1000,50,20,non-severe
+1,0,'private pilot licence',71,696,13,11,5,severe
+25,1,'private pilot licence',52,260,140,5,5,non-severe
+4,1,'private pilot licence',36,107,35,7,1,non-severe
+59,1,'private pilot licence',69,247,129,5,3,severe
+9,0,'private pilot licence',61,345,73,6,3,non-severe
+44,0,'private pilot licence',62,581,2,19,3,severe
+29,1,'private pilot licence',44,599,337,4,3,non-severe
+11,0,'airline transport pilot licence',63,9572,4529,126,55,non-severe
+37,1,'airline transport pilot licence',48,6500,10,40,23,severe
+63,1,'airline transport pilot licence',72,18522,47,16,11,non-severe
+25,3,'airline transport pilot licence',33,492,6,49,20,severe
+10,1,'private pilot licence',64,405,113,10,3,non-severe
+36,0,'private pilot licence',62,135,5,5,1,severe
+7,0,'airline transport pilot licence',43,10149,115,221,49,severe
+11,0,'airline transport pilot licence',45,13650,130,220,0,non-severe
+32,1,'private pilot licence',65,800,450,19,12,non-severe
+30,1,'private pilot licence',63,1607,108,28,9,non-severe
+25,0,'private pilot licence',66,331,91,3,0,severe
+5,0,'private pilot licence',47,225,70,10,5,severe
+6,0,'private pilot licence',60,1400,200,25,15,severe
+20,0,'private pilot licence',50,450,17,60,22,non-severe
+63,0,'airline transport pilot licence',43,642,21,224,74,non-severe
+1,1,'private pilot licence',58,248,21,21,21,non-severe
+28,0,'private pilot licence',43,340,126,33,9,non-severe
+26,1,'private pilot licence',49,124,51,6,3,severe
+48,1,'private pilot licence',52,1283,479,11,6,non-severe
+32,0,student,52,24,24,9,4,non-severe
+26,0,'private pilot licence',49,910,770,19,5,non-severe
+6,0,'private pilot licence',74,2506,202,36,22,non-severe
+17,2,'private pilot licence',39,1052,42,92,43,severe
+17,0,student,35,59,53,15,5,severe
+1,0,'private pilot licence',59,577,30,16,8,non-severe
+20,0,'private pilot licence',62,945,340,25,17,severe
+3,0,'private pilot licence',51,298,16,18,9,non-severe
+13,1,'private pilot licence',38,135,135,21,8,severe
+5,0,'private pilot licence',41,636,30,7,7,non-severe
+4,0,'private pilot licence',76,609,78,4,2,non-severe
+8,0,'private pilot licence',69,13700,2,5,5,non-severe
+11,0,'airline transport pilot licence',32,815,8,129,24,severe
+3,1,'private pilot licence',41,454,41,28,10,non-severe
+60,0,'airline transport pilot licence',26,882,1,12,6,non-severe
+25,1,'private pilot licence',50,104,4,5,4,severe
+34,0,'private pilot licence',45,163,34,4,4,non-severe
+2,0,'private pilot licence',51,1364,1232,50,22,severe
+13,0,'private pilot licence',58,448,1,1,1,non-severe
+15,0,'airline transport pilot licence',59,6000,25,18,8,severe
+5,1,'private pilot licence',55,370,73,21,1,non-severe
+1,0,'private pilot licence',70,4831,15,9,6,non-severe
+31,0,'airline transport pilot licence',43,2400,1500,50,30,severe
+28,0,'private pilot licence',54,339,27,6,3,non-severe
+10,0,'private pilot licence',48,598,488,2,2,non-severe
+26,0,'airline transport pilot licence',37,2294,1613,140,51,non-severe
+26,3,'private pilot licence',45,274,51,10,5,severe
+7,1,'private pilot licence',53,350,303,8,3,non-severe
+14,1,'private pilot licence',78,3458,610,8,1,severe
+25,0,'private pilot licence',75,469,120,8,8,severe
+13,0,'private pilot licence',65,1712,375,2,1,severe
+33,0,'airline transport pilot licence',35,3173,15,100,42,non-severe
+45,0,'private pilot licence',50,253,4,4,4,severe
+4,0,'private pilot licence',71,624,33,3,1,severe
+30,0,'private pilot licence',22,82,18,30,14,non-severe
+17,0,'private pilot licence',43,63,63,0,0,non-severe
+16,0,'private pilot licence',73,1335,639,0,0,non-severe
+6,0,'private pilot licence',47,163,26,11,2,non-severe
+25,0,'airline transport pilot licence',71,16000,1979,83,26,non-severe
+27,1,'airline transport pilot licence',39,4451,1153,133,36,severe
+37,2,'private pilot licence',57,225,136,6,3,non-severe
+44,0,'airline transport pilot licence',66,8500,200,22,10,non-severe
+1,1,'private pilot licence',61,107,12,12,12,non-severe
+30,1,'private pilot licence',69,490,70,10,10,non-severe
+2,3,'private pilot licence',38,177,33,41,19,non-severe
+4,0,'private pilot licence',59,206,54,0,0,severe
+1,1,'private pilot licence',55,636,28,4,1,severe
+1,1,'airline transport pilot licence',43,6500,170,3,2,severe
+42,2,'private pilot licence',50,220,14,5,2,non-severe
+26,0,'private pilot licence',63,4000,2805,30,11,non-severe
+24,1,'private pilot licence',49,336,35,9,4,severe
+28,2,'private pilot licence',44,127,127,4,1,non-severe
+33,1,'airline transport pilot licence',40,510,411,16,8,non-severe
+20,0,'airline transport pilot licence',64,5724,3626,117,33,non-severe
+1,0,'private pilot licence',38,420,5,5,4,severe
+39,1,'private pilot licence',61,223,1,1,1,non-severe
+25,0,student,50,19,19,10,3,non-severe
+67,0,'airline transport pilot licence',68,8186,568,72,24,non-severe
+25,0,'airline transport pilot licence',49,3600,200,70,30,non-severe
+26,0,'private pilot licence',52,225,142,6,6,severe
+31,1,'private pilot licence',41,999,13,10,3,non-severe
+36,0,'private pilot licence',62,219,58,5,2,non-severe
+54,0,'private pilot licence',71,2471,310,4,3,non-severe
+28,0,student,19,25,25,10,2,non-severe
+25,0,student,34,43,43,12,2,non-severe
+41,1,'private pilot licence',72,181,181,4,0,severe
+4,0,'private pilot licence',46,858,24,22,7,non-severe
+24,1,'private pilot licence',60,165,10,6,2,non-severe
+20,0,'private pilot licence',51,316,26,8,1,non-severe
+24,1,'private pilot licence',75,540,533,5,3,severe
+54,0,'private pilot licence',62,2576,596,8,4,severe
+6,1,'airline transport pilot licence',53,4010,50,61,9,severe
+16,1,'private pilot licence',77,925,770,8,3,non-severe
+37,0,'private pilot licence',76,3000,1300,20,15,non-severe
+40,1,'private pilot licence',47,263,124,3,1,severe
+14,1,'private pilot licence',62,789,116,30,10,non-severe
+42,1,'private pilot licence',75,308,102,0,0,non-severe
+23,0,student,78,425,14,12,4,non-severe
+25,0,'private pilot licence',36,464,114,30,21,non-severe
+30,0,'airline transport pilot licence',22,1550,650,85,62,non-severe
+9,1,'private pilot licence',78,987,157,6,2,non-severe
+34,1,'private pilot licence',40,248,148,4,1,non-severe
+56,0,'private pilot licence',70,1000,150,5,3,non-severe
+56,1,'airline transport pilot licence',35,1720,250,234,86,severe
+13,0,'private pilot licence',45,783,311,40,3,severe
+25,2,'private pilot licence',31,1020,5,40,15,non-severe
+22,1,'private pilot licence',60,1250,160,19,5,severe
+3,1,'private pilot licence',35,460,100,33,13,non-severe
+25,1,'private pilot licence',49,336,138,24,9,non-severe
+15,1,'private pilot licence',39,1850,5,2,1,non-severe
+5,1,'private pilot licence',64,154,9,10,4,non-severe
+32,0,'airline transport pilot licence',30,95,25,4,4,non-severe
+70,0,'airline transport pilot licence',66,20050,500,116,49,non-severe
+6,2,'private pilot licence',44,300,245,57,20,non-severe
+23,0,'private pilot licence',68,4498,300,35,17,non-severe
+26,1,'airline transport pilot licence',41,1950,530,193,77,non-severe
+7,0,'private pilot licence',63,420,10,5,3,severe
+26,2,'private pilot licence',56,588,79,14,5,non-severe
+3,1,'private pilot licence',69,1235,4,16,8,non-severe
+15,0,'private pilot licence',73,1335,639,12,4,non-severe
+5,0,'airline transport pilot licence',49,15000,50,133,71,severe
+16,2,'private pilot licence',54,1456,1310,50,27,severe
+43,0,'private pilot licence',56,895,280,23,4,severe
+25,0,'airline transport pilot licence',68,3127,1710,21,11,non-severe
+12,1,'private pilot licence',23,78,33,33,12,non-severe
+18,1,'private pilot licence',64,7000,120,100,28,non-severe
+7,1,'private pilot licence',49,175,175,0,0,non-severe
+29,1,'private pilot licence',41,250,50,90,41,non-severe
+26,1,'private pilot licence',51,366,6,6,3,non-severe
+59,1,'airline transport pilot licence',48,4308,10,142,46,severe
+39,0,'private pilot licence',45,250,0,6,3,non-severe
+64,1,'airline transport pilot licence',35,2327,115,220,67,non-severe
+25,1,'private pilot licence',28,152,116,27,12,severe
+11,0,'private pilot licence',52,408,50,24,4,severe
+11,0,'private pilot licence',49,167,41,12,3,severe
+1,1,'private pilot licence',46,155,26,15,4,non-severe
+33,0,'private pilot licence',66,7500,25,60,25,severe
+57,0,'private pilot licence',66,501,1,0,0,non-severe
+27,1,'private pilot licence',40,99,71,11,1,non-severe
+63,1,'private pilot licence',58,1028,278,4,0,non-severe
+57,0,'private pilot licence',32,689,55,37,6,severe
+32,0,'airline transport pilot licence',44,7500,10,175,16,non-severe
+26,1,'private pilot licence',63,237,30,2,0,severe
+2,1,'private pilot licence',43,456,45,7,3,non-severe
+4,1,'private pilot licence',68,63,13,6,3,non-severe
+6,0,'private pilot licence',64,979,44,6,2,severe
+6,0,'private pilot licence',64,974,49,4,3,non-severe
+30,1,'private pilot licence',39,116,23,16,8,non-severe
+23,1,'private pilot licence',56,440,65,1,1,severe
+3,1,'private pilot licence',37,363,140,30,9,non-severe
+31,0,'private pilot licence',46,660,200,45,16,severe
+58,1,'airline transport pilot licence',35,3737,456,94,48,non-severe
+1,0,student,23,77,77,49,26,non-severe
+1,0,'private pilot licence',43,153,27,10,5,non-severe
+26,0,'private pilot licence',27,276,38,40,15,non-severe
+4,0,'private pilot licence',60,1746,60,37,17,non-severe
+4,0,'airline transport pilot licence',48,408,161,67,21,non-severe
+9,0,'private pilot licence',54,358,55,0,0,severe
+53,1,'airline transport pilot licence',33,563,9,165,73,non-severe
+2,0,'private pilot licence',42,168,63,9,6,non-severe
+28,0,'private pilot licence',53,844,106,14,6,non-severe
+23,0,'private pilot licence',44,535,240,13,9,non-severe
+11,1,'private pilot licence',28,80,10,4,2,non-severe
+14,1,'private pilot licence',47,4000,100,130,54,non-severe
+31,1,'private pilot licence',22,695,35,91,11,non-severe
+1,0,'private pilot licence',74,1149,37,8,4,non-severe
+36,2,'private pilot licence',45,477,63,27,8,severe
+3,0,'private pilot licence',37,56,56,12,3,severe
+16,0,'private pilot licence',67,3545,758,32,26,non-severe
+4,0,'private pilot licence',63,154,18,24,7,severe
+28,0,'airline transport pilot licence',72,21677,317,81,35,severe
+58,1,'private pilot licence',56,1080,895,10,5,severe
+36,1,'private pilot licence',43,254,22,15,4,non-severe
+27,0,'private pilot licence',53,144,37,3,0,non-severe
+3,0,student,20,13,13,13,8,non-severe
+34,0,'private pilot licence',57,435,16,8,1,non-severe
+17,1,'private pilot licence',65,356,356,6,3,non-severe
+62,1,'private pilot licence',68,1064,327,7,5,non-severe
+31,0,'private pilot licence',35,240,5,5,3,severe
+1,1,'private pilot licence',64,245,64,27,6,non-severe
+20,0,'private pilot licence',53,465,380,17,14,non-severe
+24,0,'private pilot licence',71,5939,87,34,24,non-severe
+22,0,student,56,19,13,16,4,non-severe
+44,0,'private pilot licence',70,235,70,14,10,severe
+56,0,'airline transport pilot licence',49,12415,694,56,46,non-severe
+12,0,'airline transport pilot licence',49,10500,5,128,85,non-severe
+38,0,'private pilot licence',37,100,19,11,5,non-severe
+53,1,'private pilot licence',56,264,10,4,2,severe
+36,0,'private pilot licence',55,1708,153,5,5,severe
+1,0,student,20,20,20,20,15,non-severe
+58,1,'private pilot licence',49,102,55,2,1,severe
+65,0,'private pilot licence',62,1886,850,1,1,non-severe
+23,1,'airline transport pilot licence',78,7940,7800,63,24,non-severe
+11,0,'private pilot licence',51,500,20,5,0,non-severe
+28,1,'private pilot licence',56,380,69,2,2,non-severe
+28,1,'airline transport pilot licence',68,12300,5100,102,45,non-severe
+10,0,'private pilot licence',67,301,172,22,19,non-severe
+24,0,'private pilot licence',59,369,6,11,2,non-severe
+24,0,'private pilot licence',68,199,3,1,1,non-severe
+41,0,'airline transport pilot licence',71,3434,453,10,6,severe
+36,1,'private pilot licence',67,91,23,0,0,non-severe
+46,0,'private pilot licence',56,315,209,7,3,non-severe
+27,0,'airline transport pilot licence',29,537,262,73,22,severe
+46,1,'private pilot licence',73,17800,550,5,2,non-severe
+26,0,'airline transport pilot licence',65,15624,37,76,40,non-severe
+33,0,'private pilot licence',47,715,215,4,1,non-severe
+27,0,'private pilot licence',45,415,131,4,2,non-severe
+39,0,'private pilot licence',81,2160,685,5,4,severe
+5,0,'airline transport pilot licence',41,3900,700,88,43,non-severe
+19,0,'airline transport pilot licence',53,9475,2,80,16,severe
+25,1,'private pilot licence',33,69,67,4,0,non-severe
+22,0,student,56,32,32,10,3,non-severe
+1,0,student,53,70,14,14,14,non-severe
+27,0,'private pilot licence',57,677,494,13,0,non-severe
+3,0,'private pilot licence',59,862,110,8,3,severe
+0,0,'private pilot licence',44,470,200,45,12,non-severe
+25,0,'private pilot licence',20,79,79,1,0,non-severe
+18,0,'private pilot licence',44,255,41,7,2,severe
+28,1,'private pilot licence',49,197,65,9,3,severe
+8,0,'private pilot licence',34,2500,700,29,6,non-severe
+36,2,'airline transport pilot licence',46,896,20,30,10,non-severe
+6,1,'private pilot licence',57,808,739,49,10,non-severe
+28,1,'private pilot licence',48,320,25,15,6,non-severe
+17,0,student,42,22,2,6,2,severe
+23,0,'private pilot licence',57,89,82,4,0,non-severe
+58,0,'airline transport pilot licence',49,12345,627,142,22,non-severe
+18,0,'private pilot licence',47,372,101,31,7,severe
+3,0,student,45,15,15,10,6,non-severe
+36,0,'private pilot licence',50,144,3,12,1,non-severe
+29,0,'private pilot licence',43,65,2,53,6,non-severe
+20,1,'private pilot licence',42,258,70,16,4,non-severe
+24,0,'airline transport pilot licence',43,9672,645,168,40,non-severe
+1,0,'private pilot licence',62,202,29,18,16,non-severe
+12,1,'private pilot licence',43,404,65,35,6,non-severe
+25,0,'airline transport pilot licence',45,4200,600,100,35,non-severe
+26,0,'private pilot licence',52,317,10,11,1,non-severe
+26,2,'private pilot licence',75,2520,900,20,7,severe
+15,1,'private pilot licence',44,102,16,13,4,non-severe
+1,0,'airline transport pilot licence',74,10000,250,80,31,non-severe
+25,0,'private pilot licence',57,3294,800,25,12,non-severe
+1,0,'private pilot licence',71,5856,1,19,6,non-severe
+15,0,'private pilot licence',66,1616,60,14,1,non-severe
+57,1,'private pilot licence',51,239,180,4,1,non-severe
+7,1,'private pilot licence',44,2300,320,56,8,non-severe
+11,0,'private pilot licence',54,311,179,19,7,non-severe
+1,0,'private pilot licence',28,72,7,8,3,non-severe
+4,1,'private pilot licence',59,183,97,8,2,non-severe
+14,0,'airline transport pilot licence',46,1280,120,92,24,non-severe
+16,1,'private pilot licence',43,339,80,10,3,non-severe
+5,1,'private pilot licence',53,86,86,6,5,non-severe
+26,1,'private pilot licence',60,2031,1600,27,7,non-severe
+31,1,'private pilot licence',40,83,24,6,1,non-severe
+13,0,'private pilot licence',53,702,111,25,9,non-severe
+40,1,'private pilot licence',60,273,117,11,3,severe
+1,0,'private pilot licence',75,182,68,21,11,non-severe
+44,1,'private pilot licence',68,1200,1050,19,8,non-severe
+21,0,'private pilot licence',59,430,300,12,5,severe
+10,1,'private pilot licence',57,371,74,11,1,non-severe
+63,1,'private pilot licence',55,115,65,28,12,non-severe
+3,0,'airline transport pilot licence',63,15482,167,33,8,non-severe
+3,0,student,23,13,13,13,13,non-severe
+28,1,'private pilot licence',43,1026,29,5,2,non-severe
+36,0,'private pilot licence',36,131,66,7,1,severe
+22,2,'private pilot licence',47,64,1,3,0,non-severe
+34,0,'private pilot licence',66,654,230,9,7,severe
+27,0,'airline transport pilot licence',48,5607,896,170,47,non-severe
+59,0,'private pilot licence',45,552,275,34,11,non-severe
+1,0,'airline transport pilot licence',50,3500,0,133,32,non-severe
+13,0,'private pilot licence',37,529,132,31,12,non-severe
+8,1,'private pilot licence',53,406,55,2,1,non-severe
+33,3,'private pilot licence',64,1500,600,10,10,non-severe
+13,0,'private pilot licence',36,201,10,18,8,non-severe
+19,0,'airline transport pilot licence',41,5200,520,210,75,non-severe
+29,2,'private pilot licence',63,300,300,11,2,non-severe
+24,0,student,30,35,35,14,4,non-severe
+1,0,'private pilot licence',52,442,3,3,3,severe
+36,0,'private pilot licence',51,406,406,16,10,non-severe
+3,1,'private pilot licence',59,708,36,56,20,non-severe
+31,0,'private pilot licence',48,261,68,3,1,non-severe
+36,1,'private pilot licence',63,349,63,6,5,non-severe
+24,0,'airline transport pilot licence',48,681,396,48,15,non-severe
+16,1,'private pilot licence',72,1223,797,49,17,severe
+42,3,'private pilot licence',70,477,176,10,2,non-severe
+28,0,'airline transport pilot licence',60,20000,300,191,27,severe
+35,1,'private pilot licence',41,348,17,3,2,severe
+18,1,'airline transport pilot licence',34,584,154,165,55,non-severe
+2,0,'private pilot licence',78,4810,1300,42,10,severe
+0,0,'private pilot licence',57,270,17,18,1,non-severe
+28,1,'airline transport pilot licence',60,10920,13,140,60,severe
+24,1,'private pilot licence',42,132,44,26,10,non-severe
+21,0,'private pilot licence',50,80,80,1,1,non-severe
+33,1,'private pilot licence',45,85,2,9,5,non-severe
+26,0,'airline transport pilot licence',47,844,314,27,11,non-severe
+56,0,'private pilot licence',61,1586,398,4,1,non-severe
+51,1,'private pilot licence',46,636,545,37,16,non-severe
+36,2,'private pilot licence',53,68,5,20,5,severe
+22,1,'private pilot licence',40,185,181,0,0,non-severe
+53,1,'private pilot licence',51,1190,689,26,11,non-severe
+2,1,'private pilot licence',28,283,59,41,23,non-severe
+28,0,'private pilot licence',59,170,33,6,3,severe
+23,0,student,38,59,59,14,13,non-severe
+26,0,'private pilot licence',59,1560,472,10,0,non-severe
+39,0,'private pilot licence',61,227,82,8,5,non-severe
+15,0,'airline transport pilot licence',35,545,112,164,16,non-severe
+12,0,'private pilot licence',42,230,57,8,0,non-severe
+24,0,'private pilot licence',52,237,218,12,3,severe
+35,0,student,55,37,35,7,3,non-severe
+10,0,'private pilot licence',48,1451,400,65,36,non-severe
+35,1,'airline transport pilot licence',33,4750,0,197,67,non-severe
+28,0,'private pilot licence',43,71,71,7,2,non-severe
+22,0,'airline transport pilot licence',43,1037,900,175,52,non-severe
+2,1,'private pilot licence',64,376,60,25,20,severe
+29,0,student,46,22,22,22,12,severe
+4,0,'private pilot licence',56,250,94,14,7,non-severe
+3,1,'private pilot licence',43,440,98,2,0,non-severe
+49,1,'private pilot licence',65,753,10,5,4,non-severe
+25,0,'airline transport pilot licence',52,6371,17,4,2,severe
+33,1,'private pilot licence',46,151,21,11,5,non-severe
+24,0,student,22,47,47,12,5,severe
+24,0,'airline transport pilot licence',61,11984,2500,141,71,non-severe
+23,0,'private pilot licence',51,128,9,4,0,severe
+1,0,'private pilot licence',69,732,418,24,16,non-severe
+29,0,'private pilot licence',47,204,60,10,10,non-severe
+17,1,'private pilot licence',64,1096,9,12,5,non-severe
+68,1,'private pilot licence',42,384,78,28,14,non-severe
+24,0,'airline transport pilot licence',67,4925,1,120,60,non-severe
+11,0,'private pilot licence',46,285,19,20,4,non-severe
+6,0,'airline transport pilot licence',59,21200,190,89,18,severe
+34,3,'private pilot licence',51,343,261,7,3,severe
+2,0,'private pilot licence',66,800,110,28,14,non-severe
+16,1,'private pilot licence',19,110,58,34,26,non-severe
+4,0,'private pilot licence',53,119,119,6,1,non-severe
+56,0,'private pilot licence',56,121,90,13,4,non-severe
+4,0,'airline transport pilot licence',53,20245,12,130,77,non-severe
+56,0,'airline transport pilot licence',44,1599,347,19,17,severe
+24,1,'private pilot licence',53,796,1,5,1,non-severe
+27,0,'airline transport pilot licence',51,6355,750,67,14,non-severe
+64,0,'private pilot licence',57,963,176,2,2,non-severe
+7,0,'airline transport pilot licence',53,8500,33,60,25,non-severe
+6,1,'private pilot licence',54,169,2,2,2,non-severe
+29,2,'private pilot licence',49,174,12,5,1,non-severe
+46,1,'private pilot licence',48,590,57,3,3,non-severe
+26,2,'airline transport pilot licence',41,4980,470,98,14,non-severe
+47,1,'private pilot licence',67,662,299,37,13,non-severe
+36,0,'airline transport pilot licence',35,577,0,65,17,non-severe
+30,1,'private pilot licence',41,385,33,18,6,non-severe
+6,0,'private pilot licence',56,3996,93,32,21,non-severe
+43,1,'private pilot licence',50,653,22,23,9,non-severe
+64,0,'private pilot licence',55,1078,263,6,1,non-severe
+24,3,'airline transport pilot licence',46,710,274,204,67,non-severe
+45,1,'private pilot licence',47,424,351,53,23,non-severe
+44,1,'private pilot licence',51,442,104,9,6,non-severe
+52,0,'private pilot licence',39,672,25,10,2,non-severe
+1,0,'private pilot licence',56,312,13,20,20,non-severe
+20,0,'private pilot licence',53,890,53,20,6,non-severe
+18,0,'airline transport pilot licence',74,9027,5,40,18,non-severe
+33,0,'private pilot licence',35,185,91,23,10,non-severe
+26,0,student,48,17,17,0,0,non-severe
+31,0,'private pilot licence',51,273,185,19,11,non-severe
+62,1,'private pilot licence',67,7375,19,15,6,non-severe
+3,0,'private pilot licence',59,1182,89,17,8,non-severe
+46,0,'private pilot licence',67,1300,200,1,0,severe
+61,1,'private pilot licence',63,346,168,8,5,non-severe
+15,0,'private pilot licence',35,2536,45,69,23,non-severe
+27,0,'private pilot licence',76,4355,33,12,4,severe
+7,1,'private pilot licence',52,97,70,2,0,severe
+24,0,student,40,43,43,25,5,severe
+24,0,'private pilot licence',67,1329,94,10,6,non-severe
+30,1,'airline transport pilot licence',54,18292,20,206,67,non-severe
+9,0,'airline transport pilot licence',65,9000,800,60,20,non-severe
+40,1,'private pilot licence',57,467,386,2,0,non-severe
+2,0,'airline transport pilot licence',54,18515,126,158,32,severe
+21,0,'airline transport pilot licence',38,494,364,59,17,non-severe
+28,2,'private pilot licence',44,91,22,4,0,non-severe
+37,0,'private pilot licence',53,329,201,37,32,severe
+13,0,'airline transport pilot licence',45,700,200,1,1,non-severe
+40,0,'private pilot licence',55,243,79,8,3,non-severe
+26,0,'private pilot licence',44,255,63,10,6,severe
+1,1,'private pilot licence',53,304,8,8,8,non-severe
+9,0,'private pilot licence',57,14446,670,76,30,non-severe
+3,1,'private pilot licence',57,170,60,12,6,non-severe
+19,0,'private pilot licence',52,683,121,11,3,non-severe
+29,0,'airline transport pilot licence',31,461,353,7,5,non-severe
+25,0,'private pilot licence',59,625,41,5,2,non-severe
+30,0,student,35,24,24,18,1,non-severe
+24,1,'private pilot licence',72,155,16,9,0,severe
+42,0,'private pilot licence',45,859,97,3,1,non-severe
+10,0,'private pilot licence',47,978,827,44,6,non-severe
+13,0,'private pilot licence',54,504,378,6,0,non-severe
+18,1,'private pilot licence',48,1715,119,2,1,severe
+0,1,'airline transport pilot licence',39,8899,2095,225,43,severe
+22,1,'airline transport pilot licence',53,5050,1100,200,40,non-severe
+30,0,'airline transport pilot licence',62,20540,300,30,4,non-severe
+8,0,'private pilot licence',51,609,0,16,4,non-severe
+23,1,'airline transport pilot licence',41,1444,95,89,17,non-severe
+16,1,'airline transport pilot licence',47,3870,55,6,2,non-severe
+3,0,'airline transport pilot licence',41,3210,230,52,27,non-severe
+28,0,'private pilot licence',51,200,190,7,2,non-severe
+24,1,'airline transport pilot licence',58,676,290,9,4,non-severe
+34,0,'private pilot licence',56,881,750,15,0,non-severe
+0,0,'private pilot licence',44,299,142,0,0,non-severe
+5,0,'private pilot licence',41,760,518,24,7,non-severe
+24,0,'airline transport pilot licence',24,645,375,154,34,non-severe
+55,0,'private pilot licence',58,272,31,23,6,non-severe
+28,0,'private pilot licence',59,156,0,8,1,severe
+33,0,'airline transport pilot licence',49,1948,5,51,5,non-severe
+24,1,'private pilot licence',40,162,60,4,2,severe
+9,0,'private pilot licence',48,605,64,21,6,severe
+17,0,'airline transport pilot licence',46,1600,200,49,9,severe
+14,1,'private pilot licence',19,59,39,10,1,non-severe
+1,1,'private pilot licence',70,621,79,25,9,non-severe
+43,0,'private pilot licence',63,867,256,9,5,non-severe
+16,0,student,44,23,23,14,4,non-severe
+5,1,'private pilot licence',59,359,173,18,4,non-severe
+39,0,'airline transport pilot licence',70,3339,375,29,7,non-severe
+13,4,'private pilot licence',44,342,107,4,1,non-severe
+34,0,'private pilot licence',54,440,110,36,10,non-severe
+23,0,'airline transport pilot licence',41,601,226,43,19,non-severe
+38,0,'private pilot licence',60,128,78,26,8,severe
+3,0,'airline transport pilot licence',64,20764,2,7,1,non-severe
+22,1,'private pilot licence',59,12000,232,22,22,non-severe
+26,4,'private pilot licence',60,443,252,28,8,non-severe
+50,0,'private pilot licence',27,94,10,12,1,non-severe
+10,0,'airline transport pilot licence',49,2720,3,127,29,severe
+11,0,'private pilot licence',33,424,101,19,10,non-severe
+1,0,'private pilot licence',66,1657,458,56,20,non-severe
+28,0,'private pilot licence',56,127,42,8,2,non-severe
+5,0,'airline transport pilot licence',32,2100,280,75,28,non-severe
+1,0,'private pilot licence',66,1630,70,34,3,non-severe
+45,1,'private pilot licence',52,243,212,22,18,severe
+22,0,'airline transport pilot licence',63,8643,41,114,27,non-severe
+29,0,'airline transport pilot licence',38,2597,8,103,30,non-severe
+8,1,'private pilot licence',66,1765,11,13,11,non-severe
+36,0,student,32,13,13,9,5,non-severe
+25,1,'private pilot licence',39,561,133,35,18,non-severe
+1,0,'private pilot licence',77,285,26,14,9,non-severe
+25,1,'private pilot licence',70,133,133,6,3,non-severe
+9,0,'private pilot licence',45,600,275,28,9,severe
+23,3,'private pilot licence',42,173,13,17,5,non-severe
+6,0,'airline transport pilot licence',24,975,300,119,51,severe
+8,0,'private pilot licence',46,414,0,93,28,severe
+8,0,'private pilot licence',67,510,327,9,4,non-severe
+50,0,'airline transport pilot licence',50,12000,500,180,40,non-severe
+73,1,'airline transport pilot licence',41,10660,34,190,48,non-severe
+20,0,'private pilot licence',47,378,0,25,10,non-severe
+13,0,'private pilot licence',35,121,121,4,4,non-severe
+10,1,'private pilot licence',40,526,34,26,11,non-severe
+23,0,'private pilot licence',69,2200,650,11,11,non-severe
+2,1,'private pilot licence',53,344,16,15,13,non-severe
+17,0,'private pilot licence',61,1641,21,39,7,severe
+18,0,'private pilot licence',39,121,116,3,3,non-severe
+32,0,'airline transport pilot licence',32,6500,1500,180,70,severe
+63,1,'private pilot licence',78,658,200,4,3,non-severe
+26,3,'private pilot licence',54,902,333,54,18,severe
+30,3,'airline transport pilot licence',23,699,10,15,7,severe
+4,0,'airline transport pilot licence',62,14952,44,13,5,non-severe
+4,0,'airline transport pilot licence',45,2592,16,159,59,non-severe
+32,0,'private pilot licence',71,1928,135,10,9,non-severe
+24,0,student,42,44,42,1,1,non-severe
+24,0,'private pilot licence',47,127,48,6,6,severe
+39,0,'private pilot licence',57,336,211,17,4,non-severe
+21,1,'private pilot licence',32,222,21,24,5,non-severe
+62,0,'airline transport pilot licence',57,14481,280,23,15,severe
+23,1,'private pilot licence',43,158,2,15,7,non-severe
+30,0,'private pilot licence',33,220,164,0,0,non-severe
+1,0,'private pilot licence',62,100,2,11,3,severe
+26,2,'private pilot licence',42,108,12,19,19,non-severe
+11,0,'private pilot licence',65,474,189,3,2,non-severe
+29,0,student,41,41,41,8,2,non-severe
+51,1,'airline transport pilot licence',66,6392,18,16,8,non-severe
+20,0,'airline transport pilot licence',50,976,39,48,21,non-severe
+22,1,'private pilot licence',32,495,50,43,20,non-severe
+24,0,'airline transport pilot licence',38,3500,3450,100,50,non-severe
+13,0,'airline transport pilot licence',54,7240,10,101,23,non-severe
+51,0,'private pilot licence',43,345,105,8,2,non-severe
+25,0,student,58,28,28,7,2,non-severe
+24,2,'airline transport pilot licence',43,2795,641,55,18,non-severe
+8,0,'private pilot licence',59,633,38,14,9,non-severe
+21,0,'private pilot licence',47,260,145,7,3,non-severe
+21,1,'private pilot licence',34,112,14,3,1,non-severe
+35,1,'private pilot licence',53,113,61,8,5,non-severe
+18,0,'private pilot licence',54,2150,1700,30,12,non-severe
+26,1,'private pilot licence',52,148,60,34,12,severe
+62,1,'private pilot licence',47,375,145,26,11,non-severe
+10,1,'private pilot licence',54,1104,14,33,10,non-severe
+25,0,'airline transport pilot licence',55,12467,1,220,79,non-severe
+33,1,'private pilot licence',62,180,32,11,3,non-severe
+44,1,'private pilot licence',45,498,128,8,3,non-severe
+7,1,'private pilot licence',72,325,41,8,4,severe
+20,0,'private pilot licence',61,404,6,6,2,non-severe
+3,0,'private pilot licence',71,370,99,14,2,severe
+3,0,'private pilot licence',67,15186,280,28,10,non-severe
+2,0,'private pilot licence',42,860,18,30,14,severe
+3,0,'private pilot licence',67,255,85,5,4,non-severe
+44,1,'private pilot licence',61,365,160,9,4,non-severe
+5,0,'airline transport pilot licence',47,9000,35,180,60,non-severe
+4,0,'private pilot licence',58,497,25,4,3,non-severe
+50,1,'private pilot licence',46,160,21,2,1,non-severe
+25,0,'airline transport pilot licence',39,4300,142,148,45,severe
+4,1,'private pilot licence',73,238,15,1,1,non-severe
+29,2,'private pilot licence',39,80,17,10,2,non-severe
+42,0,'private pilot licence',58,337,327,6,5,severe
+4,0,'airline transport pilot licence',52,16258,115,215,80,non-severe
+13,0,'airline transport pilot licence',38,4500,75,60,20,non-severe
+24,0,'airline transport pilot licence',60,2625,562,22,2,severe
+21,1,'airline transport pilot licence',36,910,8,69,46,non-severe
+41,1,'private pilot licence',66,1055,200,15,6,severe
+43,2,'private pilot licence',32,241,7,14,10,non-severe
+33,2,'private pilot licence',49,1250,20,5,3,severe
+28,0,'private pilot licence',54,469,1,3,1,non-severe
+23,0,student,47,45,45,11,11,non-severe
+38,0,'private pilot licence',56,741,116,6,1,severe
+29,1,'private pilot licence',50,1408,1205,17,5,severe
+45,0,'private pilot licence',43,109,54,6,0,non-severe
+37,1,'private pilot licence',29,298,35,11,11,non-severe
+63,0,'private pilot licence',45,319,43,12,7,non-severe
+42,0,'private pilot licence',40,544,400,8,6,severe
+2,1,'private pilot licence',51,689,200,45,26,non-severe
+22,1,'private pilot licence',35,79,11,7,4,non-severe
+25,0,student,41,64,64,15,6,non-severe
+24,1,'private pilot licence',32,764,162,9,9,non-severe
+23,0,student,40,26,26,7,4,non-severe
+21,2,'private pilot licence',53,272,125,6,5,non-severe
+22,0,'private pilot licence',67,121,102,3,1,non-severe
+24,0,'private pilot licence',30,139,44,5,1,non-severe
+27,0,'airline transport pilot licence',27,830,600,100,30,non-severe
+23,1,'private pilot licence',57,142,91,4,3,severe
+11,0,'private pilot licence',41,256,23,7,2,non-severe
+4,1,'private pilot licence',47,285,2,10,3,non-severe
+18,0,'private pilot licence',35,63,61,1,0,non-severe
+30,0,student,26,97,97,15,6,non-severe
+20,0,student,26,17,17,17,12,non-severe
+1,1,'private pilot licence',44,130,61,12,3,severe
+6,0,'private pilot licence',55,152,73,2,1,non-severe
+20,0,'private pilot licence',44,1400,2,80,15,non-severe
+29,1,'private pilot licence',37,196,2,2,0,severe
+44,0,'private pilot licence',50,4648,10,12,5,non-severe
+39,0,'private pilot licence',54,761,1,15,1,non-severe
+4,1,'private pilot licence',65,1590,389,35,11,severe
+17,1,'airline transport pilot licence',54,10400,2500,45,25,non-severe
+24,0,'private pilot licence',25,52,52,2,1,non-severe
+9,1,'private pilot licence',73,618,450,6,3,severe
+28,1,'private pilot licence',40,209,25,3,2,non-severe
+42,1,'private pilot licence',61,512,91,9,0,non-severe
+36,0,'private pilot licence',66,1054,331,16,5,severe
+27,2,'private pilot licence',43,340,125,30,11,severe
+45,0,'private pilot licence',52,631,25,2,1,non-severe
+38,0,'private pilot licence',69,405,145,2,0,non-severe
+27,1,'airline transport pilot licence',53,17000,600,65,21,non-severe
+23,0,'airline transport pilot licence',31,778,408,71,20,non-severe
+25,1,'airline transport pilot licence',60,14552,2078,108,23,non-severe
+29,0,'airline transport pilot licence',50,2300,210,90,15,non-severe
+2,1,'private pilot licence',54,165,100,18,8,severe
+5,0,'private pilot licence',47,166,14,3,0,severe
+2,2,'private pilot licence',48,352,279,27,4,non-severe
+1,0,'private pilot licence',60,485,10,16,7,non-severe
+25,0,'private pilot licence',47,719,20,20,5,non-severe
+3,1,'private pilot licence',19,74,8,2,2,non-severe
+19,0,'airline transport pilot licence',28,843,609,71,24,non-severe
+22,0,'airline transport pilot licence',35,6200,103,150,45,severe
+28,0,'private pilot licence',38,389,200,81,0,non-severe
+26,0,'private pilot licence',53,188,54,11,1,non-severe
+23,0,'private pilot licence',28,342,40,11,6,severe
+23,0,'airline transport pilot licence',37,1680,730,200,90,severe
+56,0,'private pilot licence',71,557,251,3,3,non-severe
+30,0,'private pilot licence',58,1110,840,3,1,severe
+24,0,'private pilot licence',75,383,97,3,1,severe
+0,0,'private pilot licence',60,31,31,25,25,non-severe
+2,0,'private pilot licence',61,294,31,14,2,non-severe
+4,1,'private pilot licence',44,375,26,30,9,non-severe
+2,0,'private pilot licence',69,3852,156,18,7,non-severe
+46,0,'airline transport pilot licence',49,4100,700,200,40,non-severe
+34,0,'airline transport pilot licence',37,550,31,75,32,non-severe
+12,0,student,41,23,12,11,5,non-severe
+0,1,'private pilot licence',49,414,165,54,18,non-severe
+29,1,'private pilot licence',64,8000,1500,97,62,non-severe
+21,0,'private pilot licence',52,279,81,15,6,non-severe
+0,1,'private pilot licence',26,116,25,25,6,non-severe
+26,0,'private pilot licence',49,112,11,2,2,non-severe
+30,1,'private pilot licence',39,295,7,4,2,non-severe
+29,0,'private pilot licence',60,186,186,2,0,severe
+2,0,'private pilot licence',54,350,56,7,0,non-severe
+20,0,student,25,26,22,26,26,non-severe
+10,0,'private pilot licence',45,331,30,24,9,severe
+46,1,'private pilot licence',54,512,152,14,3,non-severe
+28,0,'private pilot licence',43,264,26,7,2,non-severe
+2,0,'private pilot licence',48,2700,2500,25,0,non-severe
+8,1,'private pilot licence',45,380,44,16,16,non-severe
+23,1,'private pilot licence',29,81,7,10,4,non-severe
+22,0,student,45,64,64,10,2,non-severe
+36,0,'private pilot licence',50,115,115,4,4,non-severe
+2,1,'private pilot licence',60,370,93,18,5,non-severe
+2,0,'private pilot licence',32,1407,81,40,6,severe
+26,0,'airline transport pilot licence',29,1616,729,153,26,non-severe
+1,0,'private pilot licence',41,91,30,4,0,non-severe
+51,1,'private pilot licence',62,3338,428,46,2,non-severe
+7,0,'private pilot licence',54,647,2,3,2,severe
+35,0,'private pilot licence',58,211,32,6,3,severe
+26,3,'private pilot licence',57,310,108,18,12,severe
+13,0,'airline transport pilot licence',37,1396,58,122,43,non-severe
+17,1,'private pilot licence',52,726,171,3,2,severe
+1,1,'private pilot licence',41,312,140,64,5,non-severe
+65,1,'private pilot licence',80,10000,0,60,20,non-severe
+6,1,'airline transport pilot licence',53,18370,118,199,55,non-severe
+35,1,'private pilot licence',46,188,52,19,11,non-severe
+15,0,'airline transport pilot licence',49,13300,450,88,71,non-severe
+1,0,student,52,80,24,22,12,non-severe
+60,0,'airline transport pilot licence',56,1300,40,111,28,non-severe
+27,2,'private pilot licence',32,82,16,4,1,non-severe
+1,1,'private pilot licence',54,548,80,37,17,non-severe
+20,0,student,50,49,47,10,4,non-severe
+24,0,'private pilot licence',54,349,142,3,1,severe
+30,2,'private pilot licence',62,3695,2664,120,50,severe
+22,0,'private pilot licence',58,275,3,7,3,non-severe
+39,0,'private pilot licence',33,114,47,19,7,severe
+1,0,'private pilot licence',73,66,27,12,8,non-severe
+18,0,'private pilot licence',42,333,90,10,4,non-severe
+21,3,'private pilot licence',31,96,10,18,8,non-severe
+15,0,'private pilot licence',75,997,216,5,3,non-severe
+3,1,'private pilot licence',56,634,150,17,4,non-severe
+1,0,student,20,40,5,6,5,non-severe
+52,0,'private pilot licence',65,456,425,17,8,non-severe
+59,1,'private pilot licence',43,303,15,39,14,severe
+30,0,'private pilot licence',48,212,11,3,1,non-severe
+45,0,'private pilot licence',37,132,90,6,1,severe
+23,0,student,47,30,16,16,5,severe
+41,0,'airline transport pilot licence',22,1450,700,200,80,severe
+20,0,'airline transport pilot licence',24,327,287,97,62,non-severe
+27,0,'private pilot licence',54,150,18,11,4,severe
+28,0,'private pilot licence',50,188,33,20,0,severe
+13,3,'private pilot licence',43,391,266,19,5,severe
+58,1,'private pilot licence',59,365,208,6,5,non-severe
+3,0,'private pilot licence',44,125,10,6,3,non-severe
+25,3,'private pilot licence',46,296,36,7,4,non-severe
+58,0,'airline transport pilot licence',59,4225,4225,102,32,non-severe
+66,0,'airline transport pilot licence',75,13981,2460,0,0,severe
+10,1,'private pilot licence',53,235,78,21,5,severe
+3,0,'private pilot licence',41,315,250,21,13,severe
+23,3,'private pilot licence',44,347,104,28,17,non-severe
+19,0,'private pilot licence',48,218,111,3,1,non-severe
+2,0,'private pilot licence',66,228,60,17,4,non-severe
+1,0,'airline transport pilot licence',55,555,80,13,7,severe
+20,0,'private pilot licence',30,475,9,31,11,non-severe
+32,2,'private pilot licence',68,213,12,20,11,non-severe
+52,0,'private pilot licence',73,2550,162,22,14,non-severe
+17,4,'private pilot licence',57,695,159,19,16,severe
+23,0,student,21,172,32,24,9,severe
+32,1,'private pilot licence',55,484,400,7,6,non-severe
+22,0,'private pilot licence',43,168,111,6,4,severe
+29,0,'airline transport pilot licence',58,2805,2125,195,74,non-severe
+23,1,'private pilot licence',67,1726,630,6,3,non-severe
+44,0,'private pilot licence',46,559,50,26,6,non-severe
+14,0,'private pilot licence',69,703,24,14,5,severe
+61,0,'private pilot licence',56,570,69,3,2,non-severe
+19,2,'private pilot licence',44,65,13,2,2,non-severe
+41,0,'airline transport pilot licence',55,2590,0,20,4,severe
+3,0,'private pilot licence',58,464,398,4,0,severe
+38,0,'private pilot licence',46,118,52,10,5,non-severe
+0,0,'private pilot licence',68,565,34,10,6,severe
+37,0,'airline transport pilot licence',56,8595,1175,102,34,severe
+8,1,'private pilot licence',47,201,130,12,3,severe
+6,0,'private pilot licence',44,470,265,25,3,non-severe
+42,0,'private pilot licence',44,875,311,26,14,non-severe
+1,1,'private pilot licence',63,296,83,19,6,non-severe
+20,0,'private pilot licence',49,157,27,1,0,non-severe
+22,2,'private pilot licence',55,639,270,18,5,severe
+20,1,'private pilot licence',36,273,85,5,3,non-severe
+34,1,'private pilot licence',67,1287,800,5,2,severe
+18,0,'private pilot licence',69,690,420,5,3,severe
+21,1,'private pilot licence',44,134,134,3,2,non-severe
+6,1,'private pilot licence',63,1064,44,4,3,non-severe
+5,0,'private pilot licence',53,297,20,4,3,non-severe
+22,3,'private pilot licence',47,136,46,0,0,non-severe
+9,1,'private pilot licence',39,890,21,17,14,non-severe
+21,0,'airline transport pilot licence',42,701,573,128,64,severe
+40,0,'airline transport pilot licence',54,19766,34,125,70,non-severe
+21,1,'private pilot licence',43,108,13,4,4,non-severe
+5,0,'private pilot licence',52,279,58,15,6,non-severe
+40,0,'private pilot licence',53,615,5,8,5,non-severe
+21,0,'private pilot licence',74,1600,1000,12,5,non-severe
+28,2,'private pilot licence',43,133,33,3,1,severe
+0,0,'private pilot licence',51,325,5,4,2,non-severe
+24,0,'private pilot licence',58,534,75,0,0,non-severe
+14,2,'private pilot licence',25,102,52,8,4,non-severe
+1,0,'private pilot licence',63,386,125,40,18,non-severe
+24,0,student,41,17,17,11,4,non-severe
+40,0,'private pilot licence',50,691,219,0,0,severe
+14,0,'private pilot licence',49,151,68,3,3,non-severe
+25,0,'private pilot licence',53,94,8,13,3,non-severe
+21,0,'private pilot licence',53,185,85,2,1,non-severe
+1,0,'airline transport pilot licence',64,10032,5,2,2,severe
+1,0,'private pilot licence',48,243,91,4,1,severe
+26,0,'private pilot licence',59,762,1,6,3,severe
+22,0,'airline transport pilot licence',37,2089,48,88,41,severe
+1,2,'private pilot licence',53,78,40,12,3,severe
+12,0,'airline transport pilot licence',30,580,300,70,26,severe
+30,0,'airline transport pilot licence',27,1180,32,77,20,severe
+29,1,'private pilot licence',43,465,105,16,3,severe
+26,3,'private pilot licence',29,224,203,7,1,severe
+29,0,'private pilot licence',51,461,230,22,0,severe
+2,0,'private pilot licence',40,65,6,8,2,severe
+31,0,'airline transport pilot licence',44,3313,23,88,5,severe
+13,0,'private pilot licence',38,340,40,12,5,severe
+34,0,'private pilot licence',48,431,4,8,5,severe
+23,0,student,42,22,22,0,0,severe
+36,0,'private pilot licence',71,462,85,5,0,severe
+39,0,'private pilot licence',41,295,153,30,9,severe
+39,1,'private pilot licence',56,794,35,2,1,severe
+27,1,'private pilot licence',81,2419,152,0,0,severe
+35,1,'private pilot licence',63,2359,670,37,28,severe
+54,0,'private pilot licence',48,270,200,16,9,severe
+23,1,'private pilot licence',52,168,20,6,5,severe
+20,0,student,48,46,46,14,2,severe
+2,0,'private pilot licence',59,372,275,4,1,severe
+10,2,'private pilot licence',68,10481,14,43,15,severe
+17,0,'private pilot licence',50,84,84,7,7,severe
+21,0,'airline transport pilot licence',41,340,312,80,29,severe
+29,0,'private pilot licence',51,300,82,3,1,severe
+54,1,'private pilot licence',20,91,15,8,8,severe
+22,1,'private pilot licence',55,117,89,1,1,severe
+19,2,'airline transport pilot licence',52,1525,60,44,28,severe
+40,1,'airline transport pilot licence',70,12300,450,6,6,severe
+61,1,'private pilot licence',69,8000,300,0,0,severe
+26,1,'private pilot licence',53,120,2,0,0,severe
+19,0,'private pilot licence',56,230,160,2,1,severe
+0,0,'private pilot licence',60,91,0,1,0,severe
+39,0,'private pilot licence',42,275,47,2,0,severe
+5,1,'private pilot licence',64,500,250,5,4,severe
+48,0,'private pilot licence',52,583,249,5,2,severe
+19,0,'airline transport pilot licence',38,9000,30,180,60,severe
+32,2,'airline transport pilot licence',38,222,174,36,5,severe
+26,1,'private pilot licence',32,97,97,10,2,severe
+19,3,'private pilot licence',40,285,219,26,2,severe
+20,2,'private pilot licence',39,114,2,8,3,severe
+23,3,'private pilot licence',46,420,320,12,6,severe
+3,0,'airline transport pilot licence',19,400,160,111,18,severe
+19,0,'private pilot licence',58,148,148,3,1,severe
+24,0,'private pilot licence',48,173,15,18,5,severe
+22,1,'private pilot licence',25,733,5,74,6,severe
+58,0,'private pilot licence',52,915,360,26,6,severe
+15,0,'private pilot licence',35,61,6,2,0,severe
+24,1,'private pilot licence',43,142,140,1,1,severe
+35,1,'private pilot licence',66,463,278,10,3,severe
+44,0,'private pilot licence',66,1550,633,36,10,severe
+3,1,'private pilot licence',59,463,206,35,9,severe
+21,0,'private pilot licence',32,85,77,2,0,severe
+19,0,'airline transport pilot licence',63,2283,1850,111,37,severe
+41,0,'airline transport pilot licence',56,5120,67,136,25,severe
+22,0,'private pilot licence',41,152,44,37,13,severe
+31,0,student,20,21,21,21,21,severe
+39,0,'private pilot licence',38,416,165,22,13,severe
+34,0,student,57,42,41,12,7,severe
+8,0,'private pilot licence',64,387,234,0,0,severe
+28,0,'private pilot licence',33,717,10,41,16,severe
+19,1,'private pilot licence',51,97,20,8,3,severe
+33,4,'private pilot licence',39,611,81,85,46,severe
+26,0,student,28,65,65,6,5,severe
+30,1,'private pilot licence',42,520,430,13,1,severe
+51,1,'private pilot licence',49,200,126,7,3,severe
+5,0,'airline transport pilot licence',32,4050,6,187,55,severe
+60,1,'private pilot licence',52,950,821,19,11,severe
+21,0,'airline transport pilot licence',26,616,308,101,28,severe
+25,1,'private pilot licence',18,126,16,44,43,severe
+23,2,'private pilot licence',63,76,9,5,3,severe
+56,1,'private pilot licence',47,1088,22,19,5,severe
+29,1,'private pilot licence',45,106,65,11,3,severe
+19,3,'private pilot licence',43,298,43,27,5,severe
+36,1,'private pilot licence',58,215,126,2,0,severe
+4,1,'private pilot licence',41,206,8,3,2,severe
+6,0,'private pilot licence',37,208,19,14,11,severe
+18,2,'private pilot licence',51,437,205,8,0,severe
+23,1,'private pilot licence',51,975,450,8,2,severe
+48,1,'airline transport pilot licence',57,3700,197,13,6,severe
+22,0,'private pilot licence',50,224,93,4,0,severe
+25,0,student,33,38,38,1,1,severe
+1,0,'private pilot licence',69,89,15,2,1,severe
+53,1,'private pilot licence',51,406,20,9,8,severe
+37,0,'private pilot licence',37,90,5,4,1,severe
+20,0,student,29,23,22,23,10,severe
+30,0,'private pilot licence',45,405,192,10,4,severe
+27,1,'private pilot licence',57,106,40,4,2,severe
+20,1,'private pilot licence',42,92,2,6,2,severe
+34,2,'private pilot licence',58,756,152,5,3,severe
+29,0,student,41,61,61,16,4,severe
+1,0,'private pilot licence',42,228,10,2,2,severe
+26,1,'private pilot licence',51,200,9,2,2,severe
+18,0,student,32,23,1,20,12,severe
+44,0,'private pilot licence',39,360,7,5,0,severe
+31,0,'private pilot licence',34,131,128,5,3,severe
+18,0,'private pilot licence',56,810,90,5,2,severe
+23,1,'airline transport pilot licence',65,26686,2,30,10,severe
+19,2,'private pilot licence',43,105,23,11,2,severe
+22,1,'private pilot licence',56,121,39,2,1,severe
+25,1,'private pilot licence',62,1588,9,98,23,severe
+24,0,'private pilot licence',78,3316,132,2,1,severe
+1,1,'private pilot licence',43,79,10,15,12,severe
+15,1,'private pilot licence',64,95,20,2,2,severe
+41,1,'private pilot licence',59,68,18,6,2,severe
+24,1,'private pilot licence',53,157,26,2,2,severe
+32,0,'private pilot licence',48,188,180,4,2,severe
+17,1,'private pilot licence',54,123,86,6,2,severe
+23,1,'airline transport pilot licence',65,1700,900,56,14,severe
+39,1,'private pilot licence',50,1023,16,17,3,severe
+25,0,'private pilot licence',59,125,12,11,4,severe
+1,1,'private pilot licence',63,466,24,2,1,severe
+10,0,'private pilot licence',48,274,1,2,1,severe
+26,1,'private pilot licence',54,80,11,2,0,severe
+6,0,'private pilot licence',50,176,14,6,3,severe
+29,0,'airline transport pilot licence',45,14708,1,190,65,severe
+7,1,'private pilot licence',38,340,64,22,9,severe
+21,0,'airline transport pilot licence',31,1363,3,133,14,severe
+17,0,'private pilot licence',52,85,85,2,1,severe
+20,0,'airline transport pilot licence',34,457,14,30,21,severe
+24,1,'private pilot licence',53,258,157,9,1,severe
+29,3,'private pilot licence',42,636,30,26,9,severe
+42,0,'private pilot licence',39,246,37,14,1,severe
+19,0,student,64,83,8,14,9,severe
+12,0,'private pilot licence',38,85,6,43,16,severe
+37,0,'private pilot licence',51,387,86,25,16,severe
+9,1,'airline transport pilot licence',39,10640,600,183,43,severe
+16,0,'airline transport pilot licence',37,857,180,107,46,severe
+2,0,'private pilot licence',42,280,6,10,4,severe
+29,0,'private pilot licence',56,500,200,6,3,severe
+19,1,'private pilot licence',48,181,93,76,43,severe
+26,0,'private pilot licence',30,84,24,24,20,severe
+24,0,student,54,53,53,10,3,severe
+16,1,'private pilot licence',51,791,39,21,12,severe
+42,1,'private pilot licence',46,127,127,27,18,severe
+1,1,'private pilot licence',45,127,12,6,2,severe
+1,1,'private pilot licence',37,206,8,34,5,severe
+24,0,'airline transport pilot licence',53,2940,412,185,63,severe
+19,0,'private pilot licence',48,51,16,11,4,severe
+56,1,'private pilot licence',48,1306,142,30,10,severe
+9,0,student,66,98,78,0,0,severe
+51,1,'private pilot licence',33,236,36,33,23,severe
+27,0,'private pilot licence',49,627,507,35,6,severe
+68,1,'private pilot licence',55,146,24,15,6,severe
+24,0,student,29,29,29,20,7,severe
+20,0,'private pilot licence',37,144,90,34,4,severe
+25,3,'private pilot licence',44,548,24,10,3,severe
+52,1,'private pilot licence',63,128,35,11,3,severe
+35,1,'private pilot licence',44,119,10,33,13,severe
+44,1,'private pilot licence',44,171,101,10,8,severe
+21,1,'private pilot licence',47,470,261,7,1,severe
+38,1,'private pilot licence',44,388,126,42,17,severe
+5,1,'private pilot licence',53,142,77,14,1,severe
+1,1,'private pilot licence',33,194,9,9,3,severe
+0,0,'private pilot licence',53,973,300,53,11,severe
+3,1,'private pilot licence',60,1600,167,42,19,severe
+16,0,'airline transport pilot licence',21,275,20,55,23,severe
+2,1,'private pilot licence',42,226,25,32,20,severe
+57,0,'private pilot licence',41,245,180,6,3,severe
+13,0,student,66,72,72,27,7,severe
+3,0,'private pilot licence',78,14915,118,18,8,severe
+71,0,'airline transport pilot licence',51,8000,30,30,30,severe
+11,0,student,39,33,33,7,7,severe
+2,0,'private pilot licence',69,135,70,8,3,severe
+52,1,'private pilot licence',40,258,162,19,6,severe
+57,1,'private pilot licence',49,317,191,4,1,severe
+21,0,student,28,17,17,17,7,severe
+16,1,'private pilot licence',39,265,225,16,14,severe
+20,1,'private pilot licence',43,120,120,11,1,severe
+19,0,student,37,67,67,9,4,severe
+5,1,'private pilot licence',63,1138,133,6,4,severe
+12,0,'private pilot licence',48,800,650,6,6,severe
+59,1,'private pilot licence',36,471,103,7,7,severe
+29,1,'private pilot licence',67,678,39,19,13,severe
+19,0,'private pilot licence',51,276,24,12,9,severe
+7,1,'private pilot licence',40,451,159,9,7,severe
+20,1,'private pilot licence',59,58,54,7,7,severe
+21,1,'private pilot licence',44,69,13,10,9,severe
+38,0,'private pilot licence',49,741,620,6,1,severe
+18,1,'private pilot licence',34,86,86,20,6,severe
+24,1,'private pilot licence',42,805,80,17,6,severe
+23,0,'private pilot licence',37,64,3,39,6,severe
+20,0,'private pilot licence',51,536,14,21,16,severe
+18,0,'private pilot licence',37,238,129,7,6,severe
+19,4,'airline transport pilot licence',45,11915,550,152,74,severe
+16,0,'private pilot licence',55,79,68,5,3,severe
+50,1,'private pilot licence',73,1395,10,4,3,severe
+38,1,'private pilot licence',57,97,7,8,3,severe
+1,1,'private pilot licence',60,633,9,21,16,severe
+29,2,'private pilot licence',58,2453,400,18,6,severe
+29,1,'private pilot licence',65,1679,555,23,1,severe
+44,1,'private pilot licence',40,636,24,14,9,severe
+17,0,'private pilot licence',56,711,317,42,24,severe
+24,2,'airline transport pilot licence',47,1454,680,35,8,severe
+30,0,'private pilot licence',52,155,116,3,1,severe
+6,0,'private pilot licence',36,200,96,16,2,severe
+18,0,'airline transport pilot licence',44,1222,773,26,5,severe
+0,0,'private pilot licence',65,452,12,9,4,severe
+30,1,'private pilot licence',60,606,246,11,4,severe
+12,0,student,45,29,26,25,10,severe
+1,0,'airline transport pilot licence',49,8600,92,65,30,severe
+18,2,'private pilot licence',42,219,10,5,1,severe
+21,2,'private pilot licence',49,167,25,12,4,severe
+15,1,'private pilot licence',42,720,5,28,10,severe
+24,0,'private pilot licence',72,1046,62,11,2,severe
+49,1,'private pilot licence',54,281,52,2,0,severe
+19,1,'private pilot licence',35,89,19,16,7,severe
+28,0,'airline transport pilot licence',53,1847,1550,93,35,severe
+19,1,'airline transport pilot licence',26,988,104,19,7,severe
+25,0,student,21,82,12,11,5,severe
+46,1,'private pilot licence',52,298,201,12,3,severe
+20,0,'private pilot licence',62,949,1,13,3,severe
+23,0,student,25,21,21,5,2,severe
+6,1,'private pilot licence',50,127,8,4,0,severe
+55,1,'private pilot licence',54,740,740,11,8,severe
+8,0,'private pilot licence',59,408,4,15,9,severe
+45,1,'private pilot licence',35,318,255,11,4,severe
+17,0,'airline transport pilot licence',63,13890,233,20,13,severe
+14,3,'private pilot licence',51,342,304,5,1,severe
+7,1,'private pilot licence',62,520,470,27,9,severe
+18,0,'private pilot licence',28,2200,40,200,100,severe
+27,1,'private pilot licence',33,111,48,26,8,severe
+8,0,'private pilot licence',38,570,193,8,4,severe
+30,1,'private pilot licence',50,2032,218,12,7,severe
+27,1,'private pilot licence',49,394,117,11,4,severe
+18,1,'private pilot licence',47,142,36,7,3,severe
+19,1,'private pilot licence',59,605,30,14,5,severe
+45,1,'private pilot licence',53,113,16,12,7,severe
+6,1,'private pilot licence',36,619,367,7,5,severe
+21,0,'private pilot licence',24,2200,45,160,50,severe
+8,1,'private pilot licence',49,386,10,8,3,severe
+22,1,'private pilot licence',32,105,105,6,2,severe
+51,0,'private pilot licence',57,310,197,7,5,severe
+27,3,'airline transport pilot licence',34,5200,215,180,60,severe
+33,0,'private pilot licence',54,196,89,45,24,severe
+18,0,'private pilot licence',41,78,2,8,2,severe
+18,0,'airline transport pilot licence',37,1890,1150,135,64,severe
+14,0,'private pilot licence',52,143,32,5,5,severe
+8,0,'private pilot licence',42,1200,206,6,1,severe
+51,0,'private pilot licence',49,371,38,11,2,severe
+25,0,'airline transport pilot licence',55,10036,95,107,38,severe
+14,0,'airline transport pilot licence',52,7690,1310,62,26,severe
+14,3,'airline transport pilot licence',27,500,250,71,23,severe
+24,0,student,49,235,235,14,1,severe
+18,0,'airline transport pilot licence',72,5798,2000,34,16,severe
+26,1,'private pilot licence',65,3065,380,28,7,severe
+7,1,'private pilot licence',54,688,400,15,5,severe
+9,1,'private pilot licence',36,1102,39,39,10,severe
+17,1,'private pilot licence',58,403,53,0,0,severe
+51,1,'airline transport pilot licence',53,5950,2000,77,14,severe
+39,1,'private pilot licence',53,147,43,6,0,severe
+20,0,'private pilot licence',43,99,98,4,0,severe
+45,0,'private pilot licence',34,270,137,10,8,severe
+23,0,'private pilot licence',69,164,152,4,2,severe
+19,0,'private pilot licence',46,1948,1011,23,5,severe
+15,0,'private pilot licence',42,104,104,6,3,severe
+59,0,'airline transport pilot licence',46,4000,200,130,45,severe
+14,1,'private pilot licence',50,700,100,15,6,severe
+25,0,'private pilot licence',66,209,209,0,0,severe
+33,1,'private pilot licence',58,133,66,3,1,severe
+11,1,'private pilot licence',68,473,95,12,3,severe
+26,0,'private pilot licence',61,197,5,22,10,severe
+35,1,'private pilot licence',67,481,174,3,0,severe
+25,0,'airline transport pilot licence',49,7350,7350,135,55,severe
+15,0,'airline transport pilot licence',55,10120,4,96,28,severe
+1,1,'airline transport pilot licence',26,1020,33,220,70,severe
+61,1,'airline transport pilot licence',57,1300,300,45,9,severe
+10,0,'private pilot licence',69,2528,6,4,2,severe
+21,1,'private pilot licence',70,219,148,3,0,severe
+16,0,student,20,16,16,16,16,severe
+10,0,'private pilot licence',49,2097,269,17,2,severe
+29,0,'private pilot licence',68,462,2,10,5,severe
+21,1,'private pilot licence',48,133,65,28,10,severe
+17,0,student,25,39,39,0,0,severe
+3,0,student,36,300,3,33,8,severe
+26,1,'private pilot licence',27,107,53,45,8,severe
+46,0,'private pilot licence',36,128,25,10,4,severe
+10,0,'private pilot licence',41,315,120,37,16,severe
+22,1,'private pilot licence',70,1330,1103,53,15,severe
+2,1,'private pilot licence',44,236,28,26,8,severe
+6,0,'private pilot licence',36,80,29,11,11,severe
+29,2,'airline transport pilot licence',34,5280,1000,210,79,severe
+17,0,student,22,29,29,20,9,severe
+20,1,'private pilot licence',38,107,77,5,2,severe
+50,1,'airline transport pilot licence',30,3495,10,14,4,severe
+2,0,'private pilot licence',50,500,80,17,6,severe
+3,1,'private pilot licence',26,162,50,4,2,severe
+39,1,'private pilot licence',52,273,48,10,10,severe
+15,0,student,52,30,30,6,2,severe
+17,0,student,37,28,28,12,3,severe
+17,0,'private pilot licence',61,145,10,5,2,severe
+28,1,'private pilot licence',62,1484,600,15,6,severe
+16,3,'private pilot licence',45,865,4,34,4,severe
+2,1,'private pilot licence',59,753,49,8,3,severe
+43,2,'airline transport pilot licence',36,3830,11,135,59,severe
+27,2,'private pilot licence',57,201,46,51,4,severe
+15,0,'airline transport pilot licence',60,4200,500,114,93,severe
+18,1,'private pilot licence',53,380,242,3,3,severe
+17,1,'private pilot licence',46,111,42,31,9,severe
+24,1,'private pilot licence',34,110,22,34,19,severe
+17,1,'private pilot licence',37,159,47,6,5,severe
+32,1,'airline transport pilot licence',50,3000,22,90,20,severe
+9,1,'private pilot licence',40,125,23,4,2,severe
+1,1,'private pilot licence',77,402,1,5,2,severe
+28,3,'private pilot licence',45,206,27,6,4,severe
+55,1,'private pilot licence',70,1575,1025,5,5,severe
+7,0,'private pilot licence',64,646,40,5,3,severe
+17,1,'private pilot licence',37,425,31,8,8,severe
+23,1,'private pilot licence',44,93,56,3,2,severe
+1,1,'private pilot licence',39,280,28,20,2,severe
+24,1,'private pilot licence',53,464,356,9,4,severe
+27,1,'airline transport pilot licence',29,661,299,32,20,severe
+25,0,'private pilot licence',36,701,1,20,7,severe
+44,1,'private pilot licence',62,1159,847,10,3,severe
+22,0,'private pilot licence',32,54,53,2,1,severe
+22,0,'airline transport pilot licence',30,1398,500,168,28,severe
+19,0,student,43,5870,1,27,17,severe
+21,0,'private pilot licence',48,305,48,11,3,severe
+28,3,'private pilot licence',42,79,7,5,2,severe
+0,0,'private pilot licence',40,284,5,5,4,severe
+14,0,'private pilot licence',18,77,62,17,7,severe
+33,1,'private pilot licence',45,2000,110,28,11,severe
+17,1,'private pilot licence',68,476,420,6,3,severe

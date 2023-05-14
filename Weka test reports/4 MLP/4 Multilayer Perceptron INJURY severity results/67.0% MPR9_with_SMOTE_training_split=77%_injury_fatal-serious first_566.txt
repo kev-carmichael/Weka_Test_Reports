@@ -1,0 +1,263 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 77.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.6454153888664007
+    Node 2    6.931254410903611
+    Node 3    2.3812153283815967
+    Node 4    -2.652839544711237
+    Node 5    3.588636964103467
+    Node 6    1.346068621987238
+    Node 7    7.6198105755424175
+    Node 8    -2.709273863547402
+    Node 9    2.5727480557810933
+    Node 10    1.4539109118695708
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.6454154102367156
+    Node 2    -6.931256562003674
+    Node 3    -2.381215332290571
+    Node 4    2.652839576699178
+    Node 5    -3.588636998208943
+    Node 6    -1.3460686464585732
+    Node 7    -7.61981165637895
+    Node 8    2.7092739534458574
+    Node 9    -2.57274813088763
+    Node 10    -1.4539109278090616
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.8063726337701849
+    Attrib AgeAircraft    -5.098571103855856
+    Attrib DAY OF WK=Sat    0.40837575770444173
+    Attrib DAY OF WK=Wed    4.000711522687051
+    Attrib DAY OF WK=Sun    0.6159376422736391
+    Attrib DAY OF WK=Fri    -1.4111821209821114
+    Attrib DAY OF WK=Mon    -2.960870261901222
+    Attrib DAY OF WK=Tue    3.518246459255706
+    Attrib DAY OF WK=Thu    -0.3869299647460231
+    Attrib No of passengers    5.658196298566086
+    Attrib PIC LICENCE=airline transport pilot licence    -0.8006734665030802
+    Attrib PIC LICENCE=private pilot licence    0.6856135051775581
+    Attrib PIC LICENCE=student    0.8886079506894148
+    Attrib pic age    6.643447807061037
+    Attrib Total hrs    10.62262742506024
+    Attrib Type Hrs    -4.211193757533294
+    Attrib 90 day Hrs    0.2670207512106795
+    Attrib 28 day Hrs    7.052044656366206
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.1897859130518693
+    Attrib AgeAircraft    -9.948153639986424
+    Attrib DAY OF WK=Sat    -8.303156515510217
+    Attrib DAY OF WK=Wed    -9.296452569598246
+    Attrib DAY OF WK=Sun    -2.9444848747622316
+    Attrib DAY OF WK=Fri    -2.41707560281778
+    Attrib DAY OF WK=Mon    -1.3660539142070438
+    Attrib DAY OF WK=Tue    14.007841555548852
+    Attrib DAY OF WK=Thu    -0.6951925423500052
+    Attrib No of passengers    4.552467070809093
+    Attrib PIC LICENCE=airline transport pilot licence    -4.0537744117211245
+    Attrib PIC LICENCE=private pilot licence    1.891188773998508
+    Attrib PIC LICENCE=student    -0.12006281795878243
+    Attrib pic age    16.771512335149925
+    Attrib Total hrs    11.239698046124285
+    Attrib Type Hrs    4.057412485079726
+    Attrib 90 day Hrs    1.1729453972168156
+    Attrib 28 day Hrs    11.179927641077533
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.9151827136998736
+    Attrib AgeAircraft    12.433616499668544
+    Attrib DAY OF WK=Sat    7.833172425995894
+    Attrib DAY OF WK=Wed    0.14563621378978295
+    Attrib DAY OF WK=Sun    -4.517753711062016
+    Attrib DAY OF WK=Fri    -3.154504570117304
+    Attrib DAY OF WK=Mon    -4.093600420248279
+    Attrib DAY OF WK=Tue    12.95189118840843
+    Attrib DAY OF WK=Thu    0.4979808184267998
+    Attrib No of passengers    12.308178684047348
+    Attrib PIC LICENCE=airline transport pilot licence    0.10966101161188747
+    Attrib PIC LICENCE=private pilot licence    5.290986672279225
+    Attrib PIC LICENCE=student    -3.525399270743032
+    Attrib pic age    -4.19440756644021
+    Attrib Total hrs    -5.497608819288699
+    Attrib Type Hrs    4.320180311807886
+    Attrib 90 day Hrs    2.0421900751694912
+    Attrib 28 day Hrs    -3.6996665944223417
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.8257010908914197
+    Attrib AgeAircraft    11.00320236728515
+    Attrib DAY OF WK=Sat    3.269626752526636
+    Attrib DAY OF WK=Wed    3.114296192231543
+    Attrib DAY OF WK=Sun    -5.0582251488749295
+    Attrib DAY OF WK=Fri    -2.7468484310312453
+    Attrib DAY OF WK=Mon    3.1853879882657203
+    Attrib DAY OF WK=Tue    1.482963091728167
+    Attrib DAY OF WK=Thu    0.6117968607760902
+    Attrib No of passengers    13.811008601752588
+    Attrib PIC LICENCE=airline transport pilot licence    -1.643673403585619
+    Attrib PIC LICENCE=private pilot licence    -4.50543879337149
+    Attrib PIC LICENCE=student    6.929009769213454
+    Attrib pic age    12.123680214218703
+    Attrib Total hrs    -15.550240447217247
+    Attrib Type Hrs    -4.050379891616481
+    Attrib 90 day Hrs    -0.6197791795994073
+    Attrib 28 day Hrs    12.905778753087098
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.65962574502642
+    Attrib AgeAircraft    8.529613870142972
+    Attrib DAY OF WK=Sat    7.4257373757136005
+    Attrib DAY OF WK=Wed    -2.732204379959018
+    Attrib DAY OF WK=Sun    3.4053225256485224
+    Attrib DAY OF WK=Fri    -3.790839568402887
+    Attrib DAY OF WK=Mon    0.7194563514284059
+    Attrib DAY OF WK=Tue    0.6093096656390332
+    Attrib DAY OF WK=Thu    2.8526872441264137
+    Attrib No of passengers    -5.580015523297694
+    Attrib PIC LICENCE=airline transport pilot licence    -0.9570914073081198
+    Attrib PIC LICENCE=private pilot licence    1.8406794215927103
+    Attrib PIC LICENCE=student    0.7124304248326914
+    Attrib pic age    -7.109730304986829
+    Attrib Total hrs    -7.525921365771482
+    Attrib Type Hrs    6.448623138286909
+    Attrib 90 day Hrs    -4.900104624829578
+    Attrib 28 day Hrs    8.038401756176082
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.2556995663775346
+    Attrib AgeAircraft    -0.1091716021406234
+    Attrib DAY OF WK=Sat    1.0526678846866226
+    Attrib DAY OF WK=Wed    -1.817125794590547
+    Attrib DAY OF WK=Sun    -3.481058468725286
+    Attrib DAY OF WK=Fri    3.102119029006088
+    Attrib DAY OF WK=Mon    0.717347302255642
+    Attrib DAY OF WK=Tue    1.319757036326198
+    Attrib DAY OF WK=Thu    0.4566720147622834
+    Attrib No of passengers    9.187250420220353
+    Attrib PIC LICENCE=airline transport pilot licence    -1.4903201274711395
+    Attrib PIC LICENCE=private pilot licence    -5.394432644031102E-4
+    Attrib PIC LICENCE=student    1.7262376822812393
+    Attrib pic age    -5.9522189049466245
+    Attrib Total hrs    -10.285340205884845
+    Attrib Type Hrs    6.289769023540129
+    Attrib 90 day Hrs    -0.9602176226208389
+    Attrib 28 day Hrs    12.748345961398538
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    3.6122428365638077
+    Attrib AgeAircraft    8.675914323579546
+    Attrib DAY OF WK=Sat    -5.951740530157308
+    Attrib DAY OF WK=Wed    -6.762240198894897
+    Attrib DAY OF WK=Sun    -3.8936119577954442
+    Attrib DAY OF WK=Fri    -5.046515804640615
+    Attrib DAY OF WK=Mon    -5.59727076036419
+    Attrib DAY OF WK=Tue    1.043885772463376
+    Attrib DAY OF WK=Thu    8.174582005499888
+    Attrib No of passengers    2.4959990110996673
+    Attrib PIC LICENCE=airline transport pilot licence    -1.7907218078906568
+    Attrib PIC LICENCE=private pilot licence    0.3508772548613407
+    Attrib PIC LICENCE=student    -2.039653300091437
+    Attrib pic age    2.1946819809787015
+    Attrib Total hrs    4.61787171163053
+    Attrib Type Hrs    5.125256627502349
+    Attrib 90 day Hrs    11.96614439435402
+    Attrib 28 day Hrs    5.846343536744539
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -4.739669315718645
+    Attrib AgeAircraft    16.177579597802033
+    Attrib DAY OF WK=Sat    -0.6231129531424653
+    Attrib DAY OF WK=Wed    -2.9618124937793926
+    Attrib DAY OF WK=Sun    -1.7972378979901769
+    Attrib DAY OF WK=Fri    6.693874431897412
+    Attrib DAY OF WK=Mon    0.9267708203211621
+    Attrib DAY OF WK=Tue    8.952695062987713
+    Attrib DAY OF WK=Thu    12.372494152183554
+    Attrib No of passengers    -11.900014479147668
+    Attrib PIC LICENCE=airline transport pilot licence    1.0655358172632194
+    Attrib PIC LICENCE=private pilot licence    4.821670726743797
+    Attrib PIC LICENCE=student    -1.2707886243743816
+    Attrib pic age    9.385069328266377
+    Attrib Total hrs    0.31736186881137474
+    Attrib Type Hrs    -7.25665689658317
+    Attrib 90 day Hrs    -0.36504251524331827
+    Attrib 28 day Hrs    -1.2113832462275784
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -3.968313100701375
+    Attrib AgeAircraft    8.489009148334967
+    Attrib DAY OF WK=Sat    2.4988958693620797
+    Attrib DAY OF WK=Wed    8.78254975416217
+    Attrib DAY OF WK=Sun    -10.48474435210709
+    Attrib DAY OF WK=Fri    1.7367117455659935
+    Attrib DAY OF WK=Mon    1.4877685854496856
+    Attrib DAY OF WK=Tue    8.582972819431532
+    Attrib DAY OF WK=Thu    7.330484616885635
+    Attrib No of passengers    -11.61152337894787
+    Attrib PIC LICENCE=airline transport pilot licence    5.455756386464945
+    Attrib PIC LICENCE=private pilot licence    -6.401348980704971
+    Attrib PIC LICENCE=student    4.8778108374311655
+    Attrib pic age    -1.6672040645169979
+    Attrib Total hrs    -9.53687609299849
+    Attrib Type Hrs    0.47793136850713897
+    Attrib 90 day Hrs    -12.448815302222823
+    Attrib 28 day Hrs    -7.9036572312353
+Class minor/no injury
+    Input
+    Node 0
+Class fatal/serious
+    Input
+    Node 1
+
+
+Time taken to build model: 1.58 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         179               67.0412 %
+Incorrectly Classified Instances        88               32.9588 %
+Kappa statistic                          0.3359
+Mean absolute error                      0.3964
+Root mean squared error                  0.5019
+Relative absolute error                 79.1985 %
+Root relative squared error            100.2678 %
+Total Number of Instances              267     
+Ignored Class Unknown Instances                557     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.611    0.277    0.664      0.611    0.636      0.337    0.213     0.146     minor/no injury
+                 0.723    0.389    0.675      0.723    0.699      0.337    0.912     0.623     fatal/serious
+Weighted Avg.    0.670    0.336    0.670      0.670    0.669      0.337    0.582     0.398     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  77  49 |   a = minor/no injury
+  39 102 |   b = fatal/serious
+

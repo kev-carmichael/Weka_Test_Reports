@@ -1,0 +1,57 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ##crash_data_9xvars_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566_v2-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              DAY OF WK
+              INJURY CLASS
+Test mode:    split 75.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.2 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.6 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         218               73.6486 %
+Incorrectly Classified Instances        78               26.3514 %
+Kappa statistic                          0.473 
+Mean absolute error                      0.3849
+Root mean squared error                  0.4395
+Relative absolute error                 76.9783 %
+Root relative squared error             87.892  %
+Total Number of Instances              296     
+Ignored Class Unknown Instances                599     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.748    0.275    0.728      0.748    0.738      0.473    0.748     0.621     minor/no injury
+                 0.725    0.252    0.745      0.725    0.735      0.473    0.756     0.676     fatal/serious
+Weighted Avg.    0.736    0.263    0.737      0.736    0.736      0.473    0.752     0.649     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 110  37 |   a = minor/no injury
+  41 108 |   b = fatal/serious
+

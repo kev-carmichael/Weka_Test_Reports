@@ -1,0 +1,57 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     ##crash_data_TARGET_INJURY_Fatal-Serious_Apply_SMOTE_first_566-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3582
+Attributes:   10
+              AgeAircraft
+              DAY OF WK
+              No of passengers
+              PIC LICENCE
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              INJURY CLASS
+Test mode:    split 77.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.22 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.83 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         196               73.4082 %
+Incorrectly Classified Instances        71               26.5918 %
+Kappa statistic                          0.4681
+Mean absolute error                      0.3899
+Root mean squared error                  0.4394
+Relative absolute error                 77.8971 %
+Root relative squared error             87.7817 %
+Total Number of Instances              267     
+Ignored Class Unknown Instances                557     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.746    0.277    0.707      0.746    0.726      0.469    0.715     0.559     minor/no injury
+                 0.723    0.254    0.761      0.723    0.742      0.469    0.740     0.695     fatal/serious
+Weighted Avg.    0.734    0.265    0.736      0.734    0.734      0.469    0.728     0.631     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  94  32 |   a = minor/no injury
+  39 102 |   b = fatal/serious
+

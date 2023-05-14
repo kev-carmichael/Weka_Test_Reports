@@ -1,0 +1,284 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3664
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    split 66.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 3.395594254651524E-4 : non-severe
+No of passengers > 3.395594254651524E-4 : severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 3.395594254651524E-4
+non-severe	severe	
+0.5958132045088567	0.40418679549114334	
+No of passengers > 3.395594254651524E-4
+non-severe	severe	
+0.40088839533592446	0.5991116046640755	
+No of passengers is missing
+non-severe	severe	
+0.5	0.5	
+
+
+Weight: 0.39
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.999632337171916 : severe
+No of passengers > 0.999632337171916 : non-severe
+No of passengers is missing : severe
+
+Class distributions
+
+No of passengers <= 0.999632337171916
+non-severe	severe	
+0.42504258214050317	0.5749574178594969	
+No of passengers > 0.999632337171916
+non-severe	severe	
+0.6065659777485198	0.39343402225148016	
+No of passengers is missing
+non-severe	severe	
+0.4982861921316904	0.5017138078683095	
+
+
+Weight: 0.35
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 3.395594254651524E-4 : non-severe
+No of passengers > 3.395594254651524E-4 : severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 3.395594254651524E-4
+non-severe	severe	
+0.5860779619201981	0.4139220380798019	
+No of passengers > 3.395594254651524E-4
+non-severe	severe	
+0.43802349278107905	0.561976507218921	
+No of passengers is missing
+non-severe	severe	
+0.515698608199607	0.4843013918003931	
+
+
+Weight: 0.3
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.999632337171916 : severe
+No of passengers > 0.999632337171916 : non-severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 0.999632337171916
+non-severe	severe	
+0.4552218266711129	0.5447781733288872	
+No of passengers > 0.999632337171916
+non-severe	severe	
+0.5936605030923254	0.40633949690767446	
+No of passengers is missing
+non-severe	severe	
+0.5122953211566778	0.48770467884332225	
+
+
+Weight: 0.26
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 3.395594254651524E-4 : non-severe
+No of passengers > 3.395594254651524E-4 : severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 3.395594254651524E-4
+non-severe	severe	
+0.5764561898684546	0.42354381013154535	
+No of passengers > 3.395594254651524E-4
+non-severe	severe	
+0.46423859980469184	0.5357614001953082	
+No of passengers is missing
+non-severe	severe	
+0.5240949742537079	0.47590502574629207	
+
+
+Weight: 0.23
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.999632337171916 : severe
+No of passengers > 0.999632337171916 : non-severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 0.999632337171916
+non-severe	severe	
+0.47338062615911913	0.526619373840881	
+No of passengers > 0.999632337171916
+non-severe	severe	
+0.5863296039920223	0.4136703960079777	
+No of passengers is missing
+non-severe	severe	
+0.5205277999313719	0.4794722000686281	
+
+
+Weight: 0.21
+
+Decision Stump
+
+Classifications
+
+pic age <= 60.995824617543526 : severe
+pic age > 60.995824617543526 : non-severe
+pic age is missing : non-severe
+
+Class distributions
+
+pic age <= 60.995824617543526
+non-severe	severe	
+0.4978842693755311	0.5021157306244688	
+pic age > 60.995824617543526
+non-severe	severe	
+0.6044336695975451	0.3955663304024549	
+pic age is missing
+non-severe	severe	
+0.5293526646545923	0.4706473353454076	
+
+
+Weight: 0.13
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 3.395594254651524E-4 : non-severe
+No of passengers > 3.395594254651524E-4 : severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 3.395594254651524E-4
+non-severe	severe	
+0.5832668158664956	0.41673318413350424	
+No of passengers > 3.395594254651524E-4
+non-severe	severe	
+0.49490465344243145	0.5050953465575686	
+No of passengers is missing
+non-severe	severe	
+0.5427665764566137	0.4572334235433862	
+
+
+Weight: 0.19
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 0.999632337171916 : severe
+No of passengers > 0.999632337171916 : non-severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 0.999632337171916
+non-severe	severe	
+0.4981357494861802	0.5018642505138197	
+No of passengers > 0.999632337171916
+non-severe	severe	
+0.5956590155202558	0.4043409844797441	
+No of passengers is missing
+non-severe	severe	
+0.5391669920878529	0.4608330079121471	
+
+
+Weight: 0.17
+
+Decision Stump
+
+Classifications
+
+No of passengers <= 1.000909919155807 : non-severe
+No of passengers > 1.000909919155807 : severe
+No of passengers is missing : non-severe
+
+Class distributions
+
+No of passengers <= 1.000909919155807
+non-severe	severe	
+0.5581830021813301	0.44181699781866984	
+No of passengers > 1.000909919155807
+non-severe	severe	
+0.4354221443804931	0.5645778556195069	
+No of passengers is missing
+non-severe	severe	
+0.5460331860223142	0.45396681397768585	
+
+
+Weight: 0.24
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         781               62.6806 %
+Incorrectly Classified Instances       465               37.3194 %
+Kappa statistic                          0.2569
+Mean absolute error                      0.4544
+Root mean squared error                  0.4707
+Relative absolute error                 90.8609 %
+Root relative squared error             94.1044 %
+Total Number of Instances             1246     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.738    0.480    0.596      0.738    0.659      0.264    0.663     0.591     non-severe
+                 0.520    0.262    0.674      0.520    0.587      0.264    0.663     0.674     severe
+Weighted Avg.    0.627    0.369    0.636      0.627    0.623      0.264    0.663     0.633     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 450 160 |   a = non-severe
+ 305 331 |   b = severe
+

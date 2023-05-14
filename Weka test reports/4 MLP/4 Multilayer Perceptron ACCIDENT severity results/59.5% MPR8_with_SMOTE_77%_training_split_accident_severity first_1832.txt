@@ -1,0 +1,153 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     ##crash_data_8xvars_TARGET_ACCIDENT_SEVERITY_SMOTE_first_1832-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1
+Instances:    3664
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    split 77.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.6763262976109482
+    Node 2    1.4014007524852272
+    Node 3    5.195341037444378
+    Node 4    1.316448173228441
+    Node 5    1.3857346756777118
+    Node 6    1.5782355044667222
+    Node 7    0.6126316939892591
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.6763262976109533
+    Node 2    -1.4014007524852234
+    Node 3    -5.195341037445972
+    Node 4    -1.3164481732284434
+    Node 5    -1.3857346756777158
+    Node 6    -1.5782355044667316
+    Node 7    -0.6126316939892664
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -17.173633164637426
+    Attrib AgeAircraft    2.1916085410573922
+    Attrib No of passengers    -14.1778248080973
+    Attrib pic licence=airline transport pilot licence    7.024041988055659
+    Attrib pic licence=private pilot licence    1.15865495401684
+    Attrib pic licence=student    9.02803858602438
+    Attrib pic age    10.954780538281192
+    Attrib Total hrs    -8.928731420241446
+    Attrib Type Hrs    -4.183420758237852
+    Attrib 90 day Hrs    6.8048029929632
+    Attrib 28 day Hrs    -0.01017259538920479
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -5.536040755246084
+    Attrib AgeAircraft    -2.446261275171065
+    Attrib No of passengers    -0.6129813938055992
+    Attrib pic licence=airline transport pilot licence    3.36949431379589
+    Attrib pic licence=private pilot licence    -2.9425291205062862
+    Attrib pic licence=student    5.0568253966530206
+    Attrib pic age    15.628659660891996
+    Attrib Total hrs    4.918890621443572
+    Attrib Type Hrs    2.7096601748603617
+    Attrib 90 day Hrs    1.236385689857049
+    Attrib 28 day Hrs    11.099034154754621
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -6.705707643020103
+    Attrib AgeAircraft    -22.90588069974072
+    Attrib No of passengers    -1.802691215000742
+    Attrib pic licence=airline transport pilot licence    0.5870499171204469
+    Attrib pic licence=private pilot licence    4.0026302961952736
+    Attrib pic licence=student    2.245293416333541
+    Attrib pic age    10.40210807416132
+    Attrib Total hrs    6.4580138687613555
+    Attrib Type Hrs    3.412566208293633
+    Attrib 90 day Hrs    -4.228103059489793
+    Attrib 28 day Hrs    10.408592201527563
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -8.15145840394314
+    Attrib AgeAircraft    -1.102283068589284
+    Attrib No of passengers    12.13111170383428
+    Attrib pic licence=airline transport pilot licence    3.1410175900725053
+    Attrib pic licence=private pilot licence    1.4734613262949614
+    Attrib pic licence=student    3.512753588868329
+    Attrib pic age    15.715386226649374
+    Attrib Total hrs    -0.4048997364878674
+    Attrib Type Hrs    -5.129754145310191
+    Attrib 90 day Hrs    -0.5705941033955338
+    Attrib 28 day Hrs    -4.315016203791571
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -23.700324923730047
+    Attrib AgeAircraft    5.857651991638782
+    Attrib No of passengers    -34.0794347796184
+    Attrib pic licence=airline transport pilot licence    0.34670077066491256
+    Attrib pic licence=private pilot licence    12.216435395917141
+    Attrib pic licence=student    11.162269838097293
+    Attrib pic age    -0.8247458055754685
+    Attrib Total hrs    20.64920973504588
+    Attrib Type Hrs    -0.7024560790111306
+    Attrib 90 day Hrs    -5.129124890478332
+    Attrib 28 day Hrs    -7.540730818208939
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -11.479812470291932
+    Attrib AgeAircraft    1.908948370191201
+    Attrib No of passengers    2.9673164107658665
+    Attrib pic licence=airline transport pilot licence    7.419171680296064
+    Attrib pic licence=private pilot licence    1.7688017384643338
+    Attrib pic licence=student    2.2674563410311297
+    Attrib pic age    -19.646306290294124
+    Attrib Total hrs    4.0007276019479345
+    Attrib Type Hrs    -6.4142908351410615
+    Attrib 90 day Hrs    -3.129051951823526
+    Attrib 28 day Hrs    -6.075552064159701
+Class non-severe
+    Input
+    Node 0
+Class severe
+    Input
+    Node 1
+
+
+Time taken to build model: 1.67 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         502               59.5492 %
+Incorrectly Classified Instances       341               40.4508 %
+Kappa statistic                          0.1934
+Mean absolute error                      0.4653
+Root mean squared error                  0.4911
+Relative absolute error                 93.0526 %
+Root relative squared error             98.2052 %
+Total Number of Instances              843     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.694    0.500    0.574      0.694    0.628      0.198    0.637     0.607     non-severe
+                 0.500    0.306    0.628      0.500    0.557      0.198    0.637     0.624     severe
+Weighted Avg.    0.595    0.402    0.601      0.595    0.592      0.198    0.637     0.616     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 288 127 |   a = non-severe
+ 214 214 |   b = severe
+

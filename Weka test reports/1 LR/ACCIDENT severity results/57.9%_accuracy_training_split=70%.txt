@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     ###crash_data_1s_and_0s_TARGET_ACCIDENT_SEVERITY_first_916_non_severe-weka.filters.unsupervised.attribute.Remove-R1-3,5-33,35-37,39-41,43-50,52-57,59-64,66-71,73-91
+Instances:    1832
+Attributes:   9
+              AgeAircraft
+              No of passengers
+              pic licence
+              pic age
+              Total hrs
+              Type Hrs
+              90 day Hrs
+              28 day Hrs
+              ACCIDENT_SEVERITY_SEVERE_OR_NON-SEVERE_TEXT
+Test mode:    15-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                    Class
+Variable                                       non-severe
+=========================================================
+AgeAircraft                                        0.0079
+No of passengers                                  -0.1423
+pic licence=airline transport pilot licence        0.0871
+pic licence=private pilot licence                 -0.2001
+pic licence=student                                0.4164
+pic age                                            0.0234
+Total hrs                                               0
+Type Hrs                                          -0.0001
+90 day Hrs                                        -0.0052
+28 day Hrs                                         0.0089
+Intercept                                         -1.3012
+
+
+Odds Ratios...
+                                                    Class
+Variable                                       non-severe
+=========================================================
+AgeAircraft                                         1.008
+No of passengers                                   0.8674
+pic licence=airline transport pilot licence         1.091
+pic licence=private pilot licence                  0.8187
+pic licence=student                                1.5165
+pic age                                            1.0237
+Total hrs                                               1
+Type Hrs                                           0.9999
+90 day Hrs                                         0.9948
+28 day Hrs                                         1.0089
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1085               59.2249 %
+Incorrectly Classified Instances       747               40.7751 %
+Kappa statistic                          0.1845
+Mean absolute error                      0.4789
+Root mean squared error                  0.4904
+Relative absolute error                 95.7866 %
+Root relative squared error             98.0869 %
+Total Number of Instances             1832     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.580    0.395    0.595      0.580    0.587      0.185    0.620     0.595     non-severe
+                 0.605    0.420    0.590      0.605    0.597      0.185    0.620     0.600     severe
+Weighted Avg.    0.592    0.408    0.592      0.592    0.592      0.185    0.620     0.597     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 531 385 |   a = non-severe
+ 362 554 |   b = severe
+
